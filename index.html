@@ -104,14 +104,23 @@
   main { max-width: 1200px; margin: 0 auto; padding: 0 18px; }
   section { padding: 32px 0; }
 
-  /* HERO */
-  .hero { padding: 56px 0 32px; }
+  /* HERO compacto */
+  .hero { padding: 32px 0 20px; text-align: center; }
+  .hero .badges {
+    display: inline-flex; gap: 6px; flex-wrap: wrap; justify-content: center;
+    margin-bottom: 14px;
+  }
+  .hero .badge-item {
+    background: var(--pill); color: var(--ink-soft);
+    padding: 4px 12px; border-radius: 14px; font-size: 12px;
+    border: 1px solid var(--line);
+  }
   .hero h1 {
-    font-size: clamp(28px, 4vw, 42px); margin: 0 0 12px;
+    font-size: clamp(24px, 3vw, 34px); margin: 0 0 10px;
     font-weight: 700; letter-spacing: -0.02em;
   }
-  .hero p { font-size: 17px; color: var(--ink-soft); max-width: 680px; margin: 0 0 20px; }
-  .hero .cta-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .hero p { font-size: 15px; color: var(--ink-soft); max-width: 620px; margin: 0 auto 18px; }
+  .hero .cta-row { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
   .btn {
     display: inline-block; padding: 10px 18px; border-radius: 8px;
     background: var(--accent); color: white; font-weight: 600; font-size: 14px;
@@ -232,6 +241,17 @@
   details summary::before { content: "+ "; color: var(--accent); }
   details[open] summary::before { content: "− "; }
   details > p { color: var(--ink-soft); margin: 8px 0 0; }
+
+  /* DELIST CTA */
+  .delist { padding: 40px 0; border-top: 1px solid var(--line); }
+  .delist-card {
+    text-align: center; max-width: 640px; margin: 0 auto;
+    background: var(--bg-2); border: 1px solid var(--line); border-radius: 14px;
+    padding: 32px 24px;
+  }
+  .delist-card h2 { font-size: 20px; margin: 0 0 8px; }
+  .delist-card p { color: var(--ink-soft); margin: 0 0 16px; font-size: 14px; }
+  .delist-card .delist-hint { font-size: 12px; color: var(--muted); margin-top: 12px; }
 
   /* FOOTER */
   footer {
@@ -405,11 +425,16 @@
 <main>
 
 <section class="hero">
-  <h1 data-i18n="hero.title">Encontrá tu próxima casa.</h1>
-  <p data-i18n="hero.subtitle">Agregador transparente de propiedades en venta y alquiler. Datos abiertos, actualizados a diario desde portales locales.</p>
+  <div class="badges">
+    <span class="badge-item" data-i18n="hero.badge1">🌎 LATAM</span>
+    <span class="badge-item" data-i18n="hero.badge2">💯 100% gratis</span>
+    <span class="badge-item" data-i18n="hero.badge3">🔓 Sin login</span>
+  </div>
+  <h1 data-i18n="hero.title">Casas y apartamentos de toda LATAM, en un solo lugar.</h1>
+  <p data-i18n="hero.subtitle">Juntamos las publicaciones de portales locales y te las mostramos juntas. Es gratis, no pedimos registro, no rastreamos. Solo buscás y encontrás.</p>
   <div class="cta-row">
     <a class="btn" href="#listings" data-i18n="hero.cta1">Ver propiedades</a>
-    <a class="btn secondary" href="#sources" data-i18n="hero.cta2">Fuentes</a>
+    <a class="btn secondary" href="#sources" data-i18n="hero.cta2">Ver fuentes</a>
   </div>
 </section>
 
@@ -483,6 +508,15 @@
   </details>
 </section>
 
+<section class="delist" id="delist">
+  <div class="delist-card">
+    <h2 data-i18n="delist.title">¿Sos un portal o inmobiliaria y querés deslistarte?</h2>
+    <p data-i18n="delist.body">Si no querés que tus publicaciones aparezcan en LatamHouse, escribinos. Te sacamos del agregador en 24-48 hs.</p>
+    <a class="btn" id="delistMailto" href="#" data-i18n="delist.cta">Pedir deslistado por mail</a>
+    <p class="delist-hint" data-i18n="delist.hint">Se abre tu cliente de mail con un esqueleto pre-armado. Solo completá el nombre del sitio y un contacto.</p>
+  </div>
+</section>
+
 </main>
 
 <footer>
@@ -525,9 +559,12 @@ const I18N = {
   es: {
     "nav.alquiler": "Alquiler", "nav.venta": "Venta", "nav.fuentes": "Fuentes",
     "nav.como": "Cómo funciona", "nav.cooperativas": "Cooperativas", "nav.asistente": "Asistente",
-    "hero.title": "Encontrá tu próxima casa.",
-    "hero.subtitle": "Agregador transparente de propiedades en venta y alquiler. Datos abiertos, actualizados a diario desde portales locales.",
-    "hero.cta1": "Ver propiedades", "hero.cta2": "Fuentes",
+    "hero.badge1": "🌎 LATAM",
+    "hero.badge2": "💯 100% gratis",
+    "hero.badge3": "🔓 Sin login",
+    "hero.title": "Casas y apartamentos de toda LATAM, en un solo lugar.",
+    "hero.subtitle": "Juntamos las publicaciones de portales locales y te las mostramos juntas. Es gratis, no pedimos registro, no rastreamos. Solo buscás y encontrás.",
+    "hero.cta1": "Ver propiedades", "hero.cta2": "Ver fuentes",
     "filter.search": "Buscar", "filter.operation": "Operación",
     "filter.alquiler": "Alquiler", "filter.venta": "Venta",
     "filter.class": "Tipo", "filter.casa": "Casa", "filter.apto": "Apartamento", "filter.container": "Container",
@@ -543,6 +580,10 @@ const I18N = {
     "faq.q2": "¿Dónde guardan mis datos?", "faq.a2": "En ningún lado. Todo lo que marcás como favorito vive en el localStorage de tu navegador. Si limpiás cookies o cambiás de equipo, se pierde.",
     "faq.q3": "¿Cuándo se actualiza?", "faq.a3": "Una vez por día. Cada listing tiene un timestamp de \"última verificación\" y un estado (activa / vencida) según si el link sigue vivo.",
     "faq.q4": "¿Por qué este país y no otro?", "faq.a4": "Detectamos tu país por IP y mostramos las fuentes locales. Podés cambiarlo desde el menú superior.",
+    "delist.title": "¿Sos un portal o inmobiliaria y querés deslistarte?",
+    "delist.body": "Si no querés que tus publicaciones aparezcan en LatamHouse, escribinos. Te sacamos del agregador en 24-48 hs.",
+    "delist.cta": "Pedir deslistado por mail",
+    "delist.hint": "Se abre tu cliente de mail con un esqueleto pre-armado. Solo completá el nombre del sitio y un contacto.",
     "footer.tagline": "datos abiertos, sin tracking, sin servidor",
     "favbanner.title": "Tus favoritos viven acá",
     "favbanner.body": "Se guardan en este navegador. Si limpiás cookies o cambiás de dispositivo, se pierden.",
@@ -554,9 +595,12 @@ const I18N = {
   pt: {
     "nav.alquiler": "Aluguel", "nav.venta": "Venda", "nav.fuentes": "Fontes",
     "nav.como": "Como funciona", "nav.cooperativas": "Cooperativas", "nav.asistente": "Assistente",
-    "hero.title": "Encontre sua próxima casa.",
-    "hero.subtitle": "Agregador transparente de imóveis para venda e aluguel. Dados abertos, atualizados diariamente a partir de portais locais.",
-    "hero.cta1": "Ver imóveis", "hero.cta2": "Fontes",
+    "hero.badge1": "🌎 LATAM",
+    "hero.badge2": "💯 100% grátis",
+    "hero.badge3": "🔓 Sem cadastro",
+    "hero.title": "Casas e apartamentos de toda a América Latina, num só lugar.",
+    "hero.subtitle": "Juntamos os anúncios dos portais locais e mostramos juntos. É grátis, sem cadastro, sem tracking. Você só busca e encontra.",
+    "hero.cta1": "Ver imóveis", "hero.cta2": "Ver fontes",
     "filter.search": "Buscar", "filter.operation": "Operação",
     "filter.alquiler": "Aluguel", "filter.venta": "Venda",
     "filter.class": "Tipo", "filter.casa": "Casa", "filter.apto": "Apartamento", "filter.container": "Container",
@@ -572,6 +616,10 @@ const I18N = {
     "faq.q2": "Onde guardam meus dados?", "faq.a2": "Em lugar nenhum. Tudo o que você favorita fica no localStorage do navegador. Se limpar cookies ou mudar de equipamento, perde.",
     "faq.q3": "Quando atualiza?", "faq.a3": "Uma vez por dia. Cada anúncio tem timestamp de \"última verificação\" e estado (ativa / vencida) conforme o link siga vivo.",
     "faq.q4": "Por que este país?", "faq.a4": "Detectamos seu país por IP e mostramos as fontes locais. Você pode trocar pelo menu superior.",
+    "delist.title": "É um portal ou imobiliária e quer ser removido?",
+    "delist.body": "Se não quer que seus anúncios apareçam em LatamHouse, escreva-nos. Removemos do agregador em 24-48 horas.",
+    "delist.cta": "Solicitar remoção por email",
+    "delist.hint": "Abre seu cliente de email com um modelo pronto. Só preencha o nome do site e um contato.",
     "footer.tagline": "dados abertos, sem tracking, sem servidor",
     "favbanner.title": "Seus favoritos vivem aqui",
     "favbanner.body": "Ficam neste navegador. Se limpar cookies ou mudar de dispositivo, perde.",
@@ -1090,6 +1138,40 @@ async function init() {
       document.getElementById("countrySelect").value = geoCountry;
       document.getElementById("countryFlag").textContent = FLAGS[geoCountry];
     }
+  }
+
+  // delist mailto — armar URL con subject + body pre-llenado
+  const delistEl = document.getElementById("delistMailto");
+  if (delistEl) {
+    const buildMailto = () => {
+      const isEs = state.lang === "es";
+      const subject = isEs
+        ? "Solicitud de deslistado — LatamHouse"
+        : "Solicitação de remoção — LatamHouse";
+      const body = isEs ? `Hola,
+
+Soy <TU_NOMBRE> de <NOMBRE_DEL_SITIO_O_INMOBILIARIA> (<URL_DEL_SITIO>).
+Pido que dejen de indexar nuestras publicaciones en LatamHouse.
+
+Contacto: <TU_EMAIL_O_TELÉFONO>
+País: <PAÍS>
+
+Gracias.` : `Olá,
+
+Sou <SEU_NOME> de <NOME_DO_SITE_OU_IMOBILIÁRIA> (<URL_DO_SITE>).
+Solicito que parem de indexar nossos anúncios em LatamHouse.
+
+Contato: <SEU_EMAIL_OU_TELEFONE>
+País: <PAÍS>
+
+Obrigado.`;
+      return `mailto:sam-assistant@agentmail.to?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    };
+    delistEl.href = buildMailto();
+    // re-build cuando cambia idioma
+    document.getElementById("langSelect").addEventListener("change", () => {
+      delistEl.href = buildMailto();
+    });
   }
 
   // load data
