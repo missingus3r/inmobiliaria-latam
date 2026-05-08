@@ -1,0 +1,47 @@
+# LatamHouse — hub agregador inmobiliario LATAM
+# https://missingus3r.github.io/inmobiliaria-latam/
+
+User-agent: *
+Allow: /
+
+# AI crawlers / training bots — explicit allow
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+Sitemap: https://missingus3r.github.io/inmobiliaria-latam/sitemap.xml
