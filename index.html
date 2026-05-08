@@ -250,6 +250,24 @@
   #favBanner .row { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
   #favBanner button { background: var(--accent); color: white; border: none; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 12px; }
 
+  /* PAGINATION */
+  .pagination {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 16px 0; flex-wrap: wrap; margin-top: 8px;
+  }
+  .pagination .pg-info { font-size: 13px; color: var(--ink-soft); }
+  .pagination .pg-controls { display: flex; gap: 6px; align-items: center; }
+  .pagination button {
+    padding: 6px 12px; border-radius: 6px; background: var(--bg-2); color: var(--ink);
+    border: 1px solid var(--line); font-size: 13px; cursor: pointer; transition: border-color 0.2s;
+  }
+  .pagination button:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+  .pagination button:disabled { opacity: 0.4; cursor: not-allowed; }
+  .pagination select {
+    padding: 6px 10px; border-radius: 6px; background: var(--bg-2); color: var(--ink);
+    border: 1px solid var(--line); font-size: 13px;
+  }
+
   /* LOADING / EMPTY */
   .empty {
     padding: 40px; text-align: center; color: var(--ink-soft);
@@ -432,6 +450,7 @@
   <div class="active-filters" id="activeFilters"></div>
   <div class="count" id="countLabel">Cargando…</div>
   <div class="grid" id="grid"></div>
+  <div class="pagination" id="pagination"></div>
 </section>
 
 <section class="sources-section" id="sources">
@@ -587,6 +606,7 @@ let state = {
   sources: null,
   favs: new Set(JSON.parse(localStorage.getItem("favs") || "[]")),
   filters: { search: "", operation: "", class: "", bedrooms: "", maxPrice: "", favsOnly: false, showExpired: false },
+  pagination: { page: 1, pageSize: 20 },
 };
 
 // ---------- THEME ----------
@@ -733,6 +753,12 @@ function renderGrid() {
       : `${filtered.length} imóveis em ${state.country}`;
   }
 
+  // pagination slicing
+  const totalPages = Math.max(1, Math.ceil(filtered.length / state.pagination.pageSize));
+  if (state.pagination.page > totalPages) state.pagination.page = totalPages;
+  const startIdx = (state.pagination.page - 1) * state.pagination.pageSize;
+  const pageRows = filtered.slice(startIdx, startIdx + state.pagination.pageSize);
+
   if (filtered.length === 0) {
     if (totalCountry === 0 && !hasFilters) {
       // País sin listings — mostrar coming-soon card
@@ -758,10 +784,11 @@ function renderGrid() {
     } else {
       grid.innerHTML = `<div class="empty">${tr("count.empty")}</div>`;
     }
+    document.getElementById("pagination").innerHTML = "";
     return;
   }
 
-  grid.innerHTML = filtered.map((o, idx) => {
+  grid.innerHTML = pageRows.map((o, idx) => {
     const img = (o.images && o.images[0]) || "";
     const fav = state.favs.has(o.id);
     const expired = o.estado === "vencida";
@@ -809,9 +836,49 @@ function renderGrid() {
   grid.querySelectorAll(".card").forEach(card => {
     card.addEventListener("click", () => {
       const idx = parseInt(card.dataset.idx);
-      openModal(filtered[idx]);
+      openModal(pageRows[idx]);
     });
   });
+
+  renderPagination(filtered.length, totalPages);
+}
+
+function renderPagination(total, totalPages) {
+  const el = document.getElementById("pagination");
+  if (total === 0) { el.innerHTML = ""; return; }
+  const start = (state.pagination.page - 1) * state.pagination.pageSize + 1;
+  const end = Math.min(state.pagination.page * state.pagination.pageSize, total);
+  const lblShow = state.lang === "es" ? "Mostrando" : "Mostrando";
+  const lblOf = state.lang === "es" ? "de" : "de";
+  const lblPerPage = state.lang === "es" ? "Por página" : "Por página";
+  const lblPage = state.lang === "es" ? "Página" : "Página";
+  el.innerHTML = `
+    <span class="pg-info">${lblShow} ${start}-${end} ${lblOf} ${total}</span>
+    <div class="pg-controls">
+      <label class="pg-info">${lblPerPage}
+        <select id="pg-size">
+          <option value="10" ${state.pagination.pageSize===10?"selected":""}>10</option>
+          <option value="20" ${state.pagination.pageSize===20?"selected":""}>20</option>
+          <option value="40" ${state.pagination.pageSize===40?"selected":""}>40</option>
+          <option value="80" ${state.pagination.pageSize===80?"selected":""}>80</option>
+          <option value="9999" ${state.pagination.pageSize===9999?"selected":""}>${state.lang==="es"?"Todas":"Todas"}</option>
+        </select>
+      </label>
+      <button id="pg-first" ${state.pagination.page<=1?"disabled":""}>«</button>
+      <button id="pg-prev" ${state.pagination.page<=1?"disabled":""}>‹</button>
+      <span class="pg-info">${lblPage} ${state.pagination.page} / ${totalPages}</span>
+      <button id="pg-next" ${state.pagination.page>=totalPages?"disabled":""}>›</button>
+      <button id="pg-last" ${state.pagination.page>=totalPages?"disabled":""}>»</button>
+    </div>`;
+  document.getElementById("pg-size").addEventListener("change", e => {
+    state.pagination.pageSize = +e.target.value;
+    state.pagination.page = 1;
+    renderGrid();
+  });
+  document.getElementById("pg-first").addEventListener("click", () => { state.pagination.page = 1; renderGrid(); window.scrollTo({top: document.getElementById("listings").offsetTop - 70, behavior: "smooth"}); });
+  document.getElementById("pg-prev").addEventListener("click", () => { if (state.pagination.page > 1) { state.pagination.page--; renderGrid(); window.scrollTo({top: document.getElementById("listings").offsetTop - 70, behavior: "smooth"}); } });
+  document.getElementById("pg-next").addEventListener("click", () => { if (state.pagination.page < totalPages) { state.pagination.page++; renderGrid(); window.scrollTo({top: document.getElementById("listings").offsetTop - 70, behavior: "smooth"}); } });
+  document.getElementById("pg-last").addEventListener("click", () => { state.pagination.page = totalPages; renderGrid(); window.scrollTo({top: document.getElementById("listings").offsetTop - 70, behavior: "smooth"}); });
 }
 
 // ---------- MODAL ----------
@@ -956,15 +1023,18 @@ async function init() {
     document.getElementById(id).addEventListener("input", e => {
       const key = id.replace("filter", "").toLowerCase().replace("maxprice", "maxPrice");
       state.filters[key] = e.target.value;
+      state.pagination.page = 1;
       renderGrid();
     });
   });
   document.getElementById("filterFavsOnly").addEventListener("change", e => {
     state.filters.favsOnly = e.target.checked;
+    state.pagination.page = 1;
     renderGrid();
   });
   document.getElementById("filterShowExpired").addEventListener("change", e => {
     state.filters.showExpired = e.target.checked;
+    state.pagination.page = 1;
     renderGrid();
   });
   document.getElementById("resetBtn").addEventListener("click", () => {
