@@ -409,6 +409,7 @@
     </label>
     <label><span data-i18n="filter.maxprice">Precio máx.</span><input type="number" id="filterMaxPrice" placeholder="—" /></label>
     <label><input type="checkbox" id="filterFavsOnly" /> <span data-i18n="filter.favsonly">Solo favs</span></label>
+    <label><input type="checkbox" id="filterShowExpired" /> <span data-i18n="filter.showexpired">Mostrar vencidas</span></label>
     <button class="reset" id="resetBtn" data-i18n="filter.reset">Limpiar</button>
   </div>
 
@@ -509,7 +510,7 @@ const I18N = {
     "filter.alquiler": "Alquiler", "filter.venta": "Venta",
     "filter.class": "Tipo", "filter.casa": "Casa", "filter.apto": "Apartamento", "filter.container": "Container",
     "filter.bedrooms": "Dorms", "filter.maxprice": "Precio máx.",
-    "filter.favsonly": "Solo favs", "filter.reset": "Limpiar",
+    "filter.favsonly": "Solo favs", "filter.showexpired": "Mostrar vencidas", "filter.reset": "Limpiar",
     "sources.title": "Fuentes",
     "sources.intro": "Listamos las plataformas que indexamos. Los listings se actualizan a diario.",
     "sources.portales": "Portales", "sources.containers": "Containers", "sources.inmobiliarias": "Inmobiliarias",
@@ -538,7 +539,7 @@ const I18N = {
     "filter.alquiler": "Aluguel", "filter.venta": "Venda",
     "filter.class": "Tipo", "filter.casa": "Casa", "filter.apto": "Apartamento", "filter.container": "Container",
     "filter.bedrooms": "Quartos", "filter.maxprice": "Preço máx.",
-    "filter.favsonly": "Só favs", "filter.reset": "Limpar",
+    "filter.favsonly": "Só favs", "filter.showexpired": "Mostrar vencidas", "filter.reset": "Limpar",
     "sources.title": "Fontes",
     "sources.intro": "Listamos as plataformas que indexamos. Os anúncios atualizam diariamente.",
     "sources.portales": "Portais", "sources.containers": "Containers", "sources.inmobiliarias": "Imobiliárias",
@@ -569,7 +570,7 @@ let state = {
   offers: [],
   sources: null,
   favs: new Set(JSON.parse(localStorage.getItem("favs") || "[]")),
-  filters: { search: "", operation: "", class: "", bedrooms: "", maxPrice: "", favsOnly: false },
+  filters: { search: "", operation: "", class: "", bedrooms: "", maxPrice: "", favsOnly: false, showExpired: false },
 };
 
 // ---------- THEME ----------
@@ -687,6 +688,7 @@ function renderGrid() {
   const f = state.filters;
   const filtered = state.offers.filter(o => {
     if (o.country !== state.country) return false;
+    if (!f.showExpired && o.estado === "vencida") return false;
     if (f.operation && o.operation !== f.operation) return false;
     if (f.class && o.class !== f.class) return false;
     if (f.bedrooms && (o.bedrooms || 0) < parseInt(f.bedrooms)) return false;
@@ -922,8 +924,12 @@ async function init() {
     state.filters.favsOnly = e.target.checked;
     renderGrid();
   });
+  document.getElementById("filterShowExpired").addEventListener("change", e => {
+    state.filters.showExpired = e.target.checked;
+    renderGrid();
+  });
   document.getElementById("resetBtn").addEventListener("click", () => {
-    state.filters = { search:"", operation:"", class:"", bedrooms:"", maxPrice:"", favsOnly:false };
+    state.filters = { search:"", operation:"", class:"", bedrooms:"", maxPrice:"", favsOnly:false, showExpired:false };
     document.querySelectorAll(".filters input, .filters select").forEach(el => {
       if (el.type === "checkbox") el.checked = false;
       else el.value = "";
