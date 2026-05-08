@@ -168,6 +168,8 @@
     font-size: 16px; display: flex; align-items: center; justify-content: center;
   }
   .card .fav-btn.active { color: #b91c1c; }
+  .card .fav-btn svg { width: 16px; height: 16px; display: block; }
+  .card .fav-btn.active svg { fill: currentColor; }
   .card .body { padding: 12px; flex: 1; display: flex; flex-direction: column; gap: 6px; }
   .card .price { font-size: 18px; font-weight: 700; color: var(--ink); }
   .card .title { font-size: 14px; color: var(--ink); margin: 0; }
@@ -743,7 +745,7 @@ function renderGrid() {
           ${thumbInner}
           ${noImgContent}
           ${expired ? `<span class="badge warn">${state.lang === "es" ? "vencida" : "vencida"}</span>` : `<span class="badge">${escapeHtml(o.operation)}</span>`}
-          <button class="fav-btn ${fav ? "active" : ""}" data-id="${escapeHtml(o.id)}" aria-label="fav" onclick="event.stopPropagation()">${fav ? "❤️" : "🤍"}</button>
+          <button class="fav-btn ${fav ? "active" : ""}" data-id="${escapeHtml(o.id)}" aria-label="fav" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5-9-9.5C1.5 8.5 3.5 5 7 5c2 0 3.5 1 5 3 1.5-2 3-3 5-3 3.5 0 5.5 3.5 4 6.5-2 4.5-9 9.5-9 9.5z"/></svg></button>
         </div>
         <div class="body">
           <div class="price">${priceFmt(o)}</div>
