@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CasaLatam · Buscador de propiedades LATAM con IA</title>
+<meta name="description" content="Agregador transparente de listings inmobiliarios de Uruguay, Argentina y Paraguay, organizados por un asistente de IA." />
+<style>
+  *,*::before,*::after { box-sizing: border-box; }
+  :root {
+    --bg: #0b1020;
+    --bg-alt: #11172e;
+    --bg-soft: #1a2244;
+    --fg: #e8ecff;
+    --fg-mute: #99a3c9;
+    --accent: #6c8aff;
+    --accent-2: #a47cff;
+    --accent-soft: rgba(108,138,255,0.12);
+    --good: #4cd6a4;
+    --warn: #ffb86b;
+    --bad: #ff6b8a;
+    --border: rgba(255,255,255,0.08);
+    --radius: 14px;
+    --shadow: 0 10px 30px rgba(0,0,0,0.35);
+    --maxw: 1200px;
+    --tr: 180ms cubic-bezier(.2,.8,.2,1);
+  }
+  html, body { margin:0; padding:0; }
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: radial-gradient(1200px 600px at 10% -10%, rgba(108,138,255,0.18), transparent 60%),
+                radial-gradient(900px 500px at 110% 10%, rgba(164,124,255,0.18), transparent 60%),
+                var(--bg);
+    color: var(--fg);
+    line-height: 1.55;
+    min-height: 100vh;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  button { font: inherit; cursor: pointer; }
+  img { max-width: 100%; display:block; }
+
+  /* HEADER */
+  header.site {
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: blur(10px);
+    background: rgba(11,16,32,0.78);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav {
+    max-width: var(--maxw); margin: 0 auto; padding: 14px 20px;
+    display: flex; align-items: center; gap: 16px;
+  }
+  .brand { font-weight: 700; letter-spacing: 0.2px; font-size: 1.15rem; display:flex; align-items:center; gap:8px; }
+  .brand-mark {
+    width: 28px; height: 28px; border-radius: 8px;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    display: inline-flex; align-items:center; justify-content:center; color: white; font-weight: 800;
+  }
+  .nav-search { flex: 1; max-width: 460px; position: relative; }
+  .nav-search input {
+    width: 100%; padding: 10px 14px 10px 38px;
+    border-radius: 10px; border: 1px solid var(--border);
+    background: var(--bg-alt); color: var(--fg); outline: none;
+    transition: border-color var(--tr);
+  }
+  .nav-search input:focus { border-color: var(--accent); }
+  .nav-search::before {
+    content: "🔍"; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+    opacity: 0.6; font-size: 0.95rem;
+  }
+  .nav-actions { display:flex; gap: 8px; align-items: center; }
+  .btn {
+    padding: 9px 14px; border-radius: 10px; border: 1px solid var(--border);
+    background: var(--bg-alt); color: var(--fg); transition: all var(--tr);
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .btn:hover { border-color: var(--accent); transform: translateY(-1px); }
+  .btn-primary {
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    border-color: transparent; color: white; font-weight: 600;
+  }
+  .btn-primary:hover { filter: brightness(1.08); }
+  .btn-ghost { background: transparent; }
+  .badge {
+    background: var(--accent-soft); color: var(--accent); padding: 1px 7px;
+    border-radius: 999px; font-size: 0.78rem; font-weight: 600;
+  }
+
+  /* HERO */
+  .hero {
+    max-width: var(--maxw); margin: 0 auto; padding: 80px 20px 50px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 5vw, 3.4rem); margin: 0 0 14px;
+    background: linear-gradient(135deg, #fff, var(--accent), var(--accent-2));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .hero p { color: var(--fg-mute); max-width: 720px; margin: 0 auto 24px; font-size: 1.05rem; }
+  .hero-stats { display: flex; gap: 28px; justify-content: center; flex-wrap: wrap; margin-top: 30px; }
+  .stat { background: var(--bg-alt); padding: 16px 22px; border-radius: var(--radius); border: 1px solid var(--border); min-width: 140px; }
+  .stat strong { display:block; font-size: 1.6rem; color: var(--fg); }
+  .stat span { color: var(--fg-mute); font-size: 0.85rem; }
+
+  /* SECTIONS */
+  section.layer { max-width: var(--maxw); margin: 0 auto; padding: 60px 20px; }
+  section.layer h2 { font-size: 1.6rem; margin: 0 0 6px; }
+  section.layer h2 + p.lead { color: var(--fg-mute); margin: 0 0 28px; max-width: 640px; }
+
+  /* AREAS */
+  .areas-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .area-card {
+    background: var(--bg-alt); border: 1px solid var(--border); padding: 22px;
+    border-radius: var(--radius); transition: all var(--tr); cursor: pointer;
+  }
+  .area-card:hover { transform: translateY(-3px); border-color: var(--accent); }
+  .area-flag { font-size: 2rem; margin-bottom: 8px; }
+  .area-card h3 { margin: 6px 0; font-size: 1.1rem; }
+  .area-card .area-meta { color: var(--fg-mute); font-size: 0.88rem; }
+
+  /* LISTINGS LAYOUT */
+  .listings-wrap { display: grid; grid-template-columns: 280px 1fr; gap: 24px; align-items: start; }
+  @media (max-width: 860px) { .listings-wrap { grid-template-columns: 1fr; } .filters { position: static !important; } }
+  .filters {
+    position: sticky; top: 78px;
+    background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px;
+  }
+  .filters h3 { margin: 0 0 14px; font-size: 1rem; display: flex; justify-content: space-between; align-items: center; }
+  .filter-group { margin-bottom: 16px; }
+  .filter-group label { display:block; color: var(--fg-mute); font-size: 0.82rem; margin-bottom: 6px; }
+  .filter-group select, .filter-group input {
+    width: 100%; padding: 8px 10px; border-radius: 8px;
+    border: 1px solid var(--border); background: var(--bg); color: var(--fg);
+  }
+  .price-range { display: flex; gap: 6px; }
+  .price-range input { width: 50%; }
+  .filters .btn { width: 100%; justify-content: center; }
+
+  .listings-grid {
+    display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+  .listing-card {
+    background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius);
+    overflow: hidden; transition: all var(--tr); display: flex; flex-direction: column;
+  }
+  .listing-card:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: var(--shadow); }
+  .listing-img { aspect-ratio: 16/10; background: var(--bg); position: relative; overflow: hidden; }
+  .listing-img img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--tr); }
+  .listing-card:hover .listing-img img { transform: scale(1.04); }
+  .listing-fav {
+    position: absolute; top: 10px; right: 10px;
+    background: rgba(11,16,32,0.7); border: 1px solid var(--border); border-radius: 999px;
+    padding: 6px 10px; color: var(--fg); transition: all var(--tr);
+  }
+  .listing-fav:hover { background: var(--accent-soft); border-color: var(--accent); }
+  .listing-fav.active { background: var(--bad); border-color: var(--bad); color: white; }
+  .listing-source {
+    position: absolute; top: 10px; left: 10px;
+    background: rgba(11,16,32,0.78); border: 1px solid var(--border); border-radius: 6px;
+    padding: 3px 8px; font-size: 0.72rem; color: var(--fg-mute);
+  }
+  .listing-body { padding: 14px 16px 16px; flex: 1; display: flex; flex-direction: column; }
+  .listing-body h4 { margin: 0 0 6px; font-size: 1rem; }
+  .listing-meta { color: var(--fg-mute); font-size: 0.82rem; margin-bottom: 10px; }
+  .listing-features { display: flex; gap: 12px; color: var(--fg-mute); font-size: 0.82rem; margin-bottom: 12px; flex-wrap: wrap; }
+  .listing-price { font-size: 1.15rem; font-weight: 700; color: var(--accent); margin-top: auto; }
+  .listing-actions { display: flex; gap: 8px; margin-top: 12px; }
+  .listing-actions .btn { flex: 1; justify-content: center; padding: 7px 10px; font-size: 0.85rem; }
+
+  .listings-empty {
+    text-align: center; padding: 60px 20px; color: var(--fg-mute);
+    background: var(--bg-alt); border: 1px dashed var(--border); border-radius: var(--radius);
+    grid-column: 1 / -1;
+  }
+
+  /* HOW IT WORKS */
+  .how-grid { display: grid; gap: 28px; grid-template-columns: 1fr; align-items: center; }
+  @media (min-width: 900px) { .how-grid { grid-template-columns: 1fr 1.1fr; } }
+  .how-text ul { padding-left: 18px; color: var(--fg-mute); }
+  .how-text li { margin-bottom: 8px; }
+  .how-text strong { color: var(--fg); }
+  .diagram-wrap { background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; overflow: hidden; }
+  .diagram-wrap svg { width: 100%; height: auto; }
+
+  /* SOURCES */
+  .sources-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .source-card {
+    background: var(--bg-alt); border: 1px solid var(--border); padding: 14px 16px; border-radius: 12px;
+    display: flex; flex-direction: column; gap: 6px; transition: border-color var(--tr);
+  }
+  .source-card:hover { border-color: var(--accent); }
+  .source-card-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .source-card h4 { margin: 0; font-size: 0.98rem; }
+  .source-meta { color: var(--fg-mute); font-size: 0.78rem; }
+  .source-pill { background: var(--accent-soft); color: var(--accent); padding: 2px 8px; border-radius: 999px; font-size: 0.72rem; font-weight: 600; }
+
+  /* FAQ */
+  .faq-list { display: flex; flex-direction: column; gap: 10px; }
+  details.faq-item {
+    background: var(--bg-alt); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 18px; transition: border-color var(--tr);
+  }
+  details.faq-item[open] { border-color: var(--accent); }
+  details.faq-item summary {
+    cursor: pointer; font-weight: 600; list-style: none; display: flex; justify-content: space-between; align-items: center;
+  }
+  details.faq-item summary::-webkit-details-marker { display: none; }
+  details.faq-item summary::after { content: "＋"; color: var(--accent); transition: transform var(--tr); }
+  details.faq-item[open] summary::after { content: "−"; }
+  details.faq-item p { color: var(--fg-mute); margin: 10px 0 0; }
+
+  /* FAB AI */
+  .ai-fab {
+    position: fixed; right: 22px; bottom: 22px; z-index: 60;
+    width: 60px; height: 60px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    border: none; color: white; font-size: 1.6rem;
+    box-shadow: 0 12px 30px rgba(108,138,255,0.5);
+    transition: transform var(--tr);
+  }
+  .ai-fab:hover { transform: scale(1.06) rotate(-3deg); }
+  .ai-fab span { animation: bob 2.4s ease-in-out infinite; display: inline-block; }
+  @keyframes bob { 0%,100% { transform: translateY(0);} 50% { transform: translateY(-3px);} }
+
+  /* MODALS */
+  .modal-bg {
+    position: fixed; inset: 0; background: rgba(7,10,22,0.78); backdrop-filter: blur(6px);
+    display: none; align-items: center; justify-content: center; z-index: 90; padding: 20px;
+  }
+  .modal-bg.open { display: flex; }
+  .modal {
+    background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius);
+    width: 100%; max-width: 540px; max-height: 90vh; overflow: auto;
+    padding: 24px; box-shadow: var(--shadow);
+    animation: pop 200ms cubic-bezier(.2,.8,.2,1);
+  }
+  .modal.wide { max-width: 760px; }
+  .modal-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 14px; }
+  .modal-head h3 { margin: 0; }
+  .modal-close { background: transparent; border: none; color: var(--fg-mute); font-size: 1.4rem; }
+  .modal-close:hover { color: var(--fg); }
+  @keyframes pop { 0% { opacity: 0; transform: translateY(20px) scale(.97);} 100% { opacity: 1; transform: none;} }
+
+  /* AI MODAL */
+  .ai-conv { display: flex; flex-direction: column; gap: 10px; max-height: 360px; overflow: auto; padding-right: 6px; }
+  .ai-msg { padding: 10px 14px; border-radius: 12px; max-width: 85%; line-height: 1.45; font-size: 0.94rem; white-space: pre-wrap; }
+  .ai-msg.user { background: var(--accent-soft); color: var(--fg); align-self: flex-end; }
+  .ai-msg.bot { background: var(--bg); border: 1px solid var(--border); color: var(--fg); align-self: flex-start; }
+  .ai-input-row { display: flex; gap: 8px; margin-top: 12px; }
+  .ai-input-row input {
+    flex: 1; padding: 10px 12px; border-radius: 10px;
+    border: 1px solid var(--border); background: var(--bg); color: var(--fg);
+  }
+  .ai-quick { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .ai-quick .btn { padding: 5px 10px; font-size: 0.78rem; border-radius: 999px; }
+
+  /* LISTING MODAL */
+  .lm-img { aspect-ratio: 16/9; border-radius: 12px; overflow: hidden; margin-bottom: 14px; background: var(--bg); }
+  .lm-img img { width: 100%; height: 100%; object-fit: cover; }
+  .lm-grid { display: grid; gap: 12px; grid-template-columns: repeat(2, 1fr); margin: 14px 0; }
+  .lm-grid .cell { background: var(--bg); border: 1px solid var(--border); padding: 10px 12px; border-radius: 10px; }
+  .lm-grid .cell span { display:block; color: var(--fg-mute); font-size: 0.72rem; }
+  .lm-summary { background: var(--accent-soft); border: 1px solid rgba(108,138,255,0.3); padding: 12px 14px; border-radius: 10px; margin: 12px 0; }
+  .lm-summary strong { color: var(--accent); }
+
+  /* AUTH MODAL */
+  .auth-form { display: flex; flex-direction: column; gap: 12px; }
+  .auth-form input {
+    padding: 10px 12px; border-radius: 10px;
+    border: 1px solid var(--border); background: var(--bg); color: var(--fg);
+  }
+  .auth-form .btn { justify-content: center; padding: 10px 14px; }
+  .auth-msg { color: var(--fg-mute); font-size: 0.84rem; text-align: center; }
+
+  /* TOAST */
+  .toast {
+    position: fixed; bottom: 100px; left: 50%; transform: translateX(-50%);
+    background: var(--bg-alt); border: 1px solid var(--accent); padding: 10px 18px; border-radius: 999px;
+    color: var(--fg); z-index: 95; opacity: 0; transition: opacity var(--tr);
+    box-shadow: var(--shadow);
+  }
+  .toast.show { opacity: 1; }
+
+  /* FOOTER */
+  footer.site { border-top: 1px solid var(--border); padding: 30px 20px; color: var(--fg-mute); text-align: center; font-size: 0.85rem; margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site">
+  <div class="nav">
+    <div class="brand">
+      <span class="brand-mark">C</span>
+      <span>CasaLatam</span>
+      <span class="badge">demo</span>
+    </div>
+    <div class="nav-search">
+      <input id="searchInput" type="text" placeholder="Buscar por barrio, ciudad, palabra clave..." />
+    </div>
+    <div class="nav-actions">
+      <button class="btn btn-ghost" id="favBtn">★ <span id="favCount">0</span></button>
+      <button class="btn btn-primary" id="loginBtn">Ingresar</button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <h1>Buscá propiedades en LATAM<br/>con un asistente de IA</h1>
+  <p>Agregamos publicaciones de portales de Uruguay, Argentina y Paraguay y se las ofrecemos organizadas, comparadas y resumidas por una IA. Vos solo decís qué buscás.</p>
+  <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+    <button class="btn btn-primary" onclick="document.getElementById('listings').scrollIntoView({behavior:'smooth'})">Explorar propiedades</button>
+    <button class="btn" onclick="openAI()">💬 Hablar con la IA</button>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><strong id="statListings">…</strong><span>Listings activos</span></div>
+    <div class="stat"><strong id="statSources">…</strong><span>Fuentes</span></div>
+    <div class="stat"><strong>3</strong><span>Países</span></div>
+    <div class="stat"><strong>24h</strong><span>Actualización</span></div>
+  </div>
+</section>
+
+<!-- ============ ÁREAS ============ -->
+<section class="layer" id="areas">
+  <h2>Áreas de cobertura</h2>
+  <p class="lead">Empezamos por estos tres países. Hacé clic en una zona para filtrar las publicaciones disponibles.</p>
+  <div class="areas-grid" id="areasGrid"></div>
+</section>
+
+<!-- ============ LISTINGS ============ -->
+<section class="layer" id="listings">
+  <h2>Propiedades</h2>
+  <p class="lead">Cards con la información agregada y resumen IA por unidad. Marcá favoritos para guardarlas en tu lista (requiere login).</p>
+  <div class="listings-wrap">
+    <aside class="filters">
+      <h3>Filtros <button class="btn btn-ghost" id="resetFilters" style="padding:3px 8px; font-size:0.78rem;">Reset</button></h3>
+      <div class="filter-group">
+        <label>País</label>
+        <select id="fCountry"><option value="">Todos</option><option value="UY">Uruguay</option><option value="AR">Argentina</option><option value="PY">Paraguay</option></select>
+      </div>
+      <div class="filter-group">
+        <label>Operación</label>
+        <select id="fOperation"><option value="">Todas</option><option value="Venta">Venta</option><option value="Alquiler">Alquiler</option></select>
+      </div>
+      <div class="filter-group">
+        <label>Tipo</label>
+        <select id="fType"><option value="">Todos</option><option value="Apartamento">Apartamento</option><option value="Casa">Casa</option></select>
+      </div>
+      <div class="filter-group">
+        <label>Dormitorios (mín)</label>
+        <select id="fBedrooms"><option value="">Cualquiera</option><option value="0">Monoambiente</option><option value="1">1+</option><option value="2">2+</option><option value="3">3+</option><option value="4">4+</option></select>
+      </div>
+      <div class="filter-group">
+        <label>Precio (USD)</label>
+        <div class="price-range">
+          <input id="fPriceMin" type="number" placeholder="mín" />
+          <input id="fPriceMax" type="number" placeholder="máx" />
+        </div>
+      </div>
+      <div class="filter-group">
+        <label>Solo favoritos</label>
+        <select id="fFavs"><option value="">No</option><option value="1">Sí</option></select>
+      </div>
+    </aside>
+    <div>
+      <div id="listingsCount" style="color: var(--fg-mute); font-size: 0.88rem; margin-bottom: 12px;"></div>
+      <div class="listings-grid" id="listingsGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CÓMO FUNCIONA ============ -->
+<section class="layer" id="howitworks">
+  <h2>Cómo funciona</h2>
+  <p class="lead">Sistema transparente: el usuario interactúa con la página, pero el procesamiento corre en background con un asistente IA y agentes temporales.</p>
+  <div class="how-grid">
+    <div class="how-text">
+      <ul>
+        <li><strong>Usuario</strong> entra a la página, busca, filtra o le habla al asistente.</li>
+        <li><strong>Página/App (SPA)</strong> es la capa visible — listings, modales, favs. No procesa, solo muestra y captura input.</li>
+        <li><strong>Asistente de IA (brain)</strong> corre en background con crons que scrapean fuentes, normalizan datos, resumen propiedades y detectan duplicados. Levanta agentes temporales cuando un usuario necesita una respuesta puntual (ej: "buscame algo así").</li>
+        <li><strong>Base de datos</strong> guarda listings normalizados, snapshots históricos, cache de resúmenes IA y preferencias del usuario logueado.</li>
+      </ul>
+      <p style="color: var(--fg-mute);">El flujo es asíncrono: el usuario nunca espera por la IA en frío — el cerebro ya procesó todo y lo dejó disponible.</p>
+    </div>
+    <div class="diagram-wrap">
+      <svg viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="gBrain" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#6c8aff"/>
+            <stop offset="100%" stop-color="#a47cff"/>
+          </linearGradient>
+          <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#99a3c9"/>
+          </marker>
+        </defs>
+
+        <!-- Usuario -->
+        <g>
+          <rect x="20" y="140" width="120" height="80" rx="12" fill="#1a2244" stroke="#6c8aff" stroke-width="1.5"/>
+          <text x="80" y="175" text-anchor="middle" fill="#e8ecff" font-size="14" font-weight="600">Usuario</text>
+          <text x="80" y="195" text-anchor="middle" fill="#99a3c9" font-size="11">busca · filtra · charla</text>
+        </g>
+
+        <!-- Página/App -->
+        <g>
+          <rect x="180" y="140" width="120" height="80" rx="12" fill="#1a2244" stroke="#6c8aff" stroke-width="1.5"/>
+          <text x="240" y="175" text-anchor="middle" fill="#e8ecff" font-size="14" font-weight="600">Página/App</text>
+          <text x="240" y="195" text-anchor="middle" fill="#99a3c9" font-size="11">SPA · listings · UI</text>
+        </g>
+
+        <!-- IA brain -->
+        <g>
+          <rect x="340" y="100" width="160" height="160" rx="14" fill="url(#gBrain)" opacity="0.2" stroke="url(#gBrain)" stroke-width="1.5"/>
+          <text x="420" y="128" text-anchor="middle" fill="#e8ecff" font-size="14" font-weight="700">Asistente IA</text>
+          <text x="420" y="146" text-anchor="middle" fill="#99a3c9" font-size="10">brain + agentes</text>
+          <circle cx="420" cy="180" r="22" fill="url(#gBrain)"/>
+          <text x="420" y="186" text-anchor="middle" fill="white" font-size="18" font-weight="800">🧠</text>
+          <g font-size="10" fill="#99a3c9">
+            <text x="420" y="220" text-anchor="middle">crons · scraping</text>
+            <text x="420" y="234" text-anchor="middle">resumen · dedup</text>
+            <text x="420" y="248" text-anchor="middle">agentes temporales</text>
+          </g>
+        </g>
+
+        <!-- BD -->
+        <g>
+          <ellipse cx="540" cy="170" rx="40" ry="14" fill="#1a2244" stroke="#a47cff" stroke-width="1.5"/>
+          <rect x="500" y="170" width="80" height="50" fill="#1a2244" stroke="#a47cff" stroke-width="1.5"/>
+          <ellipse cx="540" cy="220" rx="40" ry="14" fill="#1a2244" stroke="#a47cff" stroke-width="1.5"/>
+          <text x="540" y="200" text-anchor="middle" fill="#e8ecff" font-size="13" font-weight="600">BD</text>
+          <text x="540" y="265" text-anchor="middle" fill="#99a3c9" font-size="11">listings · cache</text>
+        </g>
+
+        <!-- Flechas: Usuario <-> Página <-> IA <-> BD -->
+        <line x1="140" y1="180" x2="180" y2="180" stroke="#99a3c9" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+        <line x1="300" y1="180" x2="340" y2="180" stroke="#99a3c9" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+        <line x1="500" y1="195" x2="510" y2="195" stroke="#99a3c9" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+
+        <!-- Etiquetas debajo -->
+        <text x="80" y="245" text-anchor="middle" fill="#99a3c9" font-size="10">interacción</text>
+        <text x="240" y="245" text-anchor="middle" fill="#99a3c9" font-size="10">UI · render</text>
+        <text x="160" y="320" text-anchor="middle" fill="#99a3c9" font-size="11" font-style="italic">flujo asíncrono · brain procesa offline · agentes temporales para queries puntuales</text>
+      </svg>
+      <p style="color: var(--fg-mute); font-size: 0.84rem; margin: 10px 0 0; text-align: center;">Usuario ↔ Página/App ↔ Asistente IA (brain + agentes) ↔ Base de datos</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FUENTES ============ -->
+<section class="layer" id="sources">
+  <h2>Fuentes</h2>
+  <p class="lead">Portales de los que el sistema agrega publicaciones. Mostramos siempre la fuente original en cada listing.</p>
+  <div class="sources-grid" id="sourcesGrid"></div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="layer" id="faq">
+  <h2>Preguntas frecuentes</h2>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary>¿De dónde sacan los listings?</summary>
+      <p>Agregamos publicaciones de portales públicos en UY, AR y PY (Infocasas, Zonaprop, Argenprop, MercadoLibre, Gallito, Properati, Clasipar, etc). Mostramos siempre la fuente y un link a la publicación original.</p>
+    </details>
+    <details class="faq-item">
+      <summary>¿Cobran comisión?</summary>
+      <p>No. Esta demo es un agregador. La transacción y la comisión las maneja la inmobiliaria o portal de origen. Nuestro modelo es ofrecer mejor experiencia de búsqueda con IA.</p>
+    </details>
+    <details class="faq-item">
+      <summary>¿Qué hace la IA?</summary>
+      <p>Resume cada publicación en una línea, normaliza precios y métricas, detecta duplicados entre fuentes y responde preguntas en lenguaje natural sobre las propiedades disponibles.</p>
+    </details>
+    <details class="faq-item">
+      <summary>¿Necesito una cuenta?</summary>
+      <p>Solo si querés guardar favoritos o recibir alertas. Buscar y ver propiedades es libre.</p>
+    </details>
+    <details class="faq-item">
+      <summary>¿Qué tan actualizado está?</summary>
+      <p>El sistema corre crons cada 4–12 horas según la fuente. La fecha de última ingesta aparece en cada card al expandirla.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site">
+  CasaLatam · Demo · Hecho en LATAM con IA · 2026
+</footer>
+
+<!-- ============ FAB AI ============ -->
+<button class="ai-fab" onclick="openAI()" title="Hablar con la IA"><span>🤖</span></button>
+
+<!-- ============ MODALS ============ -->
+<div class="modal-bg" id="loginModal">
+  <div class="modal">
+    <div class="modal-head">
+      <h3>Ingresar / Registrarse</h3>
+      <button class="modal-close" onclick="closeModal('loginModal')">×</button>
+    </div>
+    <form class="auth-form" id="loginForm">
+      <input type="text" id="loginUser" placeholder="Usuario o email" required />
+      <input type="password" id="loginPass" placeholder="Contraseña" required />
+      <button class="btn btn-primary" type="submit">Ingresar</button>
+      <p class="auth-msg">Demo: cualquier usuario/contraseña sirve. Los datos se guardan localmente.</p>
+    </form>
+  </div>
+</div>
+
+<div class="modal-bg" id="listingModal">
+  <div class="modal wide">
+    <div class="modal-head">
+      <h3 id="lmTitle">…</h3>
+      <button class="modal-close" onclick="closeModal('listingModal')">×</button>
+    </div>
+    <div id="lmBody"></div>
+  </div>
+</div>
+
+<div class="modal-bg" id="aiModal">
+  <div class="modal">
+    <div class="modal-head">
+      <h3>🤖 Asistente CasaLatam</h3>
+      <button class="modal-close" onclick="closeModal('aiModal')">×</button>
+    </div>
+    <div class="ai-conv" id="aiConv"></div>
+    <div class="ai-input-row">
+      <input type="text" id="aiInput" placeholder="¿Casa en Pocitos hasta 250k?" />
+      <button class="btn btn-primary" onclick="aiSend()">Enviar</button>
+    </div>
+    <div class="ai-quick">
+      <button class="btn" onclick="aiQuick('apartamentos en Montevideo hasta 250000 USD')">Apto MVD &lt; 250k</button>
+      <button class="btn" onclick="aiQuick('casas en Buenos Aires con 4 dormitorios')">Casa BsAs 4 dorm</button>
+      <button class="btn" onclick="aiQuick('alquileres en Asunción')">Alquiler Asunción</button>
+      <button class="btn" onclick="aiQuick('comparar Punta del Este vs Punta Carretas')">Comparar zonas</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ====== ESTADO ======
+const state = {
+  listings: [],
+  sources: [],
+  favs: JSON.parse(localStorage.getItem('cl_favs') || '[]'),
+  user: localStorage.getItem('cl_user') || null,
+  filters: { country:'', operation:'', type:'', bedrooms:'', priceMin:'', priceMax:'', search:'', favsOnly:'' }
+};
+
+// ====== UTILS ======
+const $ = id => document.getElementById(id);
+const fmtMoney = (n, c) => new Intl.NumberFormat('es-UY', { maximumFractionDigits: 0 }).format(n) + ' ' + c;
+const debounce = (fn, ms=200) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; };
+function toast(msg) { const t = $('toast'); t.textContent = msg; t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 1800); }
+
+// ====== CARGA DATOS ======
+async function loadData() {
+  const [l, s] = await Promise.all([
+    fetch('data/listings.json').then(r => r.json()),
+    fetch('data/sources.json').then(r => r.json())
+  ]);
+  state.listings = l;
+  state.sources = s;
+  $('statListings').textContent = l.length;
+  $('statSources').textContent = s.length;
+  renderAreas();
+  renderSources();
+  renderListings();
+  updateFavCount();
+}
+
+// ====== ÁREAS ======
+function renderAreas() {
+  const counts = state.listings.reduce((acc, x) => { acc[x.country] = (acc[x.country]||0) + 1; return acc; }, {});
+  const meta = {
+    UY: { flag:'🇺🇾', name:'Uruguay', cities:['Montevideo','Punta del Este','La Paloma'] },
+    AR: { flag:'🇦🇷', name:'Argentina', cities:['Buenos Aires','Córdoba','Mendoza','Rosario'] },
+    PY: { flag:'🇵🇾', name:'Paraguay', cities:['Asunción','Ciudad del Este','Encarnación'] }
+  };
+  $('areasGrid').innerHTML = Object.entries(meta).map(([code, m]) => `
+    <div class="area-card" onclick="filterByCountry('${code}')">
+      <div class="area-flag">${m.flag}</div>
+      <h3>${m.name}</h3>
+      <div class="area-meta">${counts[code] || 0} listings · ${m.cities.join(' · ')}</div>
+    </div>
+  `).join('');
+}
+function filterByCountry(code) { $('fCountry').value = code; state.filters.country = code; renderListings(); document.getElementById('listings').scrollIntoView({behavior:'smooth'}); }
+
+// ====== FUENTES ======
+function renderSources() {
+  const flagMap = { UY:'🇺🇾', AR:'🇦🇷', PY:'🇵🇾' };
+  $('sourcesGrid').innerHTML = state.sources.map(s => `
+    <a class="source-card" href="${s.url}" target="_blank" rel="noopener">
+      <div class="source-card-head">
+        <h4>${flagMap[s.country] || ''} ${s.name}</h4>
+        <span class="source-pill">${s.type}</span>
+      </div>
+      <div class="source-meta">~${s.listings_avg_per_day} listings/día · refresh cada ${s.freshness_h}h</div>
+    </a>
+  `).join('');
+}
+
+// ====== LISTINGS ======
+function applyFilters(items) {
+  const f = state.filters;
+  return items.filter(x => {
+    if (f.country && x.country !== f.country) return false;
+    if (f.operation && x.operation !== f.operation) return false;
+    if (f.type && x.type !== f.type) return false;
+    if (f.bedrooms !== '' && x.bedrooms < +f.bedrooms) return false;
+    if (f.priceMin !== '' && f.priceMin && priceUSD(x) < +f.priceMin) return false;
+    if (f.priceMax !== '' && f.priceMax && priceUSD(x) > +f.priceMax) return false;
+    if (f.favsOnly === '1' && !state.favs.includes(x.id)) return false;
+    if (f.search) {
+      const q = f.search.toLowerCase();
+      const blob = `${x.title} ${x.city} ${x.neighborhood} ${x.country} ${x.summary_ai} ${x.type} ${x.operation}`.toLowerCase();
+      if (!blob.includes(q)) return false;
+    }
+    return true;
+  });
+}
+function priceUSD(x) { return x.currency === 'USD' ? x.price : x.price / 40; } // approx UYU/USD para filtros
+
+function renderListings() {
+  const items = applyFilters(state.listings);
+  $('listingsCount').textContent = `${items.length} de ${state.listings.length} propiedades`;
+  if (!items.length) {
+    $('listingsGrid').innerHTML = '<div class="listings-empty">No hay propiedades que coincidan con tus filtros.<br/>Probá ajustar los filtros o resetearlos.</div>';
+    return;
+  }
+  $('listingsGrid').innerHTML = items.map(x => `
+    <article class="listing-card" data-id="${x.id}" onclick="openListing('${x.id}')">
+      <div class="listing-img">
+        <img src="${x.image}" alt="${x.title}" loading="lazy" onerror="this.src='https://placehold.co/600x400/1a2244/99a3c9?text=Sin+foto'"/>
+        <span class="listing-source">${x.source}</span>
+        <button class="listing-fav ${state.favs.includes(x.id) ? 'active' : ''}" onclick="toggleFav(event, '${x.id}')" title="Guardar como favorito">★</button>
+      </div>
+      <div class="listing-body">
+        <h4>${x.title}</h4>
+        <div class="listing-meta">${x.neighborhood}, ${x.city} · ${x.operation}</div>
+        <div class="listing-features">
+          ${x.bedrooms ? `🛏 ${x.bedrooms} dorm` : '🛏 monoamb'} · 🚿 ${x.bathrooms} · 📐 ${x.area_m2} m²
+        </div>
+        <div class="listing-price">${fmtMoney(x.price, x.currency)}</div>
+        <div class="listing-actions">
+          <button class="btn">Ver detalle</button>
+          <button class="btn btn-ghost" onclick="event.stopPropagation(); openAIWith('Contame de ${x.title} en ${x.neighborhood}')">🤖 Preguntar</button>
+        </div>
+      </div>
+    </article>
+  `).join('');
+}
+
+function toggleFav(ev, id) {
+  ev.stopPropagation();
+  if (!state.user) { toast('Ingresá para guardar favoritos'); openModal('loginModal'); return; }
+  const idx = state.favs.indexOf(id);
+  if (idx >= 0) state.favs.splice(idx, 1); else state.favs.push(id);
+  localStorage.setItem('cl_favs', JSON.stringify(state.favs));
+  updateFavCount();
+  renderListings();
+  toast(idx >= 0 ? 'Quitado de favoritos' : 'Agregado a favoritos ★');
+}
+function updateFavCount() { $('favCount').textContent = state.favs.length; }
+
+// ====== LISTING MODAL ======
+function openListing(id) {
+  const x = state.listings.find(l => l.id === id);
+  if (!x) return;
+  $('lmTitle').textContent = x.title;
+  $('lmBody').innerHTML = `
+    <div class="lm-img"><img src="${x.image}" onerror="this.src='https://placehold.co/800x450/1a2244/99a3c9?text=Sin+foto'"/></div>
+    <div class="lm-summary">
+      <strong>📋 Resumen IA:</strong> ${x.summary_ai}
+    </div>
+    <div class="lm-grid">
+      <div class="cell"><span>Ubicación</span><strong>${x.neighborhood}, ${x.city}, ${x.country}</strong></div>
+      <div class="cell"><span>Tipo · operación</span><strong>${x.type} · ${x.operation}</strong></div>
+      <div class="cell"><span>Precio</span><strong>${fmtMoney(x.price, x.currency)}</strong></div>
+      <div class="cell"><span>Superficie</span><strong>${x.area_m2} m²</strong></div>
+      <div class="cell"><span>Dormitorios</span><strong>${x.bedrooms || 'monoambiente'}</strong></div>
+      <div class="cell"><span>Baños</span><strong>${x.bathrooms}</strong></div>
+      <div class="cell"><span>Fuente original</span><strong><a href="${x.source_url}" target="_blank" rel="noopener">${x.source} ↗</a></strong></div>
+      <div class="cell"><span>Última ingesta</span><strong>${x.ingested_at}</strong></div>
+    </div>
+    <div style="display:flex; gap:8px; margin-top: 14px;">
+      <button class="btn btn-primary" style="flex:1; justify-content:center;" onclick="toggleFav(event, '${x.id}'); closeModal('listingModal');">${state.favs.includes(x.id) ? '★ Quitar de favoritos' : '☆ Guardar como favorito'}</button>
+      <button class="btn" style="flex:1; justify-content:center;" onclick="closeModal('listingModal'); openAIWith('Compará ${x.title} con propiedades similares')">🤖 Preguntar a la IA</button>
+    </div>
+  `;
+  openModal('listingModal');
+}
+
+// ====== AI MODAL (mock) ======
+const aiHistory = [
+  { role:'bot', text:'Hola 👋 Soy tu asistente CasaLatam. Decime qué buscás (ciudad, tipo, precio, dormitorios) y te armo una lista. También puedo comparar zonas o explicarte cómo funciona el sistema.' }
+];
+function renderAI() {
+  $('aiConv').innerHTML = aiHistory.map(m => `<div class="ai-msg ${m.role}">${m.text}</div>`).join('');
+  $('aiConv').scrollTop = $('aiConv').scrollHeight;
+}
+function openAI() { openModal('aiModal'); renderAI(); setTimeout(() => $('aiInput').focus(), 100); }
+function openAIWith(q) { openAI(); $('aiInput').value = q; aiSend(); }
+function aiQuick(q) { $('aiInput').value = q; aiSend(); }
+
+function aiSend() {
+  const q = $('aiInput').value.trim();
+  if (!q) return;
+  aiHistory.push({ role:'user', text: q });
+  $('aiInput').value = '';
+  renderAI();
+  // mock latency
+  setTimeout(() => {
+    aiHistory.push({ role:'bot', text: aiAnswer(q) });
+    renderAI();
+  }, 600);
+}
+
+function aiAnswer(q) {
+  const lq = q.toLowerCase();
+  // Match country/city
+  let pool = state.listings.slice();
+  if (/montevideo|mvd|pocitos|cordón|carrasco|punta carretas|punta del este|paloma/i.test(q)) pool = pool.filter(x => x.country === 'UY');
+  else if (/buenos aires|bsas|baires|palermo|san isidro|puerto madero|córdoba|cordoba|nueva córdoba|mendoza|lujan|rosario|pichincha/i.test(q)) pool = pool.filter(x => x.country === 'AR');
+  else if (/asunción|asuncion|paraguay|villa morra|carmelitas|ciudad del este|encarnación|encarnacion/i.test(q)) pool = pool.filter(x => x.country === 'PY');
+  // tipo
+  if (/casa/i.test(lq)) pool = pool.filter(x => x.type === 'Casa');
+  else if (/apto|apartamento|departamento|depto|monoamb/i.test(lq)) pool = pool.filter(x => x.type === 'Apartamento');
+  // operación
+  if (/alquiler|alquilar|renta/i.test(lq)) pool = pool.filter(x => x.operation === 'Alquiler');
+  else if (/venta|comprar|compra/i.test(lq)) pool = pool.filter(x => x.operation === 'Venta');
+  // precio máx
+  const m = lq.match(/(?:hasta|menos de|máx|max)\s*\$?\s*(\d{2,7})\s*(k|mil|usd|dolares|dólares)?/);
+  if (m) {
+    let val = +m[1];
+    if (m[2] && /k|mil/i.test(m[2])) val *= 1000;
+    pool = pool.filter(x => priceUSD(x) <= val);
+  }
+  // dormitorios
+  const md = lq.match(/(\d)\s*(?:dorm|hab|amb)/);
+  if (md) pool = pool.filter(x => x.bedrooms >= +md[1]);
+
+  if (/comparar|comparación|compara|vs/.test(lq)) {
+    return 'Comparativa rápida (precio promedio en USD por barrio):\n' + zoneCompare();
+  }
+
+  if (!pool.length) return 'No encontré coincidencias con esos criterios. Probá ampliar el rango de precios o cambiar la zona. Tenemos ' + state.listings.length + ' propiedades activas en total.';
+
+  pool.sort((a,b) => priceUSD(a) - priceUSD(b));
+  const top = pool.slice(0, 3);
+  let out = `Encontré ${pool.length} propiedades. Top 3 por precio:\n`;
+  top.forEach((x,i) => { out += `\n${i+1}. ${x.title} — ${fmtMoney(x.price, x.currency)} · ${x.neighborhood}, ${x.city}\n   ↳ ${x.summary_ai}`; });
+  out += '\n\nDecime el ID o el barrio si querés ver una en detalle.';
+  return out;
+}
+function zoneCompare() {
+  const groups = state.listings.reduce((acc,x) => { (acc[x.neighborhood] = acc[x.neighborhood] || []).push(priceUSD(x)); return acc; }, {});
+  return Object.entries(groups)
+    .map(([z, arr]) => [z, arr.reduce((a,b) => a+b,0) / arr.length])
+    .sort((a,b) => b[1]-a[1])
+    .slice(0,6)
+    .map(([z,p]) => `· ${z}: ~${fmtMoney(Math.round(p), 'USD')}`)
+    .join('\n');
+}
+
+// ====== AUTH ======
+function updateAuthUI() {
+  $('loginBtn').textContent = state.user ? `👤 ${state.user}` : 'Ingresar';
+}
+$('loginBtn').addEventListener('click', () => {
+  if (state.user) {
+    if (confirm(`Cerrar sesión de ${state.user}?`)) { state.user = null; localStorage.removeItem('cl_user'); updateAuthUI(); toast('Sesión cerrada'); }
+  } else openModal('loginModal');
+});
+$('loginForm').addEventListener('submit', e => {
+  e.preventDefault();
+  state.user = $('loginUser').value || 'usuario';
+  localStorage.setItem('cl_user', state.user);
+  updateAuthUI();
+  closeModal('loginModal');
+  toast(`Hola ${state.user} 👋`);
+});
+
+// ====== FILTERS BINDINGS ======
+const filterMap = { fCountry:'country', fOperation:'operation', fType:'type', fBedrooms:'bedrooms', fFavs:'favsOnly', fPriceMin:'priceMin', fPriceMax:'priceMax' };
+Object.entries(filterMap).forEach(([id, key]) => { const el = $(id); if (!el) return; const ev = el.tagName === 'SELECT' ? 'change' : 'input'; el.addEventListener(ev, e => { state.filters[key] = e.target.value; renderListings(); }); });
+$('searchInput').addEventListener('input', debounce(e => { state.filters.search = e.target.value; renderListings(); }, 220));
+$('resetFilters').addEventListener('click', () => {
+  state.filters = { country:'', operation:'', type:'', bedrooms:'', priceMin:'', priceMax:'', search:'', favsOnly:'' };
+  ['fCountry','fOperation','fType','fBedrooms','fFavs'].forEach(id => $(id).value = '');
+  ['fPriceMin','fPriceMax'].forEach(id => $(id).value = '');
+  $('searchInput').value = '';
+  renderListings();
+});
+$('favBtn').addEventListener('click', () => { $('fFavs').value = '1'; state.filters.favsOnly = '1'; renderListings(); document.getElementById('listings').scrollIntoView({behavior:'smooth'}); });
+
+// ====== MODAL HELPERS ======
+function openModal(id) { $(id).classList.add('open'); }
+function closeModal(id) { $(id).classList.remove('open'); }
+document.querySelectorAll('.modal-bg').forEach(bg => bg.addEventListener('click', e => { if (e.target === bg) bg.classList.remove('open'); }));
+document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelectorAll('.modal-bg.open').forEach(m => m.classList.remove('open')); });
+
+// ====== INIT ======
+updateAuthUI();
+loadData();
+</script>
+</body>
+</html>

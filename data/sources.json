@@ -1,0 +1,12 @@
+[
+  {"name": "Infocasas", "country": "UY", "url": "https://www.infocasas.com.uy/", "type": "Portal", "freshness_h": 6, "listings_avg_per_day": 480},
+  {"name": "Gallito", "country": "UY", "url": "https://www.gallito.com.uy/", "type": "Clasificado", "freshness_h": 12, "listings_avg_per_day": 220},
+  {"name": "MercadoLibre Inmuebles UY", "country": "UY", "url": "https://listado.mercadolibre.com.uy/inmuebles", "type": "Marketplace", "freshness_h": 4, "listings_avg_per_day": 310},
+  {"name": "Properati UY", "country": "UY", "url": "https://www.properati.com.uy/", "type": "Portal", "freshness_h": 8, "listings_avg_per_day": 180},
+  {"name": "Zonaprop", "country": "AR", "url": "https://www.zonaprop.com.ar/", "type": "Portal", "freshness_h": 4, "listings_avg_per_day": 1200},
+  {"name": "Argenprop", "country": "AR", "url": "https://www.argenprop.com/", "type": "Portal", "freshness_h": 6, "listings_avg_per_day": 950},
+  {"name": "MercadoLibre Inmuebles AR", "country": "AR", "url": "https://inmuebles.mercadolibre.com.ar/", "type": "Marketplace", "freshness_h": 3, "listings_avg_per_day": 1850},
+  {"name": "InfoCasas PY", "country": "PY", "url": "https://www.infocasas.com.py/", "type": "Portal", "freshness_h": 8, "listings_avg_per_day": 140},
+  {"name": "Clasipar", "country": "PY", "url": "https://clasipar.paraguay.com/", "type": "Clasificado", "freshness_h": 12, "listings_avg_per_day": 95},
+  {"name": "Properati PY", "country": "PY", "url": "https://www.properati.com.py/", "type": "Portal", "freshness_h": 12, "listings_avg_per_day": 60}
+]
