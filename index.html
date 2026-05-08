@@ -255,6 +255,16 @@
     padding: 40px; text-align: center; color: var(--ink-soft);
     background: var(--bg-2); border: 1px dashed var(--line); border-radius: 10px;
   }
+  .empty-country {
+    grid-column: 1 / -1;
+    padding: 60px 30px; text-align: center;
+    background: var(--bg-2); border: 1px solid var(--line); border-radius: 14px;
+    max-width: 560px; margin: 20px auto;
+  }
+  .empty-country .flag { font-size: 56px; margin-bottom: 14px; display: block; }
+  .empty-country h3 { font-size: 22px; font-weight: 700; margin: 0 0 8px; color: var(--ink); }
+  .empty-country p { font-size: 15px; color: var(--ink-soft); margin: 0 0 16px; line-height: 1.5; }
+  .empty-country .countries-hint { font-size: 13px; color: var(--muted); }
 
   /* CARD click affordance */
   .card { cursor: pointer; }
@@ -724,7 +734,30 @@ function renderGrid() {
   }
 
   if (filtered.length === 0) {
-    grid.innerHTML = `<div class="empty">${tr("count.empty")}</div>`;
+    if (totalCountry === 0 && !hasFilters) {
+      // País sin listings — mostrar coming-soon card
+      const countryName = {UY:"Uruguay", AR:"Argentina", PY:"Paraguay", CL:"Chile", MX:"México", CO:"Colombia"}[state.country] || state.country;
+      const copy = state.lang === "es"
+        ? {
+            title: `Próximamente en ${countryName}`,
+            body: `Vamos a sumar acá las mejores ofertas de casas y apartamentos cerca de ti. Estamos integrando portales locales y publicaciones. ¡Vuelve pronto!`,
+            hint: `Mientras tanto, probá con otro país desde el menú superior.`,
+          }
+        : {
+            title: `Em breve em ${countryName}`,
+            body: `Em breve teremos aqui as melhores ofertas de casas e apartamentos perto de você. Estamos integrando portais locais e anúncios. Volte logo!`,
+            hint: `Enquanto isso, experimente outro país no menu superior.`,
+          };
+      grid.innerHTML = `
+        <div class="empty-country">
+          <span class="flag">${FLAGS[state.country] || "🏠"}</span>
+          <h3>${escapeHtml(copy.title)}</h3>
+          <p>${escapeHtml(copy.body)}</p>
+          <p class="countries-hint">${escapeHtml(copy.hint)}</p>
+        </div>`;
+    } else {
+      grid.innerHTML = `<div class="empty">${tr("count.empty")}</div>`;
+    }
     return;
   }
 
