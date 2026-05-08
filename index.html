@@ -465,6 +465,11 @@
         <option value="4">4+</option>
       </select>
     </label>
+    <label><span data-i18n="filter.location">Barrio</span>
+      <select id="filterLocation">
+        <option value="">—</option>
+      </select>
+    </label>
     <label><span data-i18n="filter.maxprice">Precio máx.</span><input type="number" id="filterMaxPrice" placeholder="—" /></label>
     <label><input type="checkbox" id="filterFavsOnly" /> <span data-i18n="filter.favsonly">Solo favs</span></label>
     <label><input type="checkbox" id="filterShowExpired" /> <span data-i18n="filter.showexpired">Mostrar vencidas</span></label>
@@ -580,6 +585,7 @@ const I18N = {
     "filter.favsonly": "Solo favs", "filter.showexpired": "Mostrar vencidas", "filter.reset": "Limpiar",
     "filter.sort": "Ordenar", "filter.sort_default": "Sin orden",
     "filter.sort_price_asc": "Precio ↑", "filter.sort_price_desc": "Precio ↓", "filter.sort_location": "Barrio (A-Z)",
+    "filter.location": "Barrio",
     "sources.title": "Fuentes",
     "sources.intro": "Listamos las plataformas que indexamos. Los listings se actualizan a diario.",
     "sources.portales": "Portales", "sources.containers": "Containers", "sources.inmobiliarias": "Inmobiliarias",
@@ -618,6 +624,7 @@ const I18N = {
     "filter.favsonly": "Só favs", "filter.showexpired": "Mostrar vencidas", "filter.reset": "Limpar",
     "filter.sort": "Ordenar", "filter.sort_default": "Sem ordem",
     "filter.sort_price_asc": "Preço ↑", "filter.sort_price_desc": "Preço ↓", "filter.sort_location": "Bairro (A-Z)",
+    "filter.location": "Bairro",
     "sources.title": "Fontes",
     "sources.intro": "Listamos as plataformas que indexamos. Os anúncios atualizam diariamente.",
     "sources.portales": "Portais", "sources.containers": "Containers", "sources.inmobiliarias": "Imobiliárias",
@@ -652,7 +659,7 @@ let state = {
   offers: [],
   sources: null,
   favs: new Set(JSON.parse(localStorage.getItem("favs") || "[]")),
-  filters: { search: "", operation: "", class: "", bedrooms: "", maxPrice: "", favsOnly: false, showExpired: false, sort: "" },
+  filters: { search: "", operation: "", class: "", bedrooms: "", maxPrice: "", favsOnly: false, showExpired: false, sort: "", location: "" },
   pagination: { page: 1, pageSize: 20 },
 };
 
@@ -775,6 +782,7 @@ function renderGrid() {
     if (f.operation && o.operation !== f.operation) return false;
     if (f.class && o.class !== f.class) return false;
     if (f.bedrooms && (o.bedrooms || 0) < parseInt(f.bedrooms)) return false;
+    if (f.location && o.location !== f.location) return false;
     if (f.maxPrice && o.price > parseFloat(f.maxPrice)) return false;
     if (f.favsOnly && !state.favs.has(o.id)) return false;
     if (f.search) {
@@ -1061,6 +1069,8 @@ async function init() {
     state.country = e.target.value;
     localStorage.setItem("country", state.country);
     document.getElementById("countryFlag").textContent = FLAGS[state.country];
+    state.filters.location = "";
+    populateLocationSelect();
     renderGrid();
     renderSources();
   });
@@ -1071,7 +1081,7 @@ async function init() {
   });
 
   // filters
-  ["filterSearch","filterOperation","filterClass","filterBedrooms","filterMaxPrice","filterSort"].forEach(id => {
+  ["filterSearch","filterOperation","filterClass","filterBedrooms","filterMaxPrice","filterSort","filterLocation"].forEach(id => {
     document.getElementById(id).addEventListener("input", e => {
       const key = id.replace("filter", "").toLowerCase().replace("maxprice", "maxPrice");
       state.filters[key] = e.target.value;
@@ -1090,7 +1100,7 @@ async function init() {
     renderGrid();
   });
   document.getElementById("resetBtn").addEventListener("click", () => {
-    state.filters = { search:"", operation:"", class:"", bedrooms:"", maxPrice:"", favsOnly:false, showExpired:false, sort:"" };
+    state.filters = { search:"", operation:"", class:"", bedrooms:"", maxPrice:"", favsOnly:false, showExpired:false, sort:"", location:"" };
     document.querySelectorAll(".filters input, .filters select").forEach(el => {
       if (el.type === "checkbox") el.checked = false;
       else el.value = "";
@@ -1193,8 +1203,19 @@ Obrigado.`;
 
   // load data
   await Promise.all([loadOffers(), loadSources()]);
+  populateLocationSelect();
   renderGrid();
   renderSources();
+}
+
+function populateLocationSelect() {
+  const sel = document.getElementById("filterLocation");
+  if (!sel) return;
+  const locs = [...new Set(state.offers
+    .filter(o => o.country === state.country && o.location)
+    .map(o => o.location))].sort((a, b) => a.localeCompare(b, "es", {sensitivity: "base"}));
+  const dash = state.lang === "es" ? "—" : "—";
+  sel.innerHTML = `<option value="">${dash}</option>` + locs.map(l => `<option value="${l.replace(/"/g, "&quot;")}">${l}</option>`).join("");
 }
 
 init();
