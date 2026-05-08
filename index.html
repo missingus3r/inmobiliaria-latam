@@ -468,6 +468,14 @@
     <label><span data-i18n="filter.maxprice">Precio máx.</span><input type="number" id="filterMaxPrice" placeholder="—" /></label>
     <label><input type="checkbox" id="filterFavsOnly" /> <span data-i18n="filter.favsonly">Solo favs</span></label>
     <label><input type="checkbox" id="filterShowExpired" /> <span data-i18n="filter.showexpired">Mostrar vencidas</span></label>
+    <label><span data-i18n="filter.sort">Ordenar</span>
+      <select id="filterSort">
+        <option value="" data-i18n="filter.sort_default">Sin orden</option>
+        <option value="price-asc" data-i18n="filter.sort_price_asc">Precio ↑</option>
+        <option value="price-desc" data-i18n="filter.sort_price_desc">Precio ↓</option>
+        <option value="location-asc" data-i18n="filter.sort_location">Barrio (A-Z)</option>
+      </select>
+    </label>
     <button class="reset" id="resetBtn" data-i18n="filter.reset">Limpiar</button>
   </div>
 
@@ -570,6 +578,8 @@ const I18N = {
     "filter.class": "Tipo", "filter.casa": "Casa", "filter.apto": "Apartamento", "filter.container": "Container",
     "filter.bedrooms": "Dorms", "filter.maxprice": "Precio máx.",
     "filter.favsonly": "Solo favs", "filter.showexpired": "Mostrar vencidas", "filter.reset": "Limpiar",
+    "filter.sort": "Ordenar", "filter.sort_default": "Sin orden",
+    "filter.sort_price_asc": "Precio ↑", "filter.sort_price_desc": "Precio ↓", "filter.sort_location": "Barrio (A-Z)",
     "sources.title": "Fuentes",
     "sources.intro": "Listamos las plataformas que indexamos. Los listings se actualizan a diario.",
     "sources.portales": "Portales", "sources.containers": "Containers", "sources.inmobiliarias": "Inmobiliarias",
@@ -606,6 +616,8 @@ const I18N = {
     "filter.class": "Tipo", "filter.casa": "Casa", "filter.apto": "Apartamento", "filter.container": "Container",
     "filter.bedrooms": "Quartos", "filter.maxprice": "Preço máx.",
     "filter.favsonly": "Só favs", "filter.showexpired": "Mostrar vencidas", "filter.reset": "Limpar",
+    "filter.sort": "Ordenar", "filter.sort_default": "Sem ordem",
+    "filter.sort_price_asc": "Preço ↑", "filter.sort_price_desc": "Preço ↓", "filter.sort_location": "Bairro (A-Z)",
     "sources.title": "Fontes",
     "sources.intro": "Listamos as plataformas que indexamos. Os anúncios atualizam diariamente.",
     "sources.portales": "Portais", "sources.containers": "Containers", "sources.inmobiliarias": "Imobiliárias",
@@ -640,7 +652,7 @@ let state = {
   offers: [],
   sources: null,
   favs: new Set(JSON.parse(localStorage.getItem("favs") || "[]")),
-  filters: { search: "", operation: "", class: "", bedrooms: "", maxPrice: "", favsOnly: false, showExpired: false },
+  filters: { search: "", operation: "", class: "", bedrooms: "", maxPrice: "", favsOnly: false, showExpired: false, sort: "" },
   pagination: { page: 1, pageSize: 20 },
 };
 
@@ -772,6 +784,11 @@ function renderGrid() {
     }
     return true;
   });
+
+  // sort
+  if (f.sort === "price-asc") filtered.sort((a, b) => (a.price || 0) - (b.price || 0));
+  else if (f.sort === "price-desc") filtered.sort((a, b) => (b.price || 0) - (a.price || 0));
+  else if (f.sort === "location-asc") filtered.sort((a, b) => (a.location || "").localeCompare(b.location || "", "es", {sensitivity: "base"}));
 
   const totalCountry = state.offers.filter(o => o.country === state.country).length;
   const cnt = document.getElementById("countLabel");
@@ -1054,7 +1071,7 @@ async function init() {
   });
 
   // filters
-  ["filterSearch","filterOperation","filterClass","filterBedrooms","filterMaxPrice"].forEach(id => {
+  ["filterSearch","filterOperation","filterClass","filterBedrooms","filterMaxPrice","filterSort"].forEach(id => {
     document.getElementById(id).addEventListener("input", e => {
       const key = id.replace("filter", "").toLowerCase().replace("maxprice", "maxPrice");
       state.filters[key] = e.target.value;
@@ -1073,7 +1090,7 @@ async function init() {
     renderGrid();
   });
   document.getElementById("resetBtn").addEventListener("click", () => {
-    state.filters = { search:"", operation:"", class:"", bedrooms:"", maxPrice:"", favsOnly:false, showExpired:false };
+    state.filters = { search:"", operation:"", class:"", bedrooms:"", maxPrice:"", favsOnly:false, showExpired:false, sort:"" };
     document.querySelectorAll(".filters input, .filters select").forEach(el => {
       if (el.type === "checkbox") el.checked = false;
       else el.value = "";
