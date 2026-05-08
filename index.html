@@ -249,6 +249,83 @@
     padding: 40px; text-align: center; color: var(--ink-soft);
     background: var(--bg-2); border: 1px dashed var(--line); border-radius: 10px;
   }
+
+  /* CARD click affordance */
+  .card { cursor: pointer; }
+  .card .thumb { background-color: var(--pill); }
+  .card .thumb.no-img {
+    display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(135deg, var(--pill), var(--bg-2));
+  }
+  .card .thumb.no-img .go-link {
+    background: var(--accent); color: white; padding: 8px 14px; border-radius: 6px;
+    font-size: 13px; font-weight: 600; text-decoration: none;
+  }
+  .card .thumb.no-img .go-link:hover { background: var(--accent-soft); }
+
+  /* ACTIVE FILTERS CHIPS */
+  .active-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; align-items: center; }
+  .active-filters .chip {
+    background: var(--accent); color: white; padding: 4px 10px;
+    border-radius: 14px; font-size: 12px; display: inline-flex; gap: 6px; align-items: center;
+  }
+  .active-filters .chip button {
+    background: rgba(255,255,255,0.3); color: white; border: none;
+    width: 16px; height: 16px; border-radius: 50%; cursor: pointer;
+    font-size: 10px; line-height: 1; padding: 0;
+  }
+  .active-filters .clear-all {
+    background: transparent; color: var(--accent); border: 1px solid var(--accent);
+    padding: 4px 10px; border-radius: 14px; font-size: 12px; cursor: pointer;
+  }
+
+  /* MODAL */
+  .modal-backdrop {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 200;
+    display: none; align-items: center; justify-content: center; padding: 16px;
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal {
+    background: var(--bg-2); border: 1px solid var(--line); border-radius: 12px;
+    max-width: 720px; width: 100%; max-height: 90vh; overflow: auto;
+    display: grid; grid-template-rows: auto auto 1fr;
+  }
+  .modal .modal-img {
+    aspect-ratio: 16/9; background: var(--pill); background-size: cover; background-position: center;
+    border-radius: 12px 12px 0 0; position: relative;
+  }
+  .modal .modal-img.no-img {
+    display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(135deg, var(--pill), var(--bg));
+  }
+  .modal .modal-close {
+    position: absolute; top: 10px; right: 10px;
+    background: rgba(0,0,0,0.6); color: white; border: none;
+    width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 18px;
+  }
+  .modal .modal-body { padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+  .modal .modal-price { font-size: 28px; font-weight: 700; color: var(--ink); }
+  .modal .modal-title { font-size: 18px; color: var(--ink); margin: 0; }
+  .modal .modal-meta-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px; padding: 12px; background: var(--pill); border-radius: 8px;
+  }
+  .modal .modal-meta-grid div { font-size: 13px; color: var(--ink-soft); }
+  .modal .modal-meta-grid div b { display: block; color: var(--ink); font-size: 16px; margin-top: 2px; }
+  .modal .modal-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .modal .modal-actions .btn { flex: 1; text-align: center; min-width: 200px; }
+  .modal .modal-fav {
+    background: transparent; border: 1px solid var(--line); color: var(--ink);
+    padding: 10px 14px; border-radius: 8px; cursor: pointer; font-size: 14px;
+  }
+  .modal .modal-fav.active { color: #b91c1c; border-color: #b91c1c; }
+  .modal .modal-source { font-size: 12px; color: var(--muted); }
+  .modal .badge-row { display: flex; gap: 6px; flex-wrap: wrap; }
+  .modal .badge-row span {
+    background: var(--pill); color: var(--ink-soft);
+    padding: 3px 10px; border-radius: 12px; font-size: 12px;
+  }
+  .modal .badge-row span.warn { background: var(--warn); color: white; }
 </style>
 </head>
 <body>
@@ -335,6 +412,7 @@
     <button class="reset" id="resetBtn" data-i18n="filter.reset">Limpiar</button>
   </div>
 
+  <div class="active-filters" id="activeFilters"></div>
   <div class="count" id="countLabel">Cargando…</div>
   <div class="grid" id="grid"></div>
 </section>
@@ -388,6 +466,25 @@
   LatamHouse · <span data-i18n="footer.tagline">datos abiertos, sin tracking, sin servidor</span> ·
   <a href="https://github.com/missingus3r/inmobiliaria-latam" target="_blank">GitHub</a>
 </footer>
+
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <div class="modal-img" id="modalImg">
+      <button class="modal-close" id="modalClose" aria-label="cerrar">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="badge-row" id="modalBadges"></div>
+      <div class="modal-price" id="modalPrice"></div>
+      <h3 class="modal-title" id="modalTitle"></h3>
+      <div class="modal-meta-grid" id="modalMetaGrid"></div>
+      <div class="modal-source" id="modalSource"></div>
+      <div class="modal-actions">
+        <a class="btn" id="modalGoLink" target="_blank" rel="noopener">Ver en el portal ↗</a>
+        <button class="modal-fav" id="modalFavBtn">🤍 Guardar en favoritos</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div id="favBanner">
   <div class="row">
@@ -538,7 +635,51 @@ function priceFmt(o) {
   const sym = CURRENCY_SYMBOL[o.currency] || o.currency;
   return `${sym} ${o.price.toLocaleString("es-UY")}`;
 }
+function escapeHtml(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+function activeFilterLabels() {
+  const f = state.filters;
+  const out = [];
+  if (f.operation) out.push({key:"operation", label: f.operation});
+  if (f.class) out.push({key:"class", label: f.class});
+  if (f.bedrooms) out.push({key:"bedrooms", label: `${f.bedrooms}+ ${tr("filter.bedrooms").toLowerCase()}`});
+  if (f.maxPrice) out.push({key:"maxPrice", label: `≤ ${parseFloat(f.maxPrice).toLocaleString()}`});
+  if (f.favsOnly) out.push({key:"favsOnly", label: tr("filter.favsonly")});
+  if (f.search) out.push({key:"search", label: `"${f.search}"`});
+  return out;
+}
+
+function renderActiveFilters() {
+  const el = document.getElementById("activeFilters");
+  const chips = activeFilterLabels();
+  if (chips.length === 0) { el.innerHTML = ""; return; }
+  el.innerHTML = chips.map(c =>
+    `<span class="chip">${escapeHtml(c.label)}<button data-key="${c.key}" aria-label="quitar">×</button></span>`
+  ).join("") + `<button class="clear-all" id="clearAllFilters">${state.lang==="es"?"Limpiar todos":"Limpar tudo"}</button>`;
+
+  el.querySelectorAll(".chip button").forEach(b => {
+    b.addEventListener("click", e => {
+      const key = e.currentTarget.dataset.key;
+      if (key === "favsOnly") state.filters.favsOnly = false;
+      else state.filters[key] = "";
+      // sync the form controls
+      const formId = {operation:"filterOperation",class:"filterClass",bedrooms:"filterBedrooms",maxPrice:"filterMaxPrice",search:"filterSearch",favsOnly:"filterFavsOnly"}[key];
+      const ctl = document.getElementById(formId);
+      if (ctl) {
+        if (ctl.type === "checkbox") ctl.checked = false;
+        else ctl.value = "";
+      }
+      renderGrid();
+    });
+  });
+  const clearAll = document.getElementById("clearAllFilters");
+  if (clearAll) clearAll.addEventListener("click", () => document.getElementById("resetBtn").click());
+}
+
 function renderGrid() {
+  renderActiveFilters();
   const grid = document.getElementById("grid");
   const f = state.filters;
   const filtered = state.offers.filter(o => {
@@ -558,34 +699,60 @@ function renderGrid() {
 
   const totalCountry = state.offers.filter(o => o.country === state.country).length;
   const cnt = document.getElementById("countLabel");
-  cnt.textContent = filtered.length === 0 ? tr("count.empty") : tr("count.results")(filtered.length, totalCountry);
+  const hasFilters = activeFilterLabels().length > 0;
+  if (filtered.length === 0) {
+    cnt.textContent = tr("count.empty");
+  } else if (hasFilters) {
+    cnt.textContent = state.lang === "es"
+      ? `Mostrando ${filtered.length} (de ${totalCountry} totales en ${state.country} sin filtros)`
+      : `Mostrando ${filtered.length} (de ${totalCountry} totais em ${state.country} sem filtros)`;
+  } else {
+    cnt.textContent = state.lang === "es"
+      ? `${filtered.length} propiedades en ${state.country}`
+      : `${filtered.length} imóveis em ${state.country}`;
+  }
 
   if (filtered.length === 0) {
     grid.innerHTML = `<div class="empty">${tr("count.empty")}</div>`;
     return;
   }
 
-  grid.innerHTML = filtered.map(o => {
-    const img = o.images?.[0] || "";
+  grid.innerHTML = filtered.map((o, idx) => {
+    const img = (o.images && o.images[0]) || "";
     const fav = state.favs.has(o.id);
     const expired = o.estado === "vencida";
+    const goLabel = state.lang === "es" ? "Ir a la publicación ↗" : "Ver no portal ↗";
+    const sinFoto = state.lang === "es" ? "Sin foto disponible" : "Sem foto disponível";
+    // we use <img> with onerror to detect broken images and swap to fallback
+    const thumbInner = img
+      ? `<img src="${escapeHtml(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;" onerror="this.parentElement.classList.add('no-img');this.style.display='none';this.parentElement.querySelector('.no-img-content').style.display='flex';" />`
+      : "";
+    const noImgContent = `
+      <div class="no-img-content" style="display:${img ? "none" : "flex"};flex-direction:column;gap:8px;align-items:center;text-align:center;padding:14px;">
+        <span style="font-size:12px;color:var(--ink-soft);">${sinFoto}</span>
+        <a class="go-link" href="${escapeHtml(o.link)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${goLabel}</a>
+      </div>`;
     return `
-      <div class="card">
-        <div class="thumb" style="background-image:url('${img}')">
-          ${expired ? `<span class="badge warn">${state.lang === "es" ? "vencida" : "vencida"}</span>` : `<span class="badge">${o.operation}</span>`}
-          <button class="fav-btn ${fav ? "active" : ""}" data-id="${o.id}" aria-label="fav">${fav ? "❤️" : "🤍"}</button>
+      <div class="card" data-idx="${idx}">
+        <div class="thumb${img ? "" : " no-img"}">
+          ${thumbInner}
+          ${noImgContent}
+          ${expired ? `<span class="badge warn">${state.lang === "es" ? "vencida" : "vencida"}</span>` : `<span class="badge">${escapeHtml(o.operation)}</span>`}
+          <button class="fav-btn ${fav ? "active" : ""}" data-id="${escapeHtml(o.id)}" aria-label="fav" onclick="event.stopPropagation()">${fav ? "❤️" : "🤍"}</button>
         </div>
         <div class="body">
           <div class="price">${priceFmt(o)}</div>
-          <p class="title">${o.title}</p>
-          <div class="meta">${o.bedrooms || "?"} ${state.lang === "es" ? "dorms" : "qrt"} · ${o.area_m2 || "?"} m² · ${o.location || ""}</div>
-          <div class="source"><a href="${o.link}" target="_blank" rel="noopener">${o.platform} ↗</a></div>
+          <p class="title">${escapeHtml(o.title)}</p>
+          <div class="meta">${o.bedrooms ?? "?"} ${state.lang === "es" ? "dorms" : "qrt"} · ${o.area_m2 ?? "?"} m² · ${escapeHtml(o.location || "")}</div>
+          <div class="source">${escapeHtml(o.platform)}</div>
         </div>
       </div>`;
   }).join("");
 
+  // wire fav buttons
   grid.querySelectorAll(".fav-btn").forEach(b => {
     b.addEventListener("click", e => {
+      e.stopPropagation();
       const id = e.currentTarget.dataset.id;
       if (state.favs.has(id)) state.favs.delete(id);
       else state.favs.add(id);
@@ -593,6 +760,98 @@ function renderGrid() {
       renderGrid();
     });
   });
+
+  // wire card click → modal
+  grid.querySelectorAll(".card").forEach(card => {
+    card.addEventListener("click", () => {
+      const idx = parseInt(card.dataset.idx);
+      openModal(filtered[idx]);
+    });
+  });
+}
+
+// ---------- MODAL ----------
+function openModal(o) {
+  const backdrop = document.getElementById("modalBackdrop");
+  const img = (o.images && o.images[0]) || "";
+  const modalImg = document.getElementById("modalImg");
+  const sinFoto = state.lang === "es" ? "Sin foto" : "Sem foto";
+  if (img) {
+    modalImg.style.backgroundImage = `url('${img}')`;
+    modalImg.classList.remove("no-img");
+    // probe image to detect broken
+    const probe = new Image();
+    probe.onerror = () => {
+      modalImg.style.backgroundImage = "";
+      modalImg.classList.add("no-img");
+      modalImg.querySelector(".fallback-msg")?.remove();
+      const m = document.createElement("div");
+      m.className = "fallback-msg";
+      m.style.cssText = "color:var(--ink-soft);font-size:13px;";
+      m.textContent = sinFoto;
+      modalImg.appendChild(m);
+    };
+    probe.src = img;
+  } else {
+    modalImg.style.backgroundImage = "";
+    modalImg.classList.add("no-img");
+    modalImg.querySelector(".fallback-msg")?.remove();
+    const m = document.createElement("div");
+    m.className = "fallback-msg";
+    m.style.cssText = "color:var(--ink-soft);font-size:13px;";
+    m.textContent = sinFoto;
+    modalImg.appendChild(m);
+  }
+
+  document.getElementById("modalPrice").textContent = priceFmt(o);
+  document.getElementById("modalTitle").textContent = o.title;
+
+  const meta = document.getElementById("modalMetaGrid");
+  const labels = state.lang === "es"
+    ? {b:"Dormitorios", ba:"Baños", a:"Área", l:"Ubicación", c:"Tipo", op:"Operación"}
+    : {b:"Quartos", ba:"Banheiros", a:"Área", l:"Localização", c:"Tipo", op:"Operação"};
+  meta.innerHTML = `
+    <div>${labels.b}<b>${o.bedrooms ?? "—"}</b></div>
+    <div>${labels.ba}<b>${o.bathrooms ?? "—"}</b></div>
+    <div>${labels.a}<b>${o.area_m2 ? o.area_m2 + " m²" : "—"}</b></div>
+    <div>${labels.l}<b>${escapeHtml(o.location || "—")}</b></div>
+    <div>${labels.c}<b>${escapeHtml(o.class)}</b></div>
+    <div>${labels.op}<b>${escapeHtml(o.operation)}</b></div>
+  `;
+
+  const badges = document.getElementById("modalBadges");
+  badges.innerHTML = `<span>${escapeHtml(o.platform)}</span>` +
+    (o.estado === "vencida" ? `<span class="warn">${state.lang === "es" ? "vencida" : "vencida"}</span>` : "");
+
+  document.getElementById("modalSource").textContent = state.lang === "es"
+    ? `Fuente: ${o.platform} · id ${o.id}`
+    : `Fonte: ${o.platform} · id ${o.id}`;
+
+  const goLink = document.getElementById("modalGoLink");
+  goLink.href = o.link;
+  goLink.textContent = state.lang === "es" ? "Ver en el portal ↗" : "Ver no portal ↗";
+
+  const favBtn = document.getElementById("modalFavBtn");
+  const updateFavBtn = () => {
+    const fav = state.favs.has(o.id);
+    favBtn.classList.toggle("active", fav);
+    favBtn.textContent = fav
+      ? (state.lang === "es" ? "❤️ En favoritos" : "❤️ Nos favoritos")
+      : (state.lang === "es" ? "🤍 Guardar en favoritos" : "🤍 Salvar nos favoritos");
+  };
+  updateFavBtn();
+  favBtn.onclick = () => {
+    if (state.favs.has(o.id)) state.favs.delete(o.id);
+    else state.favs.add(o.id);
+    localStorage.setItem("favs", JSON.stringify([...state.favs]));
+    updateFavBtn();
+    renderGrid();
+  };
+
+  backdrop.classList.add("open");
+}
+function closeModal() {
+  document.getElementById("modalBackdrop").classList.remove("open");
 }
 
 // ---------- SOURCES ----------
@@ -686,6 +945,15 @@ async function init() {
       activeSourceCat = b.dataset.cat;
       renderSources();
     });
+  });
+
+  // modal: close button + click-outside + ESC
+  document.getElementById("modalClose").addEventListener("click", closeModal);
+  document.getElementById("modalBackdrop").addEventListener("click", e => {
+    if (e.target.id === "modalBackdrop") closeModal();
+  });
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") closeModal();
   });
 
   // fav banner — show 1st time
