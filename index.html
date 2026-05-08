@@ -374,7 +374,6 @@
     <a href="#listings" data-i18n="nav.alquiler" data-filter="Alquiler">Alquiler</a>
     <a href="#listings" data-i18n="nav.venta" data-filter="Venta">Venta</a>
     <a href="#sources" data-i18n="nav.fuentes">Fuentes</a>
-    <a href="#how" data-i18n="nav.como">Cómo funciona</a>
     <a class="coming" data-i18n="nav.cooperativas">Cooperativas</a>
     <a class="coming" data-i18n="nav.asistente">Asistente</a>
   </div>
@@ -462,18 +461,6 @@
     <button data-cat="inmobiliarias" data-i18n="sources.inmobiliarias">Inmobiliarias</button>
   </div>
   <div class="source-list" id="sourceList"></div>
-</section>
-
-<section class="how" id="how">
-  <h2 data-i18n="how.title">Cómo funciona</h2>
-  <p data-i18n="how.body">Un agente local recolecta listings 1× por día desde decenas de portales y los publica acá como JSON estático. El front no tiene servidor: solo lee el JSON. Tus favoritos viven en este navegador (no enviamos nada a un servidor remoto).</p>
-  <div class="flow">
-[fuentes] → scraper.py (cron diario) → offers.json + imágenes → git push → CDN
-                                                                       ↓
-                                          tu navegador ← lee JSON ← carga
-                                                ↓
-                                          favoritos en localStorage
-  </div>
 </section>
 
 <section class="faq">
