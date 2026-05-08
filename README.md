@@ -37,6 +37,7 @@ El scraping no usa Python + requests + OpenAI. Lo hace **Friday** (Claude Code) 
 2. Friday lee `data/sources_full.json`, particiona los ~283 portales en chunks.
 3. Lanza N agentes `Task(subagent_type=general-purpose)` en paralelo, cada uno toma su chunk:
    - `WebFetch` cada URL del chunk.
+   - Si la URL responde con 403/captcha (Cloudflare WAF), invoca el fallback headless: `node backend/headless_scraper.js <url>` que usa Chrome con stealth-plugin.
    - Extrae listings (título, precio, moneda, dorms, área, ubicación, link, foto).
    - Devuelve JSON.
 4. Friday merge + dedupe (`id = sha1(link)[:12]`) en `data/offers.json`.
@@ -45,11 +46,29 @@ El scraping no usa Python + requests + OpenAI. Lo hace **Friday** (Claude Code) 
 
 Los agentes corren con **Sonnet** para optimizar costos vs Opus.
 
+### Headless scraper (`backend/headless_scraper.js`)
+
+Fallback Chrome+Stealth para portales con anti-bot agresivo. Uso:
+
+```bash
+node backend/headless_scraper.js [--mode=extract|html] <url1> [url2] ...
+```
+
+- `--mode=extract` (default): intenta extraer listings con heurística (JSON-LD, microdata, selectores comunes). Output: JSON array de listings con el mismo schema que el frontend espera.
+- `--mode=html`: solo navega y devuelve `{url, status, title, body_len, text}`. Útil cuando un agente downstream va a hacer la extracción con LLM (más robusto a layouts custom).
+
+**Cobertura observada** (08/05/2026):
+- ✅ Bypass funciona: Zonaprop (intermitente), MercadoLibre AR (~48 listings), MercadoLibre UY/CL.
+- ⚠️ Cloudflare interactive challenge: Argenprop, Properati AR/CL — siguen requiriendo residential proxy.
+- ⚠️ Layouts custom (Infocasas, Gallito, TocToc, Portal Inmobiliario): status 200 pero selectores genéricos no matchean → usar `--mode=html` y dejar al LLM extraer.
+
+**Stack**: `puppeteer-core` + `puppeteer-extra` + `puppeteer-extra-plugin-stealth`. Usa Chrome del sistema (`/usr/bin/google-chrome`) — no descarga binario propio.
+
 ## Stack
 
 - **Front**: HTML/CSS/JS vanilla, single file `index.html` (~700 líneas)
 - **Datos**: `data/sources_full.json` + `data/offers.json` + `assets/images/`
-- **Backend**: Python 3 stdlib + `requests` (`backend/validator.py` y `backend/parse_sources.py`)
+- **Backend**: Python 3 stdlib + `requests` (`backend/validator.py` y `backend/parse_sources.py`); Node 22 + `puppeteer-core` + `puppeteer-extra` + stealth plugin (`backend/headless_scraper.js` para portales con WAF)
 - **Pipeline**: `backend/pipeline.sh` (validator + commit + push)
 - **Scraping orchestration**: Friday + crons en `~/.claude/cron-prompts.md`
 
