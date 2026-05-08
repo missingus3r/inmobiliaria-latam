@@ -151,10 +151,14 @@
   }
   .card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
   .card .thumb {
-    aspect-ratio: 16/10; background: var(--pill);
+    width: 100%; height: 180px;
+    background: var(--pill);
     background-size: cover; background-position: center;
     position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
   }
+  .card .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .card .badge {
     position: absolute; top: 8px; left: 8px;
     background: rgba(0,0,0,0.6); color: white;
@@ -732,7 +736,7 @@ function renderGrid() {
     const sinFoto = state.lang === "es" ? "Sin foto disponible" : "Sem foto disponível";
     // we use <img> with onerror to detect broken images and swap to fallback
     const thumbInner = img
-      ? `<img src="${escapeHtml(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;" onerror="this.parentElement.classList.add('no-img');this.style.display='none';this.parentElement.querySelector('.no-img-content').style.display='flex';" />`
+      ? `<img src="${escapeHtml(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.classList.add('no-img');this.style.display='none';this.parentElement.querySelector('.no-img-content').style.display='flex';" />`
       : "";
     const noImgContent = `
       <div class="no-img-content" style="display:${img ? "none" : "flex"};flex-direction:column;gap:8px;align-items:center;text-align:center;padding:14px;">
