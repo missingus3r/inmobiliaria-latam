@@ -1,0 +1,1676 @@
+{
+  "generated_from": "1778264716138-AgAD4gkAAryy8Ec.txt",
+  "countries": {
+    "UY": {
+      "code": "UY",
+      "name": "Uruguay",
+      "currency": "UYU",
+      "currency_secondary": "USD",
+      "portales": [
+        {
+          "name": "Sigaloavarela",
+          "url": "https://www.sigaloavarela.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Puntoinmobiliario",
+          "url": "https://www.puntoinmobiliario.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Altiusgroup",
+          "url": "https://altiusgroup.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Propiedadesensoriano",
+          "url": "https://www.propiedadesensoriano.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Propiedadesendurazno",
+          "url": "https://www.propiedadesendurazno.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Propiedadesmontevideo",
+          "url": "https://www.propiedadesmontevideo.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Listado",
+          "url": "https://listado.mercadolibre.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Infocasas",
+          "url": "https://www.infocasas.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Gallito",
+          "url": "https://www.gallito.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Inmobiliariaimperial",
+          "url": "https://www.inmobiliariaimperial.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Braglia",
+          "url": "https://braglia.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Campiglia",
+          "url": "https://www.campiglia.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Inmobiliariabelvedere",
+          "url": "https://inmobiliariabelvedere.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Inmobiliariaroig",
+          "url": "https://www.inmobiliariaroig.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Aliveresidences",
+          "url": "https://aliveresidences.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Modernapropiedades",
+          "url": "https://www.modernapropiedades.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Prop",
+          "url": "https://prop.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Sacradalmas",
+          "url": "https://www.sacradalmas.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Vitriumcapital",
+          "url": "https://www.vitriumcapital.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Crisciblanco",
+          "url": "https://crisciblanco.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Caladelyacht",
+          "url": "https://caladelyacht.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Fendichateaupunta",
+          "url": "https://fendichateaupunta.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Metdesarrollos",
+          "url": "https://www.metdesarrollos.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Nanalavagna",
+          "url": "https://www.nanalavagna.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Winks",
+          "url": "https://www.winks.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Propiedades",
+          "url": "https://propiedades.exa.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Newland",
+          "url": "https://newland.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Grou",
+          "url": "https://www.grou.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Grourambla",
+          "url": "https://www.grourambla.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Drhousebienesraices",
+          "url": "https://www.drhousebienesraices.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Criba",
+          "url": "https://www.criba.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Lagom",
+          "url": "https://www.lagom.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Gary-otto",
+          "url": "https://www.gary-otto.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Vinsoca",
+          "url": "https://vinsoca.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Ezmaconstrucciones",
+          "url": "https://www.ezmaconstrucciones.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Quierocasa",
+          "url": "https://www.quierocasa.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Mympropiedades",
+          "url": "https://www.mympropiedades.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Inmobiliariamillenium",
+          "url": "https://inmobiliariamillenium.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Pma-realestate",
+          "url": "https://www.pma-realestate.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Realedo",
+          "url": "https://realedo.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Baconstrucciones",
+          "url": "https://www.baconstrucciones.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Bdp",
+          "url": "https://www.bdp.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Hermidapropiedades",
+          "url": "https://www.hermidapropiedades.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Piresbenlian",
+          "url": "https://www.piresbenlian.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Remax",
+          "url": "https://www.remax.com.uy/",
+          "type": "Portal"
+        },
+        {
+          "name": "Torrescardinal",
+          "url": "https://torrescardinal.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Rossanabonora",
+          "url": "https://www.rossanabonora.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Propiedades",
+          "url": "https://propiedades.everesturuguay.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Lascampanas",
+          "url": "https://www.lascampanas.uy/",
+          "type": "Portal"
+        }
+      ],
+      "containers": [
+        {
+          "name": "Lphousecontainer",
+          "url": "https://lphousecontainer.uy/",
+          "type": "Container"
+        },
+        {
+          "name": "Multicontainer",
+          "url": "https://multicontainer.com/",
+          "type": "Container"
+        },
+        {
+          "name": "Pluscontainer",
+          "url": "https://www.pluscontainer.com.uy/",
+          "type": "Container"
+        },
+        {
+          "name": "Misterconstrucciones",
+          "url": "https://misterconstrucciones.uy/",
+          "type": "Container"
+        },
+        {
+          "name": "Eleve",
+          "url": "https://www.eleve.com.uy/",
+          "type": "Container"
+        },
+        {
+          "name": "Tucasacontainer",
+          "url": "https://tucasacontainer.com/",
+          "type": "Container"
+        },
+        {
+          "name": "Livingcontainers",
+          "url": "https://www.livingcontainers.com.uy/",
+          "type": "Container"
+        },
+        {
+          "name": "Decotainer",
+          "url": "https://decotainer.uy/",
+          "type": "Container"
+        },
+        {
+          "name": "Homecontainersuruguay",
+          "url": "https://homecontainersuruguay.com/",
+          "type": "Container"
+        },
+        {
+          "name": "Agrocontainers",
+          "url": "https://www.agrocontainers.com.uy/",
+          "type": "Container"
+        },
+        {
+          "name": "Zonacontainer",
+          "url": "https://zonacontainer.com.uy/",
+          "type": "Container"
+        },
+        {
+          "name": "Decasurhouse",
+          "url": "https://www.decasurhouse.com.uy/",
+          "type": "Container"
+        },
+        {
+          "name": "Totalcontainers",
+          "url": "https://totalcontainers.uy/",
+          "type": "Container"
+        },
+        {
+          "name": "Atlanticcontainers",
+          "url": "https://atlanticcontainers.com.uy/",
+          "type": "Container"
+        },
+        {
+          "name": "Berardipropiedades",
+          "url": "https://berardipropiedades.com/",
+          "type": "Container"
+        },
+        {
+          "name": "Zapata",
+          "url": "https://www.zapata.uy/",
+          "type": "Container"
+        }
+      ],
+      "inmobiliarias": [
+        {
+          "name": "A.C.R. Inmobiliaria",
+          "url": "https://www.acr.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/ACR.jpg"
+        },
+        {
+          "name": "Abacos Inmobiliaria",
+          "url": "https://www.abacos.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "Título: Abrehaus Inmobiliaria, Link: www.abrehaus.com.uy, Imagen:"
+        },
+        {
+          "name": "Acapulco Inmobiliaria LTDA.",
+          "url": "https://acapulcoinmobiliaria.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Acapulco-Inmobiliaria-LTDA..jpg"
+        },
+        {
+          "name": "Acción Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Acerenza & Amestoy, Link: acerenzayamestoy.com.uy, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/logoInmobiliariaAcerenza-Amestoy-Propiedades.jpg"
+        },
+        {
+          "name": "ACSA",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/acsa.jpg"
+        },
+        {
+          "name": "Ad^Orbis Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Adall Propiedades, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga1.jpg"
+        },
+        {
+          "name": "Address",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Adi Inmobiliaria, Link: adipropiedades.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Adi-Inmobiliaria.jpg"
+        },
+        {
+          "name": "Administración Dupont",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Administración Florio, Link: None, Imagen:"
+        },
+        {
+          "name": "Administración Veiga",
+          "url": "https://veiga.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Veiga-Administración.png"
+        },
+        {
+          "name": "Agata Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/agata.jpg"
+        },
+        {
+          "name": "Agora Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/agora-propiedades.jpg"
+        },
+        {
+          "name": "Agosto Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Aguilera Inmuebles, Link: None, Imagen:"
+        },
+        {
+          "name": "Aguilera Inmuebles",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Agustín García Helguera, Link: www.agh.inmobiliaria.com.uy, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga.jpg"
+        },
+        {
+          "name": "Alana Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Alba Vende, Link: www.albavende.tk, Imagen:"
+        },
+        {
+          "name": "Albanell Negocios Inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Aldaba Negocios Inmobiliarios, Link: None, Imagen:"
+        },
+        {
+          "name": "Aldama Inmuebles & Pro/Casa",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Alejandra Basigaluz Propiedades, Link: alejandrabasigaluz, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/alejandra.gif"
+        },
+        {
+          "name": "Alhambra Propiedades",
+          "url": "https://www.alhambrapropiedades.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/alhambra.jpg"
+        },
+        {
+          "name": "Alianza Inmobiliarias",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/alianza-inmobiliaria.jpg"
+        },
+        {
+          "name": "Alicia Rubio Propiedades",
+          "url": "https://www.aliciarubio.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/alicia-rubio.gif"
+        },
+        {
+          "name": "All House Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Allas Inmobiliarias, Link: None, Imagen:"
+        },
+        {
+          "name": "Alonso Inmuebles",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Alsur Negocios Inmobiliarios, Link: None, Imagen:"
+        },
+        {
+          "name": "Ananikian Propiedades",
+          "url": "https://www.ananikian.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/ananikian2.jpg"
+        },
+        {
+          "name": "Anfil Inmobiliaria",
+          "url": "https://www.grupoanfil.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/anfil.png"
+        },
+        {
+          "name": "Antares Propiedades Srl.",
+          "url": "https://antarespropiedades.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/logoInmobiliariaAntares.gif.jpg"
+        },
+        {
+          "name": "ANTIBES",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Anval Propiedades, Link: www.anvalpropiedades.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga15.jpg"
+        },
+        {
+          "name": "Aqui-techo LTDA.",
+          "url": "https://www.aquitecho.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/logo.gif"
+        },
+        {
+          "name": "Arbeleche Bessonart & Asociados",
+          "url": "https://www.arbeleche.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga2.jpg"
+        },
+        {
+          "name": "Arco`s Negocios Inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Arditti Propiedades, Link: ardittipropiedades.com.uy, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/arditti.jpg"
+        },
+        {
+          "name": "Areti Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Arkontes Negocios Inmobiliarios, Link: arkontes.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Arkontes-Negocios-Inmobiliarios.jpg"
+        },
+        {
+          "name": "Armo Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Arrillaga & Gorlero Propiedades, Link: None, Imagen:"
+        },
+        {
+          "name": "Arteaga Hill Oficina Union",
+          "url": "https://arteagahillpropiedades.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Arteaga-Hill-Oficina-Union.gif"
+        },
+        {
+          "name": "Arteaga Hill Propiedades",
+          "url": "https://arteagahillpropiedades.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/artehaga-hill.png"
+        },
+        {
+          "name": "Asadourian Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Asesores Asociados, Link: www.asesoresasociados.com.uy, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/asesores-asociados.gif"
+        },
+        {
+          "name": "Atenea Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/atenealogo.jpg"
+        },
+        {
+          "name": "Atlantica Castells & Castells",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/castells.jpg"
+        },
+        {
+          "name": "Augusto D. Turenne Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga3.jpg"
+        },
+        {
+          "name": "Aval Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/aval.jpg"
+        },
+        {
+          "name": "Ayarza Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Ayarza-Propiedades-Centro-Montevideo.png"
+        },
+        {
+          "name": "B Y L Negocios Inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Balvi Negocios Inmobiliarios, Link: balvinegociosinmobiliarios.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/balbi.png"
+        },
+        {
+          "name": "Berardi Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Berlasi, Link: None, Imagen:"
+        },
+        {
+          "name": "Bernasconi Propiedades",
+          "url": "https://inmobiliariasmontevideo.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/bernasconi.png"
+        },
+        {
+          "name": "Bien Seguro",
+          "url": "https://bienseguro.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Bien-seguro.png"
+        },
+        {
+          "name": "Blegio Inmobiliaria",
+          "url": "https://blengio.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Inmobiliaria-Blengio.jpg"
+        },
+        {
+          "name": "Boulevard Negocios Inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Breccia Propiedades, Link: brecciapropiedades.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Breccia-Propiedades.jpg"
+        },
+        {
+          "name": "Bruno Inmobiliaria",
+          "url": "https://www.bruno.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/bruno-inmobiliaria.jpg"
+        },
+        {
+          "name": "Buysan Propiedades",
+          "url": "https://buysan.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Buysan-Paso-Carrasco.png"
+        },
+        {
+          "name": "Cafer ltda. Casanova Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Cajarville Estudio, Link: www.estudiocajarville.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Estudio-Cajarville.jpg"
+        },
+        {
+          "name": "Calasis Arq. Estudio",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Caldeyro Stajano Inmobiliaria Rurales, Link: casas.caldeyro.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/caldyro.jpg"
+        },
+        {
+          "name": "Calero Bienes Raices",
+          "url": "https://www.calerobienes.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Captura.png"
+        },
+        {
+          "name": "Canepa & Canepa – Sucursal",
+          "url": "https://canepa.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/canepa-Canepa-Sucursal.png"
+        },
+        {
+          "name": "Carmel Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/carmen-inmo.jpg"
+        },
+        {
+          "name": "Carmen Martínez Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga4.jpg"
+        },
+        {
+          "name": "Carolina Núnez Propiedades",
+          "url": "https://carolinanunez.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Carolina-Núnez-Propiedades.jpg"
+        },
+        {
+          "name": "Casatroja Negocios Inmobiliarios",
+          "url": "https://casatroja.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/InmobiliariaCasatroja-Negocios-Inmobiliarios.jpg"
+        },
+        {
+          "name": "Castello",
+          "url": "https://inmobiliariacastello.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/catello.jpg"
+        },
+        {
+          "name": "Catañy Luis Propiedades",
+          "url": "https://www.catany.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Catañy-Propiedades-Punta-Carretas-Montevideo.gif"
+        },
+        {
+          "name": "Celia Barasch Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Cencio Negocios Inmobiliarios, Link: None, Imagen:"
+        },
+        {
+          "name": "Cetrangolo Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/cetrangolo.jpg"
+        },
+        {
+          "name": "Christophersen Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Christophersen-Inmobiliaria.jpg"
+        },
+        {
+          "name": "Ciarco`s S.R.L.",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Circulo del Prado S.R.L., Link: None, Imagen:"
+        },
+        {
+          "name": "Ciudad Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga5.jpg"
+        },
+        {
+          "name": "Claudio Poggio & Asoc. Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/claudio-poggio.jpg"
+        },
+        {
+          "name": "Company & Romero",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/companyromero-e1355249301442.jpg"
+        },
+        {
+          "name": "Cordon 2001",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Cossatti Inmobiliaria, Link: None, Imagen:"
+        },
+        {
+          "name": "Crisci Blanco Propiedades",
+          "url": "https://crisciblanco.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Crisci-Blanco-Propiedades-Pocitos.jpg"
+        },
+        {
+          "name": "Cristal S.R.L. Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Cristina Ottonello Negocios Inmobiliarios, Link: cristinaottonello.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Cristina-Ottonello-Negocios-Inmobiliarios.gif"
+        },
+        {
+          "name": "CRITERIO INMOBILIARIO",
+          "url": "http://www.criterio.com.uy/",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2013/02/logo.jpg"
+        },
+        {
+          "name": "Dario D’angelo Propiedades",
+          "url": "https://dangelopropiedades.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Dario-Dangelo.png"
+        },
+        {
+          "name": "Daver Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/daver.gif"
+        },
+        {
+          "name": "De Arteaga Servicios Inmobiliarios",
+          "url": "https://dearteaga.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/De-Artega.jpg"
+        },
+        {
+          "name": "Deambrosis & CIA",
+          "url": "https://deambrosis.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Deambrosis-CIA-Punta-Carretas.jpg"
+        },
+        {
+          "name": "Del Rey Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/logoInmobiliariaDel-Rey-Propiedades.gif.jpg"
+        },
+        {
+          "name": "Di Matteo Negocios Inmobiliarios",
+          "url": "https://www.dimatteo.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/di-matteo.jpg"
+        },
+        {
+          "name": "Diri Administraciones",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Domus Propiedades, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/domus.png"
+        },
+        {
+          "name": "Duque Propìedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/duque.gif"
+        },
+        {
+          "name": "Echaider",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Echenique Inmobiliaria, Link: None, Imagen:"
+        },
+        {
+          "name": "Echeverria y Olivera Inmobiliaria.",
+          "url": "http://www.eyo.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/eyo.gif"
+        },
+        {
+          "name": "Edmar",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Ekumpua, Link: None, Imagen:"
+        },
+        {
+          "name": "El Faro Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/faro-propiedades.jpg"
+        },
+        {
+          "name": "Ele-Be Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Elina Buela Negocios Inmobiliarios, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga6.jpg"
+        },
+        {
+          "name": "Emprendimientos Inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Enlace Propiedades, Link: None, Imagen:"
+        },
+        {
+          "name": "Equipo Cuatro",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/equipo-quatro.png"
+        },
+        {
+          "name": "Estela Montedonico Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Estudio Amay & Asociados, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga16.jpg"
+        },
+        {
+          "name": "Estudio Carlos José Lecueder",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Estudio del Sur Negocios Inmobiliarios, Link: None, Imagen:"
+        },
+        {
+          "name": "Estudio Delorenzo LTDA.",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Estudio Inmobiliario VIP, Link: estudiovip.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/VIP-Estudio-Inmobiliario-Punta-Carretas.jpg"
+        },
+        {
+          "name": "Estudio LTI",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Estudio Tobia-Martinez y Asociados, Link: None, Imagen:"
+        },
+        {
+          "name": "Estudio Toscano",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Eusebio Belino Mesa-Virginia Rubio, Link: None, Imagen:"
+        },
+        {
+          "name": "Fachola Propiedades",
+          "url": "https://www.facholapropiedades.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/fachola.jpg"
+        },
+        {
+          "name": "Fascioli Administraciones",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/logo_facioli.jpg"
+        },
+        {
+          "name": "Fortuna Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Foti Negocios Inmobiliarios, Link: foti.com.uy, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Foti-Negocios-Inmobiliarios.jpg"
+        },
+        {
+          "name": "Fraga Negocios Inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/fraga-negocios.jpg"
+        },
+        {
+          "name": "Franco Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/logo-franco.png"
+        },
+        {
+          "name": "Frattini & Mocchi Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/frattini.gif"
+        },
+        {
+          "name": "Frechou Ricardo Propiedades",
+          "url": "https://www.frechou.com.uy/sitio",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Ricardo-Frechou-Prop..jpg"
+        },
+        {
+          "name": "Frederick Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: G y S Negocios Inmobiliarios y Rurales, Link: gys.com.uy, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/G-y-S-Bienes-Raices.png"
+        },
+        {
+          "name": "Galicia Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Gamberoni Inmobiliaria, Link: inmobiliariagamberoni.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Gameroni-Inmobiliaria.jpg"
+        },
+        {
+          "name": "Gandini & Tabarez Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Garcia – Vidal & Asociados, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/garcia-propie.gif"
+        },
+        {
+          "name": "Garcia Helguera y Asociados",
+          "url": "https://inmobiliariagarciahelguera.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "Título: Gervasio Scremini, Link: None, Imagen:"
+        },
+        {
+          "name": "Gianelli Propiedades",
+          "url": "https://gianelli.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/gianelli.jpg"
+        },
+        {
+          "name": "Giletti Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/giletti.png"
+        },
+        {
+          "name": "Gomez & Rollero Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Gonzalez Lerena, Link: None, Imagen:"
+        },
+        {
+          "name": "Gorlero Vidal Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Grazioli Y Zorrilla, Link: None, Imagen:"
+        },
+        {
+          "name": "Guayaqui S.R.L. Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Heide Inmobiliaria, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/hi.gif"
+        },
+        {
+          "name": "Imágen S.R.L.",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Inciarte Inversiones Inmb., Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/inciarte.jpg"
+        },
+        {
+          "name": "Inmobiliaria Arocena",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Inmobiliaria Budi, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/budi.png"
+        },
+        {
+          "name": "Inmobiliaria Carballido",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Inmobiliaria Dobal, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/dobal.png"
+        },
+        {
+          "name": "Inmobiliaria Duner",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/duner.jpg"
+        },
+        {
+          "name": "INMOBILIARIA GASALLA",
+          "url": "https://www.gasallainmobiliaria.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Gasalla-Inmobiliaria.png"
+        },
+        {
+          "name": "Inmobiliaria Goes S.R.L.",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Inmobiliaria Gorga, Link: www.gorga.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/gorga.gif"
+        },
+        {
+          "name": "Inmobiliaria Ibiza",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga7.jpg"
+        },
+        {
+          "name": "Inmobiliaria Milenio",
+          "url": "https://inmobiliariamilenio.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/inmobiliaria-milenio.jpg"
+        },
+        {
+          "name": "Inmobiliaria Millenium",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Inmobiliaria Monymar, Link: www.monymar.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/monymar.jpg"
+        },
+        {
+          "name": "Inmobiliaria Nelson Rosas – Sucursal",
+          "url": "https://inmobiliarianelsonrosas.com",
+          "type": "Inmobiliaria",
+          "logo": "Título: Inmobiliaria Passadore, Link: inmobiliariapassadore.com.uy, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/passadore.jpg"
+        },
+        {
+          "name": "Inmobiliaria Prado Montevideo",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: InmobiliariaTropical, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/tropical.jpg"
+        },
+        {
+          "name": "Iocco Dante – Socio Honorario",
+          "url": "https://iocco.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Dante-y-Gustavo.gif"
+        },
+        {
+          "name": "Irazabal Propiedades",
+          "url": "https://www.irazabal.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/irazabal.jpg"
+        },
+        {
+          "name": "Juan Pedro Molla Profesionales Inmobiliario",
+          "url": "https://juanpedromolla.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Juan-Pedro-Molla.jpg"
+        },
+        {
+          "name": "Juan Ruiz Negocios Inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/juanruiz.jpg"
+        },
+        {
+          "name": "Kleist Ltda. Negocios Inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Kosak Inmobiliaria, Link: kosak.com.uy, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Kosak-Pocitos.jpg"
+        },
+        {
+          "name": "L Y D Administración LTDA.",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Lamaro Inmobiliaria, Link: None, Imagen:"
+        },
+        {
+          "name": "Laporte Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga8.jpg"
+        },
+        {
+          "name": "Lariau Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/lariau-propiedades.jpg"
+        },
+        {
+          "name": "Lars",
+          "url": "https://www.lars.com.uy/",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/LogoLars.png"
+        },
+        {
+          "name": "Lebutt",
+          "url": "https://lebutt.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/lebutt-Propiedades-Carrasco-montevideo.jpg"
+        },
+        {
+          "name": "Lezama Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: London Oficinas, Link: None, Imagen:"
+        },
+        {
+          "name": "Lorieto Negocios Inmobiliarios",
+          "url": "https://www.lorieto.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/logoInmobiliariaLorieto-Negocios-Inmobiliarios.jpg"
+        },
+        {
+          "name": "Lovendimos.Com",
+          "url": "https://lovendimos.com",
+          "type": "Inmobiliaria",
+          "logo": "Título: LP Negocios Inmobiliarios, Link: None, Imagen:"
+        },
+        {
+          "name": "Lucila Irazabal Negocios Inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Mª Jesus Etcheverry Negocios Inmobiliarios, Link: mariajesusetcheverry.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/maria-jesus.jpg"
+        },
+        {
+          "name": "Magnou & Decia",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Mailhos & Asociados, Link: None, Imagen:"
+        },
+        {
+          "name": "Mailhos & Asociados",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Maissonave Inmobiliaria., Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Maissonave-Inmobiliaria..gif"
+        },
+        {
+          "name": "Marcel Sapin Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/marcel.jpg"
+        },
+        {
+          "name": "Mariela Rodriguez Propiedades",
+          "url": "https://www.marielarodriguezprop.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/mariela-rodruiguez.png"
+        },
+        {
+          "name": "Mario Alvarez",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Martinez Y Wenzel, Link: None, Imagen:"
+        },
+        {
+          "name": "MB Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Meikle Bienes Raíces, Link: meiklebienesraices.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/InmobiliariaMeikle-Bienes-Raíces.jpg"
+        },
+        {
+          "name": "MENCO OFICINA",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Meridiano Propiedades, Link: www.meridiano.biz, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/meridiano.jpg"
+        },
+        {
+          "name": "Miranda Inmuebles",
+          "url": "https://miranda.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "Título: Monaco Propiedades, Link: None, Imagen:"
+        },
+        {
+          "name": "Mones Roses Inmobiliaria",
+          "url": "https://monesroses.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Mones-Roses-Inmobiliaria.jpg"
+        },
+        {
+          "name": "Murar",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/murar-logo.jpg"
+        },
+        {
+          "name": "Musto Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Muzio, Estudio Negocios Inmobiliarios, Link: estudiomuzio.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Estudio-Muzio-Pocitos-Montevideo.jpg"
+        },
+        {
+          "name": "MVD Negocios Inmobiliarios",
+          "url": "https://mvdpropiedades.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/MVD-Negocios-Inmobiliarios.gif"
+        },
+        {
+          "name": "Nande Larghero inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Nestor Sosa Propiedades, Link: None, Imagen:"
+        },
+        {
+          "name": "Nexo Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/nexo.jpg"
+        },
+        {
+          "name": "Norberto Canepa Carrau",
+          "url": "https://canepapropiedades.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/norberto-canepa.jpg"
+        },
+        {
+          "name": "Oficentro LTDA.",
+          "url": "https://oficentro.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Oficentro-Inmobiliaria.png"
+        },
+        {
+          "name": "Oficinas Picardo",
+          "url": "https://www.piccardo.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/oficinas-picardo.jpg"
+        },
+        {
+          "name": "Omar Iza Negocios Inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Operti Propiedades, Link: None, Imagen:"
+        },
+        {
+          "name": "Pablo Senatore",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Padin Inmobiliaria, Link: www.inmobiliariapadin.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/padin.gif"
+        },
+        {
+          "name": "Pallares Bruzzone Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga9.jpg"
+        },
+        {
+          "name": "Parietti Negocios Inmobiliarios",
+          "url": "https://parietti.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Parietti-Negocios-Inmobiliarios.jpg"
+        },
+        {
+          "name": "Park S.R.L. Administradora Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Parodi Inmobiliaria, Link: parodi.com.uy, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Parodi-Inmobiliaria-Punta-Carretas.jpg"
+        },
+        {
+          "name": "Passadore Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Paul Schurmann Negocios Inmobiliarios, Link: None, Imagen:"
+        },
+        {
+          "name": "Pedragosa Inmobiliaria LTDA.",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Pedragosa-Inmobiliaria.gif.jpg"
+        },
+        {
+          "name": "Perez del Castillo Negocios Inmobiliarios",
+          "url": "https://inmoperezdelcastillo.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Perez-del-Castillo-Negocios-Inmobiliarios.jpg"
+        },
+        {
+          "name": "Pérez Méndez & Asociados",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Piaza propiedades, Link: inmobiliariapiaza.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/piaza-inmobiliaria.jpg"
+        },
+        {
+          "name": "Pilar Cibils",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/logo.jpg"
+        },
+        {
+          "name": "Pilar Quartino Propiedades",
+          "url": "https://pilarquartino.inmobiliaria.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Pilar-Quartino.gif"
+        },
+        {
+          "name": "Piloni Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga10.jpg"
+        },
+        {
+          "name": "Piria Inmobiliaria",
+          "url": "https://www.inmobiliariapiria.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/piria-inmobiliaria.jpg"
+        },
+        {
+          "name": "Prego Propiedades",
+          "url": "https://www.prego.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/prego.png"
+        },
+        {
+          "name": "Presa y CIA.",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Promociones y Servicios, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/logoInmobiliariaPromociones-Y-Servicios.jpg"
+        },
+        {
+          "name": "Raymond S.R.L Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descraga11.jpg"
+        },
+        {
+          "name": "Rebal Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Renteria Administraciones S.R.L., Link: None, Imagen:"
+        },
+        {
+          "name": "Ressano Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Reyes Ruano, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/reyes-ruano.png"
+        },
+        {
+          "name": "Rivero & Degiorgis S.R.L.",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Robert Inmobiliaria, Link: www.inmobiliariarobert.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/robert-inmobiliaria.png"
+        },
+        {
+          "name": "Roisecco Locales & Of",
+          "url": "https://locales-oficinas.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/roisecco.jpg"
+        },
+        {
+          "name": "Roja LTDA. Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Rosario Roig Negocios Inmobiliarios LTDA., Link: inmobiliariaroig.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Roig-Negocios-Inmobiliarios.gif"
+        },
+        {
+          "name": "Rossana Bonora Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/rosana-bonora.gif"
+        },
+        {
+          "name": "Ruival negocios inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Salustio Inmobiliaria, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/logoInmobiliariaSalustio.gif.jpg"
+        },
+        {
+          "name": "Savi LTDA. Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Sayago Inmobiliaria, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Inmobiliaria-Sayago.gif"
+        },
+        {
+          "name": "Scarpelli Negocios Inmobiliarios",
+          "url": "https://www.scarpelli.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/scarpelli.jpg"
+        },
+        {
+          "name": "Sendeza Inmobiliaria",
+          "url": "https://inmobiliariasendeza.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/sendeza.jpg"
+        },
+        {
+          "name": "Shopping Inmobiliario",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: SIAB INVERSIONES, Link: https://www.siabinversiones.com/, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/logo_big.png"
+        },
+        {
+          "name": "Silvana Crosato",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/silvana-crosato.gif"
+        },
+        {
+          "name": "Soares Netto",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga12.jpg"
+        },
+        {
+          "name": "Solar Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Sosa LTDA. Oficinas, Link: www.oficinasosa.com.uy, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/oficina-sosa.jpg"
+        },
+        {
+          "name": "Spazio Inmobiliarias",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/spazio-inmobiliaria.jpg"
+        },
+        {
+          "name": "Suarez Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: SZAMES & MARIATTI, Link: None, Imagen:"
+        },
+        {
+          "name": "Tambaco Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Taranto Desarrollo Inmobiliario, Link: None, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/tarnato-logo.jpg"
+        },
+        {
+          "name": "Teca Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga13.jpg"
+        },
+        {
+          "name": "TOBIMAC & ASOCIADOS",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2014/02/logo-inmovbiliaria.jpg"
+        },
+        {
+          "name": "Toma Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Traversa Propiedades, Link: None, Imagen:"
+        },
+        {
+          "name": "Trieme Estudio",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/trieme.png"
+        },
+        {
+          "name": "Triham",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Triham-Cordon-Montevideo.png"
+        },
+        {
+          "name": "Unión Profesional S.R.L.",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Varela Inmobiliaria S.R.L., Link: sigaloavarela.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Varela-Inmobiliaria.png"
+        },
+        {
+          "name": "Vargas Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/vargas-logo.jpg"
+        },
+        {
+          "name": "Verónica Cánepa Negocios Inmobiliarios",
+          "url": "https://veronicacanepa.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Veronica-Canepa.jpg"
+        },
+        {
+          "name": "Vilaboa G.C. Negocios Inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Vilanova S.R.L. Inmobiliaria, Link: inmobiliariavilanova.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/vilanova-Inmobiliaria.jpg"
+        },
+        {
+          "name": "Villamide Inmobiliaria",
+          "url": "https://www.villamide.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/villamide.jpg"
+        },
+        {
+          "name": "Viturro Muñoz Negocios Inmobiliarios",
+          "url": "https://www.viturro.com.uy",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/viturro.jpg"
+        },
+        {
+          "name": "Vizintin Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Walter Passadore Negocios Inmobiliarios, Link: www.walterpassadore.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Walter-Passadore.gif"
+        },
+        {
+          "name": "Welcome Servicios Inmobiliarios",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Yaquinta Propiedades, Link: yaquinta.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/yaquinta-Propiedades.gif"
+        },
+        {
+          "name": "Yasmine Cóccaro Negocios Inmobiliaria",
+          "url": "https://yasminecoccaro.com",
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/Yasmine-Cóccaro-Negocios-Inmob..gif"
+        },
+        {
+          "name": "Yudka Inmobiliaria",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/descarga14.jpg"
+        },
+        {
+          "name": "Zeoli Propiedades",
+          "url": null,
+          "type": "Inmobiliaria",
+          "logo": "Título: Zilberman Estudio, Link: estudiozilberman.com, Imagen: https://www.uruguayinmobiliarias.com/wp-content/uploads/2012/12/estudio-zilberman.jpg"
+        }
+      ]
+    },
+    "AR": {
+      "code": "AR",
+      "name": "Argentina",
+      "currency": "ARS",
+      "currency_secondary": "USD",
+      "portales": [
+        {
+          "name": "Zonaprop",
+          "url": "https://www.zonaprop.com.ar/",
+          "type": "Portal"
+        },
+        {
+          "name": "Argenprop",
+          "url": "https://www.argenprop.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "MercadoLibre",
+          "url": "https://inmuebles.mercadolibre.com.ar/",
+          "type": "Marketplace"
+        },
+        {
+          "name": "Properati AR",
+          "url": "https://www.properati.com.ar/",
+          "type": "Portal"
+        },
+        {
+          "name": "InmoUp",
+          "url": "https://www.inmoup.com.ar/",
+          "type": "Portal"
+        }
+      ],
+      "containers": [],
+      "inmobiliarias": []
+    },
+    "PY": {
+      "code": "PY",
+      "name": "Paraguay",
+      "currency": "PYG",
+      "currency_secondary": "USD",
+      "portales": [
+        {
+          "name": "InfoCasas PY",
+          "url": "https://www.infocasas.com.py/",
+          "type": "Portal"
+        },
+        {
+          "name": "Clasipar",
+          "url": "https://clasipar.paraguay.com/",
+          "type": "Clasificado"
+        },
+        {
+          "name": "Properati PY",
+          "url": "https://www.properati.com.py/",
+          "type": "Portal"
+        },
+        {
+          "name": "Mi Casa Py",
+          "url": "https://www.micasa.com.py/",
+          "type": "Portal"
+        }
+      ],
+      "containers": [],
+      "inmobiliarias": []
+    },
+    "CL": {
+      "code": "CL",
+      "name": "Chile",
+      "currency": "CLP",
+      "currency_secondary": "UF",
+      "portales": [
+        {
+          "name": "Portal Inmobiliario",
+          "url": "https://www.portalinmobiliario.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "MercadoLibre CL",
+          "url": "https://inmuebles.mercadolibre.cl/",
+          "type": "Marketplace"
+        },
+        {
+          "name": "Yapo",
+          "url": "https://new.yapo.cl/",
+          "type": "Clasificado"
+        },
+        {
+          "name": "TocToc",
+          "url": "https://www.toctoc.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Properati CL",
+          "url": "https://www.properati.cl/",
+          "type": "Portal"
+        }
+      ],
+      "containers": [],
+      "inmobiliarias": []
+    },
+    "MX": {
+      "code": "MX",
+      "name": "México",
+      "currency": "MXN",
+      "currency_secondary": "USD",
+      "portales": [
+        {
+          "name": "Inmuebles24",
+          "url": "https://www.inmuebles24.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Vivanuncios",
+          "url": "https://www.vivanuncios.com.mx/",
+          "type": "Clasificado"
+        },
+        {
+          "name": "Lamudi MX",
+          "url": "https://www.lamudi.com.mx/",
+          "type": "Portal"
+        },
+        {
+          "name": "MercadoLibre MX",
+          "url": "https://inmuebles.mercadolibre.com.mx/",
+          "type": "Marketplace"
+        },
+        {
+          "name": "Casas y Terrenos",
+          "url": "https://www.casasyterrenos.com/",
+          "type": "Portal"
+        }
+      ],
+      "containers": [],
+      "inmobiliarias": []
+    },
+    "CO": {
+      "code": "CO",
+      "name": "Colombia",
+      "currency": "COP",
+      "currency_secondary": "USD",
+      "portales": [
+        {
+          "name": "Metrocuadrado",
+          "url": "https://www.metrocuadrado.com/",
+          "type": "Portal"
+        },
+        {
+          "name": "Fincaraiz",
+          "url": "https://www.fincaraiz.com.co/",
+          "type": "Portal"
+        },
+        {
+          "name": "Properati CO",
+          "url": "https://www.properati.com.co/",
+          "type": "Portal"
+        },
+        {
+          "name": "MercadoLibre CO",
+          "url": "https://inmuebles.mercadolibre.com.co/",
+          "type": "Marketplace"
+        },
+        {
+          "name": "Lamudi CO",
+          "url": "https://www.lamudi.com.co/",
+          "type": "Portal"
+        }
+      ],
+      "containers": [],
+      "inmobiliarias": []
+    }
+  }
+}
