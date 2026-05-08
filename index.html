@@ -632,8 +632,11 @@ async function loadSources() {
 
 // ---------- RENDER LISTINGS ----------
 function priceFmt(o) {
-  const sym = CURRENCY_SYMBOL[o.currency] || o.currency;
-  return `${sym} ${o.price.toLocaleString("es-UY")}`;
+  if (o.price == null || !Number.isFinite(o.price) || o.price === 0) {
+    return state.lang === "es" ? "Consultar" : "Consultar";
+  }
+  const sym = CURRENCY_SYMBOL[o.currency] || o.currency || "";
+  return `${sym} ${o.price.toLocaleString("es-UY")}`.trim();
 }
 function escapeHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));

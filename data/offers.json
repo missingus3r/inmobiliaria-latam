@@ -1,26 +1,5 @@
 [
   {
-    "id": "006cf1d7dac5",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "2 o 3 Dormitorios - 56 m2",
-    "price": null,
-    "currency": null,
-    "link": "https://www.eleve.com.uy/",
-    "platform": "Eleve",
-    "location": "Montevideo, Uruguay",
-    "bedrooms": 3,
-    "bathrooms": null,
-    "area_m2": 56,
-    "images": [
-      "https://www.eleve.com.uy/images/2-56.png"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
     "id": "01ac98cc23ef",
     "country": "AR",
     "operation": "Venta",
@@ -82,27 +61,6 @@
     "fetched_at": "2026-05-08T20:02:30.610Z"
   },
   {
-    "id": "08f6fbcdfd28",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Vivienda Dos Ambientes 26m2",
-    "price": null,
-    "currency": null,
-    "link": "https://homecontainersuruguay.com/",
-    "platform": "Homecontainersuruguay",
-    "location": "La Floresta, Canelones, Uruguay",
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "area_m2": 26,
-    "images": [
-      "https://homecontainersuruguay.com/wp-content/uploads/2019/02/2-ambientes-04-1.png"
-    ],
-    "estado": "vencida",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
     "id": "0974092a1e06",
     "country": "UY",
     "operation": "Alquiler",
@@ -142,27 +100,6 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
-    "id": "0c367d845212",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Toronto - Container 40+40 pies",
-    "price": null,
-    "currency": null,
-    "link": "https://zonacontainer.com.uy/",
-    "platform": "Zonacontainer",
-    "location": "Maldonado, Uruguay",
-    "bedrooms": null,
-    "bathrooms": null,
-    "area_m2": null,
-    "images": [
-      "https://zonacontainer.com.uy/assets/images/h2-2000x1428-76-600x428.png"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
     "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
@@ -496,27 +433,6 @@
     "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
-    "id": "21b60006fc1e",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Vigo - Container 40 pies",
-    "price": null,
-    "currency": null,
-    "link": "https://zonacontainer.com.uy/",
-    "platform": "Zonacontainer",
-    "location": "Maldonado, Uruguay",
-    "bedrooms": null,
-    "bathrooms": null,
-    "area_m2": null,
-    "images": [
-      "https://zonacontainer.com.uy/assets/images/vigo2-2000x1428-69-600x428.png"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
     "id": "22b2baefef4b",
     "country": "AR",
     "operation": "Venta",
@@ -680,27 +596,6 @@
     "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
-    "id": "322cd07521ab",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Vivienda Estándar 1 - 26m2",
-    "price": null,
-    "currency": null,
-    "link": "https://homecontainersuruguay.com/",
-    "platform": "Homecontainersuruguay",
-    "location": "La Floresta, Canelones, Uruguay",
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "area_m2": 26,
-    "images": [
-      "https://homecontainersuruguay.com/wp-content/uploads/2019/02/40-pies-A.png"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
     "id": "32b31540993a",
     "country": "AR",
     "operation": "Venta",
@@ -762,27 +657,6 @@
     "fetched_at": "2026-05-08T20:02:30.610Z"
   },
   {
-    "id": "340e2b75df08",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Hamburgo - Container 40 pies",
-    "price": null,
-    "currency": null,
-    "link": "https://zonacontainer.com.uy/",
-    "platform": "Zonacontainer",
-    "location": "Maldonado, Uruguay",
-    "bedrooms": null,
-    "bathrooms": null,
-    "area_m2": null,
-    "images": [
-      "https://zonacontainer.com.uy/assets/images/toronto2-2000x1428-18-600x428.png"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
     "id": "36af6fc4e505",
     "country": "UY",
     "operation": "Venta",
@@ -822,27 +696,6 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z"
-  },
-  {
-    "id": "40453c81094e",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Santos - Container 40 pies",
-    "price": null,
-    "currency": null,
-    "link": "https://zonacontainer.com.uy/",
-    "platform": "Zonacontainer",
-    "location": "Maldonado, Uruguay",
-    "bedrooms": null,
-    "bathrooms": null,
-    "area_m2": null,
-    "images": [
-      "https://zonacontainer.com.uy/assets/images/santos-600x424-34-600x424-54.jpg"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
     "id": "40d7c15afc7b",
@@ -924,48 +777,6 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
-    "id": "45e3d08b2bab",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Vivienda Estándar 2 - 69m2",
-    "price": null,
-    "currency": null,
-    "link": "https://homecontainersuruguay.com/",
-    "platform": "Homecontainersuruguay",
-    "location": "La Floresta, Canelones, Uruguay",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "area_m2": 69,
-    "images": [
-      "https://homecontainersuruguay.com/wp-content/uploads/2019/02/Estandar-01.png"
-    ],
-    "estado": "vencida",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
-    "id": "477f47bab801",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Manzanillo - Container 40+20 pies",
-    "price": null,
-    "currency": null,
-    "link": "https://zonacontainer.com.uy/",
-    "platform": "Zonacontainer",
-    "location": "Maldonado, Uruguay",
-    "bedrooms": null,
-    "bathrooms": null,
-    "area_m2": null,
-    "images": [
-      "https://zonacontainer.com.uy/assets/images/manzanillo-600x424-5.jpg"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
     "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
@@ -1069,46 +880,6 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
-    "id": "50666d3ba795",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Casa Contenedor 60m² Uruguay",
-    "price": null,
-    "currency": null,
-    "link": "https://misterconstrucciones.uy/casa_contenedor/casa-contenedor-60-m%c2%b2-familiar-con-deck-y-galpon-3x2/",
-    "platform": "Misterconstrucciones",
-    "location": "Uruguay",
-    "bedrooms": null,
-    "bathrooms": null,
-    "area_m2": 60,
-    "images": [],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
-    "id": "508099e795fc",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Monoambiente 13m2",
-    "price": null,
-    "currency": null,
-    "link": "https://homecontainersuruguay.com/",
-    "platform": "Homecontainersuruguay",
-    "location": "La Floresta, Canelones, Uruguay",
-    "bedrooms": 0,
-    "bathrooms": 1,
-    "area_m2": 13,
-    "images": [
-      "https://homecontainersuruguay.com/wp-content/uploads/2019/02/Monoambiente-03.png"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
     "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
@@ -1276,25 +1047,6 @@
     "fetched_at": "2026-05-08T20:02:30.609Z"
   },
   {
-    "id": "5e1313ed2684",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Casa Contenedor 30m² Uruguay",
-    "price": null,
-    "currency": null,
-    "link": "https://misterconstrucciones.uy/casa_contenedor/casa-contenedor-30-m%c2%b2-minimalista-y-luminosa/",
-    "platform": "Misterconstrucciones",
-    "location": "Uruguay",
-    "bedrooms": null,
-    "bathrooms": null,
-    "area_m2": 30,
-    "images": [],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
     "id": "612c7382339b",
     "country": "UY",
     "operation": "Venta",
@@ -1334,25 +1086,6 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
-    "id": "6347b155b6b1",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Casa Contenedor 75m² Uruguay",
-    "price": null,
-    "currency": null,
-    "link": "https://misterconstrucciones.uy/casa_contenedor/casa-contenedor-75-m%c2%b2-3-dormitorios-1-bano-deck-en-madera/",
-    "platform": "Misterconstrucciones",
-    "location": "Uruguay",
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "area_m2": 75,
-    "images": [],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
     "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
@@ -1926,27 +1659,6 @@
     "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
-    "id": "8025bbba0312",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "2 Dormitorios - 28 m2",
-    "price": null,
-    "currency": null,
-    "link": "https://www.eleve.com.uy/",
-    "platform": "Eleve",
-    "location": "Montevideo, Uruguay",
-    "bedrooms": 2,
-    "bathrooms": null,
-    "area_m2": 28,
-    "images": [
-      "https://www.eleve.com.uy/images/2-28.png"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
     "id": "830d3b0d22c4",
     "country": "UY",
     "operation": "Venta",
@@ -2248,27 +1960,6 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
-    "id": "9938d7f0f7d5",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "1 Dormitorio - 28 m2",
-    "price": null,
-    "currency": null,
-    "link": "https://www.eleve.com.uy/",
-    "platform": "Eleve",
-    "location": "Montevideo, Uruguay",
-    "bedrooms": 1,
-    "bathrooms": null,
-    "area_m2": 28,
-    "images": [
-      "https://www.eleve.com.uy/images/1-28.png"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
     "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
@@ -2665,27 +2356,6 @@
     "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
-    "id": "b1e293ed1fa0",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "2 Dormitorios - 42 m2",
-    "price": null,
-    "currency": null,
-    "link": "https://www.eleve.com.uy/",
-    "platform": "Eleve",
-    "location": "Montevideo, Uruguay",
-    "bedrooms": 2,
-    "bathrooms": null,
-    "area_m2": 42,
-    "images": [
-      "https://www.eleve.com.uy/images/2-42.png"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
     "id": "b1fdc8162b87",
     "country": "AR",
     "operation": "Venta",
@@ -3048,27 +2718,6 @@
     "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
-    "id": "c596c329aa40",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Contenedor standard 20′",
-    "price": null,
-    "currency": null,
-    "link": "https://multicontainer.com/producto/contenedor-standard-20-pies-usado/",
-    "platform": "Multicontainer",
-    "location": "Uruguay",
-    "bedrooms": null,
-    "bathrooms": null,
-    "area_m2": null,
-    "images": [
-      "https://multicontainer.com/wp-content/uploads/2022/07/std-20-usado-1.png"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
     "id": "c6506926e682",
     "country": "AR",
     "operation": "Venta",
@@ -3107,27 +2756,6 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z"
-  },
-  {
-    "id": "ca56a8361351",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Vivienda Familiar 1 - 56m2",
-    "price": null,
-    "currency": null,
-    "link": "https://homecontainersuruguay.com/",
-    "platform": "Homecontainersuruguay",
-    "location": "La Floresta, Canelones, Uruguay",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "area_m2": 56,
-    "images": [
-      "https://homecontainersuruguay.com/wp-content/uploads/2019/02/Familia-A-06.png"
-    ],
-    "estado": "vencida",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
     "id": "cb624fbd68eb",
@@ -3231,27 +2859,6 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z"
-  },
-  {
-    "id": "d7c6b767b49e",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Contenedor standard 40′",
-    "price": null,
-    "currency": null,
-    "link": "https://multicontainer.com/producto/contenedor-standard-40-pies-usado/",
-    "platform": "Multicontainer",
-    "location": "Uruguay",
-    "bedrooms": null,
-    "bathrooms": null,
-    "area_m2": null,
-    "images": [
-      "https://multicontainer.com/wp-content/uploads/2022/07/std-40-usado-1.png"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
     "id": "dbb5435190a7",
@@ -3542,25 +3149,6 @@
     "fetched_at": "2026-05-08T20:02:30.609Z"
   },
   {
-    "id": "efa022f9f6e3",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Casa Contenedor 45m² Uruguay",
-    "price": null,
-    "currency": null,
-    "link": "https://misterconstrucciones.uy/casa_contenedor/casa-contenedor-45-m%c2%b2-familiar-de-2-dormitorios/",
-    "platform": "Misterconstrucciones",
-    "location": "Uruguay",
-    "bedrooms": 2,
-    "bathrooms": null,
-    "area_m2": 45,
-    "images": [],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
     "id": "efc2d6c4f4cb",
     "country": "UY",
     "operation": "Venta",
@@ -3624,27 +3212,6 @@
     "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
-    "id": "f2400804754a",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Vivienda Familiar 2 - 84m2",
-    "price": null,
-    "currency": null,
-    "link": "https://homecontainersuruguay.com/",
-    "platform": "Homecontainersuruguay",
-    "location": "La Floresta, Canelones, Uruguay",
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "area_m2": 84,
-    "images": [
-      "https://homecontainersuruguay.com/wp-content/uploads/2019/02/Familiar-B-01.png"
-    ],
-    "estado": "vencida",
-    "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
     "id": "f43a3aeb5be0",
     "country": "UY",
     "operation": "Venta",
@@ -3684,27 +3251,6 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:13Z",
-    "last_checked": "2026-05-08T16:40:34-0300"
-  },
-  {
-    "id": "f5d72b5cdf68",
-    "country": "UY",
-    "operation": "Venta",
-    "class": "Container",
-    "title": "Contenedor standard 40'HC Double Doors",
-    "price": null,
-    "currency": null,
-    "link": "https://multicontainer.com/producto/contenedor-standard-40hc-double-doors/",
-    "platform": "Multicontainer",
-    "location": "Uruguay",
-    "bedrooms": null,
-    "bathrooms": null,
-    "area_m2": null,
-    "images": [
-      "https://multicontainer.com/wp-content/uploads/2025/07/std-40-hc-nuevo-double-doors-1-2-2.webp"
-    ],
-    "estado": "activa",
-    "fetched_at": "2026-05-08T19:37:47Z",
     "last_checked": "2026-05-08T16:40:34-0300"
   },
   {
