@@ -18,7 +18,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "02f921313b47",
@@ -39,7 +39,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "0684624134e7",
@@ -60,7 +60,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "0974092a1e06",
@@ -81,7 +81,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:13Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "0b272fafc8e4",
@@ -102,7 +102,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Edificio En Palermo",
@@ -123,7 +123,7 @@
       "http://http2.mlstatic.com/D_750586-MLA85606232641_062025-I.webp"
     ],
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "102936cfe110",
@@ -144,7 +144,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "10f84a39ea07",
@@ -165,7 +165,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "11f293c23493",
@@ -186,7 +186,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "133d321c5912",
@@ -205,7 +205,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "13b293ebc747",
@@ -226,7 +226,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:13Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "146eb28b459f",
@@ -247,7 +247,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "14d688f4ea54",
@@ -268,7 +268,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en alquiler dos dormitorios Centro",
@@ -283,7 +283,7 @@
     "link": "https://belvedere-propiedades.com/propiedad/168",
     "id": "1515f46f35ec",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://publico.nai.com.uy/394/pth/168_2936.jpg"
@@ -310,7 +310,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento de 2 dormitorios en Centro",
@@ -325,7 +325,7 @@
     "link": "https://braglia.com.uy/propiedades/9571-apartamento-de-2-dormitorios-en-centro",
     "id": "1693029e1664",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://braglia.com.uy/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd0hlQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--769b876fc5be148bc072cadb704434dfdf4b9a8b/temp.jpeg"
@@ -352,7 +352,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "195454aac155",
@@ -373,7 +373,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "1a5b4508cf64",
@@ -394,7 +394,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "1b8fa4f7119a",
@@ -415,7 +415,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Torre Libertador 706 2205db",
@@ -430,7 +430,7 @@
     "link": "https://braglia.com.uy/propiedades/7979-torre-libertador-706-2205db",
     "id": "219690bcfdc9",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://braglia.com.uy/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM2tUQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--79c037c76fe8e52fb938bee45dd4f0fa91d61f32/0_76c0f39fb6d5f6cb953a2f3d8c4ed39f.jpg"
@@ -457,7 +457,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "249867e4850d",
@@ -476,7 +476,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "25e0662423b0",
@@ -497,7 +497,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "26e2e7283102",
@@ -518,7 +518,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "2bbb2d694878",
@@ -539,7 +539,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "2e977c1a4af3",
@@ -560,7 +560,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "2fad629b506b",
@@ -581,7 +581,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:13Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "32b31540993a",
@@ -602,7 +602,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta apartamento 1 dormitorio Pocitos Park Square Franzini",
@@ -617,7 +617,7 @@
     "link": "https://prop.com.uy/propiedades/venta-apartamento-1-dormitorio-pocitos-park-square-franzini-p001179",
     "id": "32b67cceddaf",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://prop.com.uy/images/P001179/64498/w=400,format=webp"
@@ -644,7 +644,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "36af6fc4e505",
@@ -665,7 +665,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "3fecf98d717e",
@@ -686,7 +686,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "40d7c15afc7b",
@@ -707,7 +707,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "4155e3c25f94",
@@ -728,7 +728,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "443a18f88c65",
@@ -749,7 +749,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "4493cabc00f0",
@@ -770,7 +770,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "478b82244dc6",
@@ -791,7 +791,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:13Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa Parque Miramar grande",
@@ -806,7 +806,7 @@
     "link": "https://crisciblanco.com/propiedad/2018",
     "id": "48c7183a68d3",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [],
     "platform": "crisciblanco.com",
@@ -831,7 +831,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "4d63fff1243f",
@@ -852,7 +852,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "4f0a90a5dd6b",
@@ -873,7 +873,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en alquiler un dormitorio Goes",
@@ -888,7 +888,7 @@
     "link": "https://belvedere-propiedades.com/propiedad/151",
     "id": "527da98a541e",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://publico.nai.com.uy/394/pth/151_2732.jpg"
@@ -915,7 +915,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "55d368eee1b4",
@@ -936,7 +936,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "579b2ab65182",
@@ -957,7 +957,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.608Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "5d1a590e0783",
@@ -978,7 +978,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "5dfe1dee988b",
@@ -999,7 +999,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.609Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "612c7382339b",
@@ -1020,7 +1020,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "62703c2cb318",
@@ -1041,7 +1041,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "64faac97975f",
@@ -1062,7 +1062,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.609Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento Barra de Carrasco",
@@ -1077,7 +1077,7 @@
     "link": "https://crisciblanco.com/propiedad/1758",
     "id": "664957f29bf3",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [],
     "platform": "crisciblanco.com",
@@ -1102,7 +1102,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en Lambaré oportunidad",
@@ -1115,7 +1115,7 @@
     "country": "PY",
     "id": "68965b568ab3",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:39:33Z",
     "bedrooms": 4,
     "bathrooms": 3,
@@ -1142,7 +1142,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Dos casas en padron unico",
@@ -1157,7 +1157,7 @@
     "link": "https://belvedere-propiedades.com/propiedad/60",
     "id": "6abb2bdd81fd",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://publico.nai.com.uy/394/pth/60_944.jpg"
@@ -1184,7 +1184,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "6cc3644e1537",
@@ -1205,7 +1205,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "6d0481ea2797",
@@ -1226,7 +1226,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa Lomas de la Tahona",
@@ -1241,7 +1241,7 @@
     "link": "https://crisciblanco.com/propiedad/2151",
     "id": "6d3584f790dd",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [],
     "platform": "crisciblanco.com",
@@ -1264,7 +1264,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "6e533a3181b7",
@@ -1285,7 +1285,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:13Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "6fba90002854",
@@ -1304,7 +1304,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa Parque Miramar",
@@ -1319,7 +1319,7 @@
     "link": "https://crisciblanco.com/propiedad/2146",
     "id": "70144a426829",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [],
     "platform": "crisciblanco.com",
@@ -1344,7 +1344,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "7553734db614",
@@ -1365,7 +1365,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "755da5bfcadd",
@@ -1386,7 +1386,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "76c887759a6a",
@@ -1407,7 +1407,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "77d0f65d15d9",
@@ -1428,7 +1428,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "77ee7caac05f",
@@ -1449,7 +1449,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.609Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "77ef449d0c6d",
@@ -1470,7 +1470,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:13Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "7898f742130e",
@@ -1491,7 +1491,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "7a637e295b43",
@@ -1512,7 +1512,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "7a75f8d6c039",
@@ -1533,7 +1533,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "7b2b3eed7f42",
@@ -1554,7 +1554,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "7d3b760f3965",
@@ -1575,7 +1575,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "7e2397716c82",
@@ -1596,7 +1596,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "7ffbb9dd7748",
@@ -1617,7 +1617,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "830d3b0d22c4",
@@ -1638,7 +1638,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "833fcb40c47d",
@@ -1659,7 +1659,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "84b8778787a0",
@@ -1680,7 +1680,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "8504bf22cc1f",
@@ -1701,7 +1701,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "88c5ad515b10",
@@ -1722,7 +1722,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "8ce5b04d7179",
@@ -1743,7 +1743,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.609Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "8d5bbf25d9ff",
@@ -1764,7 +1764,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en San Jorge, Asunción",
@@ -1777,7 +1777,7 @@
     "country": "PY",
     "id": "8e4275738d78",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:39:33Z",
     "bedrooms": null,
     "bathrooms": null,
@@ -1806,7 +1806,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.609Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "8fc82b2df888",
@@ -1827,7 +1827,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "9220fc91823c",
@@ -1848,7 +1848,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "9298a7c84592",
@@ -1869,7 +1869,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "9348483463f2",
@@ -1888,7 +1888,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Urban Garden Lamadrid 40 Avellaneda",
@@ -1909,7 +1909,7 @@
       "http://http2.mlstatic.com/D_939508-MLA77489766263_072024-C.jpg"
     ],
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "98eb47e04d4e",
@@ -1928,7 +1928,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "994ccc90181b",
@@ -1949,7 +1949,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta apartamento 2 dormitorios y servicio completo centro",
@@ -1964,7 +1964,7 @@
     "link": "https://prop.com.uy/propiedades/venta-apartamento-2-dormitorios-y-servicio-completo-centro-p002524",
     "id": "9c12cfa95adb",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://prop.com.uy/images/P002524/69738/w=400,format=webp"
@@ -1985,7 +1985,7 @@
     "link": "https://crisciblanco.com/propiedad/1151",
     "id": "9cdf71b77bcb",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [],
     "platform": "crisciblanco.com",
@@ -2010,7 +2010,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "9d25b4554f64",
@@ -2031,7 +2031,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 2 dormitorios, garaje doble, Punta Carretas",
@@ -2046,7 +2046,7 @@
     "link": "https://prop.com.uy/propiedades/venta-2-dormitorios-gge-doble-punta-carretas-p002709",
     "id": "9de758064e23",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://prop.com.uy/images/P002709/73631/w=400,format=webp"
@@ -2071,7 +2071,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa alquiler dos dormitorios en Estados Unidos Cerro",
@@ -2086,7 +2086,7 @@
     "link": "https://belvedere-propiedades.com/propiedad/142",
     "id": "9eba40188f7a",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://publico.nai.com.uy/394/pth/142_2440.jpg"
@@ -2113,7 +2113,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "a1180f6821b6",
@@ -2134,7 +2134,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Joaquin Edificio En Haedo Sur",
@@ -2155,7 +2155,7 @@
       "http://http2.mlstatic.com/D_662490-MLA98306795206_112025-I.webp"
     ],
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "a27ff7733e2c",
@@ -2176,7 +2176,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "a5381dd26508",
@@ -2197,7 +2197,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:13Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "a7e2e5bcd17e",
@@ -2218,7 +2218,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "a807a204cbe1",
@@ -2239,7 +2239,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:23Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "aa36ae6af031",
@@ -2260,7 +2260,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "ab126095019e",
@@ -2281,7 +2281,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "ae1151c8bc1f",
@@ -2302,7 +2302,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en Herrera, Asunción",
@@ -2315,7 +2315,7 @@
     "country": "PY",
     "id": "afa615ff0b92",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:39:33Z",
     "bedrooms": 3,
     "bathrooms": 3,
@@ -2344,7 +2344,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "b221691f0ff4",
@@ -2363,7 +2363,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamentos Moron Abel Costa",
@@ -2384,7 +2384,7 @@
       "http://http2.mlstatic.com/D_735052-MLA81360473124_122024-I.webp"
     ],
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "b39072ae1c11",
@@ -2405,7 +2405,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "b4bf8333aff5",
@@ -2426,7 +2426,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "b4eafd5057d3",
@@ -2445,7 +2445,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "b507ad53782d",
@@ -2466,7 +2466,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.609Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "b58223155f2e",
@@ -2485,7 +2485,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "b869fdb2552a",
@@ -2506,7 +2506,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "b86e4ac95eb8",
@@ -2527,7 +2527,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "b93a6c2122e0",
@@ -2548,7 +2548,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa Jardines de Carrasco",
@@ -2563,7 +2563,7 @@
     "link": "https://crisciblanco.com/propiedad/709",
     "id": "b96f8b3c61a3",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [],
     "platform": "crisciblanco.com",
@@ -2588,7 +2588,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "bbe3177a65f8",
@@ -2609,7 +2609,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "bdee76845895",
@@ -2630,7 +2630,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "bf7eedf41385",
@@ -2651,7 +2651,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "c0b192d43ed1",
@@ -2672,7 +2672,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta Apartamento 2 Dormitorios y Garaje Amoblado en Buceo",
@@ -2687,7 +2687,7 @@
     "link": "https://prop.com.uy/propiedades/venta-apartamento-2-dormitorios-y-garaje-amoblado-en-buceo-p002565",
     "id": "c408fbea506d",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://prop.com.uy/images/P002565/70757/w=400,format=webp"
@@ -2714,7 +2714,7 @@
       "http://http2.mlstatic.com/D_720723-MLA51635350775_092022-C.jpg"
     ],
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "c9400bb0cf20",
@@ -2735,7 +2735,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 1 dormitorio en Arbet Soho, Palermo",
@@ -2750,7 +2750,7 @@
     "link": "https://prop.com.uy/propiedades/venta-de-apartamento-de-1-dormitorio-en-arbet-soho-palermo-p001393",
     "id": "cb624fbd68eb",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://prop.com.uy/images/P001393/35736/w=400,format=webp"
@@ -2777,7 +2777,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "d0a4bb635e56",
@@ -2798,7 +2798,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:13Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "d212b4d7224c",
@@ -2819,7 +2819,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "d5762b0c7eaf",
@@ -2840,7 +2840,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en Luque, Central",
@@ -2853,7 +2853,7 @@
     "country": "PY",
     "id": "dbb5435190a7",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:39:33Z",
     "bedrooms": 5,
     "bathrooms": 3,
@@ -2882,7 +2882,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 3 dormitorios en Torre Arenas, Malvin",
@@ -2897,7 +2897,7 @@
     "link": "https://prop.com.uy/propiedades/venta-de-apartamento-de-3-dormitorios-en-torre-arenas-malvin-p002578",
     "id": "dd3cd467dcf7",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://prop.com.uy/images/P002578/70965/w=400,format=webp"
@@ -2924,7 +2924,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "deecbd661d88",
@@ -2945,7 +2945,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Monoambiente alquiler Belvedere",
@@ -2960,7 +2960,7 @@
     "link": "https://belvedere-propiedades.com/propiedad/167",
     "id": "e04d576f4e55",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://publico.nai.com.uy/394/pth/167_2793.jpg"
@@ -2987,7 +2987,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.608Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "e4bac35067b6",
@@ -3008,7 +3008,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa Carrasco",
@@ -3023,7 +3023,7 @@
     "link": "https://crisciblanco.com/propiedad/2019",
     "id": "e686902526d5",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [],
     "platform": "crisciblanco.com",
@@ -3048,7 +3048,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "ea8b0a548c8e",
@@ -3069,7 +3069,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "ed11c5a94deb",
@@ -3090,7 +3090,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "eda6bce4aae1",
@@ -3111,7 +3111,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "edd53b5ebfd3",
@@ -3132,7 +3132,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.609Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "efc2d6c4f4cb",
@@ -3153,7 +3153,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:39:03Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "f017e7cdb707",
@@ -3174,7 +3174,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa 6 dormitorios Barrio Herrera Asunción",
@@ -3187,7 +3187,7 @@
     "country": "PY",
     "id": "f1e1f6975573",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:39:33Z",
     "bedrooms": 6,
     "bathrooms": 3,
@@ -3216,7 +3216,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:13Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "f44b3cad7fdd",
@@ -3237,7 +3237,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:13Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "f9bfadd10cf5",
@@ -3258,7 +3258,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en Lambaré, Central",
@@ -3271,7 +3271,7 @@
     "country": "PY",
     "id": "fbc3823a1b1b",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:39:33Z",
     "bedrooms": 4,
     "bathrooms": 3,
@@ -3294,7 +3294,7 @@
     "link": "https://prop.com.uy/propiedades/venta-de-apartamento-de-2-dormitorios-en-cordon-p002713",
     "id": "fd2af0c546de",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300",
+    "last_checked": "2026-05-08T20:11:57-0300",
     "fetched_at": "2026-05-08T19:37:56.556054+00:00",
     "images": [
       "https://prop.com.uy/images/P002713/73683/w=400,format=webp"
@@ -3319,7 +3319,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:37:47Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "fd69c5a75a15",
@@ -3340,7 +3340,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "fde0b08a168a",
@@ -3359,7 +3359,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "fdf006024483",
@@ -3378,7 +3378,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T19:37:21Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "fe052d2d7c67",
@@ -3399,7 +3399,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "ff37d6f190af",
@@ -3420,7 +3420,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "83d5a6faea8b",
@@ -3441,7 +3441,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "7f2458dcb5fe",
@@ -3462,7 +3462,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "fce8763e8096",
@@ -3483,7 +3483,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "2780b41a6d7d",
@@ -3504,7 +3504,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "5e94e6ae85da",
@@ -3525,7 +3525,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "2f0ebc3054d2",
@@ -3546,7 +3546,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "585888d789cd",
@@ -3567,7 +3567,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "6d4235174264",
@@ -3586,7 +3586,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "4b8ea853f20f",
@@ -3605,7 +3605,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "2a525f51fc69",
@@ -3624,7 +3624,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "949f2aedb787",
@@ -3643,7 +3643,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "5591216ee153",
@@ -3662,7 +3662,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "2bbd58bfffc5",
@@ -3681,7 +3681,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "41745dbffe0f",
@@ -3700,7 +3700,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "22931034d8da",
@@ -3719,7 +3719,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "9669ab99b01a",
@@ -3738,7 +3738,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "0c4b02ba4c1c",
@@ -3757,7 +3757,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "f997dc46e03a",
@@ -3776,7 +3776,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "33190fea47b4",
@@ -3795,7 +3795,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "5260277b6821",
@@ -3814,7 +3814,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "f0d0a6f9cb44",
@@ -3833,7 +3833,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "3fdfe37e828a",
@@ -3852,7 +3852,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "40aa1ef78f79",
@@ -3871,7 +3871,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "1e2a18de671d",
@@ -3890,7 +3890,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "b3848304edc4",
@@ -3909,7 +3909,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "a2143cb71352",
@@ -3928,7 +3928,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "c19fcb7a0575",
@@ -3947,7 +3947,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "5ed8964fbe51",
@@ -3966,7 +3966,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "be1450c1814f",
@@ -3985,7 +3985,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "28ccf0667362",
@@ -4004,7 +4004,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "7e30953e3868",
@@ -4023,7 +4023,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "3b7c0f76dc1e",
@@ -4042,7 +4042,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "230dca81bcf9",
@@ -4061,7 +4061,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "85e57267bb63",
@@ -4080,7 +4080,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "93ee4bf98359",
@@ -4099,7 +4099,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "ff915ad292e1",
@@ -4118,7 +4118,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "5fe136e048fc",
@@ -4137,7 +4137,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "64659565c94e",
@@ -4156,7 +4156,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "c8a21c9792f8",
@@ -4175,7 +4175,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "a262170e5220",
@@ -4194,7 +4194,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "18441e80d40f",
@@ -4213,7 +4213,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "7d34e3cb1b78",
@@ -4232,7 +4232,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "d8468104f991",
@@ -4251,7 +4251,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "fd827bb848ee",
@@ -4270,7 +4270,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "cf93b150f708",
@@ -4289,7 +4289,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "1c568868ad20",
@@ -4308,7 +4308,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "d737a6ba382a",
@@ -4327,7 +4327,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "d50e83f51cc5",
@@ -4348,7 +4348,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "df3d9fda9ba4",
@@ -4369,7 +4369,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "d5642f664f72",
@@ -4390,7 +4390,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "e8e7f7a1bafe",
@@ -4411,7 +4411,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "a832e35de56b",
@@ -4432,7 +4432,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "e1d79c302819",
@@ -4453,7 +4453,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "4129a1ed84aa",
@@ -4474,7 +4474,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "fcc666c1b022",
@@ -4495,7 +4495,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "9665b0051219",
@@ -4516,7 +4516,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "db8ea4fdb589",
@@ -4537,7 +4537,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "591504195336",
@@ -4558,7 +4558,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "1af1ce4712c4",
@@ -4579,7 +4579,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "729ef2058457",
@@ -4600,7 +4600,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "c61558069196",
@@ -4621,7 +4621,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "4e851576e93a",
@@ -4642,7 +4642,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "7247c2cb46fb",
@@ -4663,7 +4663,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:02:35Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento de 3 dormitorios en Punta Carretas",
@@ -4683,7 +4683,7 @@
     "platform": "braglia.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento de 1 dormitorio en Parque Batlle",
@@ -4703,7 +4703,7 @@
     "platform": "braglia.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Local comercial en Brazo Oriental",
@@ -4723,7 +4723,7 @@
     "platform": "braglia.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento de 2 dormitorios en Punta Gorda",
@@ -4743,7 +4743,7 @@
     "platform": "braglia.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en plena peninsula",
@@ -4761,7 +4761,7 @@
     "platform": "braglia.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento de un dormitorio sobre Rambla Mansa",
@@ -4779,7 +4779,7 @@
     "platform": "braglia.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa de 4 dormitorios sobre la Av. Carlos Maria Ramirez",
@@ -4799,7 +4799,7 @@
     "platform": "inmobiliariabelvedere.com.uy",
     "country": "CO",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Local Comercial en alquiler en Punta Carretas",
@@ -4819,7 +4819,7 @@
     "platform": "inmobiliariabelvedere.com.uy",
     "country": "CO",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartment in Belvedere",
@@ -4839,7 +4839,7 @@
     "platform": "inmobiliariabelvedere.com.uy",
     "country": "UY",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa al frente, con ambientes amplios y luminosos",
@@ -4859,7 +4859,7 @@
     "platform": "inmobiliariabelvedere.com.uy",
     "country": "UY",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento al fondo - dos dormitorios",
@@ -4879,7 +4879,7 @@
     "platform": "inmobiliariabelvedere.com.uy",
     "country": "UY",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento alquiler un dormitorio - Jujuy 2780",
@@ -4899,7 +4899,7 @@
     "platform": "inmobiliariabelvedere.com.uy",
     "country": "UY",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento dos dormitorios - Mariano Sagasta 194",
@@ -4919,7 +4919,7 @@
     "platform": "inmobiliariabelvedere.com.uy",
     "country": "UY",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en alquiler dos dormitorios Paso Molino",
@@ -4939,7 +4939,7 @@
     "platform": "inmobiliariabelvedere.com.uy",
     "country": "UY",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en venta en tres dormitorios en Nuevo Paris",
@@ -4959,7 +4959,7 @@
     "platform": "inmobiliariabelvedere.com.uy",
     "country": "CO",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Local comercial frente a Plaza Cagancha",
@@ -4979,7 +4979,7 @@
     "platform": "inmobiliariabelvedere.com.uy",
     "country": "CO",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Monoambiente alquiler Capurro Republica Francesa 696",
@@ -4999,7 +4999,7 @@
     "platform": "inmobiliariabelvedere.com.uy",
     "country": "CO",
     "estado": "vencida",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de Monoambiente con Terraza en Vivo Life Rivera, Cordon",
@@ -5019,7 +5019,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de monoambiente con balcon en OX Cordon",
@@ -5039,7 +5039,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de monoambiente en Soho Mercedes, Cordon",
@@ -5059,7 +5059,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de monoambiente en Lumen, Buceo",
@@ -5079,7 +5079,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta Oficina en Ciudad Vieja con Renta",
@@ -5099,7 +5099,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de monoambiente en Doo Rodo en Cordon",
@@ -5119,7 +5119,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta Monoambiente en Tres Cruces",
@@ -5139,7 +5139,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 1 dormitorio en 01 Vista, La Blanqueada",
@@ -5159,7 +5159,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 1 dormitorio en Vivo Life Rivera, Cordon",
@@ -5179,7 +5179,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 1 dormitorio en City Homes, Cordon",
@@ -5199,7 +5199,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 1 dormitorio en Lift Colonia, Cordon",
@@ -5219,7 +5219,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de monoambiente en Winks Magallanes, Palermo",
@@ -5239,7 +5239,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Monoambiente en venta en Living Marina Puertito del Buceo",
@@ -5259,7 +5259,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de local comercial en Noi Artes, Palermo",
@@ -5279,7 +5279,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 1 dormitorio en Genaro Urquiza, La Blanqueada",
@@ -5299,7 +5299,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 1 dormitorio en Rimet 1930, Cordon",
@@ -5319,7 +5319,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 1 dormitorio en CN 1722, Cordon",
@@ -5339,7 +5339,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 1 dormitorio en Via Garibaldi, La Blanqueada",
@@ -5359,7 +5359,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 1 dormitorio en Doo Bravo, Cordon",
@@ -5379,7 +5379,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 1 dormitorio en Site Narvaja, Cordon",
@@ -5399,7 +5399,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento de 1 dormitorio en Life+60, Buceo",
@@ -5419,7 +5419,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de monoambiente en Edificio Krista, Punta Carretas",
@@ -5439,7 +5439,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento 1 dormitorio Doo Rodo, Cordon",
@@ -5459,7 +5459,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de monoambiente en Cosmopolitan, Parque Rodo",
@@ -5479,7 +5479,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta de apartamento 1 dormitorio en Delta Rodo, Cordon",
@@ -5499,7 +5499,7 @@
     "platform": "prop.com.uy",
     "country": "UY",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento Carrasco penthouse",
@@ -5517,7 +5517,7 @@
     "platform": "crisciblanco.com",
     "country": "CO",
     "estado": "activa",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_nanalavagna_207",
@@ -5538,7 +5538,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_nanalavagna_216",
@@ -5559,7 +5559,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_nanalavagna_323",
@@ -5580,7 +5580,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_nanalavagna_762",
@@ -5601,7 +5601,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_nanalavagna_784",
@@ -5622,7 +5622,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_nanalavagna_1810",
@@ -5643,7 +5643,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_nanalavagna_6379",
@@ -5664,7 +5664,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_nanalavagna_7681",
@@ -5685,7 +5685,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_nanalavagna_8306",
@@ -5706,7 +5706,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_exauy_136",
@@ -5731,7 +5731,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_exauy_245",
@@ -5750,7 +5750,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_exauy_259",
@@ -5769,7 +5769,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_exauy_261",
@@ -5788,7 +5788,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_exauy_337",
@@ -5807,7 +5807,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_exauy_366",
@@ -5826,7 +5826,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_exauy_371",
@@ -5845,7 +5845,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_exauy_376",
@@ -5864,7 +5864,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_exauy_386",
@@ -5883,7 +5883,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T00:00:00Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "852982cae4be",
@@ -5904,7 +5904,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "bae4199a7b53",
@@ -5925,7 +5925,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "e6e4c3ce6f58",
@@ -5944,7 +5944,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "08dceb86a0bb",
@@ -5963,7 +5963,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "6f326a463daa",
@@ -5984,7 +5984,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "cea66875db9a",
@@ -6003,7 +6003,7 @@
     "images": [],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "1aab704da46c",
@@ -6024,7 +6024,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "15bbc04a7f6b",
@@ -6045,7 +6045,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "34b9ec8b9b57",
@@ -6066,7 +6066,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "11447080d58d",
@@ -6087,7 +6087,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "b243ecacad96",
@@ -6108,7 +6108,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "2dd5d94a2b78",
@@ -6129,7 +6129,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "004d5d8d4997",
@@ -6150,7 +6150,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "16f08cae6b2a",
@@ -6171,7 +6171,7 @@
     ],
     "estado": "activa",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "15306a1401bc",
@@ -6190,7 +6190,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "0fa77d70f5e7",
@@ -6209,7 +6209,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "3279ba2ac857",
@@ -6228,7 +6228,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "72bc830e4177",
@@ -6247,7 +6247,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "55e9a4d285e0",
@@ -6266,7 +6266,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "e5e079f3596b",
@@ -6285,7 +6285,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "0f08e2af85b0",
@@ -6304,7 +6304,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "17322ff70399",
@@ -6323,7 +6323,7 @@
     "images": [],
     "estado": "vencida",
     "fetched_at": "2026-05-08T21:00:02Z",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_001",
@@ -6345,7 +6345,7 @@
     "bathrooms": 1,
     "area_m2": 55,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_002",
@@ -6367,7 +6367,7 @@
     "bathrooms": 1,
     "area_m2": 62,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_003",
@@ -6389,7 +6389,7 @@
     "bathrooms": 1,
     "area_m2": 57,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_004",
@@ -6411,7 +6411,7 @@
     "bathrooms": 1,
     "area_m2": 44,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_005",
@@ -6433,7 +6433,7 @@
     "bathrooms": 2,
     "area_m2": 74,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_006",
@@ -6455,7 +6455,7 @@
     "bathrooms": 1,
     "area_m2": 72,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_007",
@@ -6477,7 +6477,7 @@
     "bathrooms": 1,
     "area_m2": 43,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_008",
@@ -6499,7 +6499,7 @@
     "bathrooms": 1,
     "area_m2": 58,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_009",
@@ -6521,7 +6521,7 @@
     "bathrooms": 1,
     "area_m2": 32,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_010",
@@ -6543,7 +6543,7 @@
     "bathrooms": 1,
     "area_m2": 43,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_011",
@@ -6565,7 +6565,7 @@
     "bathrooms": 1,
     "area_m2": 32,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_012",
@@ -6587,7 +6587,7 @@
     "bathrooms": 1,
     "area_m2": 40,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_013",
@@ -6609,7 +6609,7 @@
     "bathrooms": 1,
     "area_m2": 40,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_014",
@@ -6631,7 +6631,7 @@
     "bathrooms": 1,
     "area_m2": 61,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_015",
@@ -6653,7 +6653,7 @@
     "bathrooms": 1,
     "area_m2": 30,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_016",
@@ -6675,7 +6675,7 @@
     "bathrooms": 1,
     "area_m2": 27,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_017",
@@ -6697,7 +6697,7 @@
     "bathrooms": 2,
     "area_m2": 78,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_018",
@@ -6719,7 +6719,7 @@
     "bathrooms": 1,
     "area_m2": 45,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_019",
@@ -6741,7 +6741,7 @@
     "bathrooms": 1,
     "area_m2": 28,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_020",
@@ -6763,7 +6763,7 @@
     "bathrooms": 1,
     "area_m2": 44,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_021",
@@ -6785,7 +6785,7 @@
     "bathrooms": 1,
     "area_m2": 44,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_022",
@@ -6807,7 +6807,7 @@
     "bathrooms": 1,
     "area_m2": 32,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_023",
@@ -6829,7 +6829,7 @@
     "bathrooms": 1,
     "area_m2": 60,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_024",
@@ -6851,7 +6851,7 @@
     "bathrooms": 1,
     "area_m2": 33,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_025",
@@ -6873,7 +6873,7 @@
     "bathrooms": 1,
     "area_m2": 42,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_026",
@@ -6895,7 +6895,7 @@
     "bathrooms": 1,
     "area_m2": 90,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_027",
@@ -6917,7 +6917,7 @@
     "bathrooms": 1,
     "area_m2": 60,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_028",
@@ -6939,7 +6939,7 @@
     "bathrooms": 1,
     "area_m2": 27,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_029",
@@ -6961,7 +6961,7 @@
     "bathrooms": 1,
     "area_m2": 62,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_030",
@@ -6983,7 +6983,7 @@
     "bathrooms": 1,
     "area_m2": 35,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_031",
@@ -7003,7 +7003,7 @@
     "bathrooms": 2,
     "area_m2": 145,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_032",
@@ -7023,7 +7023,7 @@
     "bathrooms": 1,
     "area_m2": 42,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_033",
@@ -7043,7 +7043,7 @@
     "bathrooms": 1,
     "area_m2": 76,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_034",
@@ -7063,7 +7063,7 @@
     "bathrooms": 1,
     "area_m2": 57,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_035",
@@ -7083,7 +7083,7 @@
     "bathrooms": 1,
     "area_m2": 60,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_036",
@@ -7103,7 +7103,7 @@
     "bathrooms": 2,
     "area_m2": 135,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_037",
@@ -7123,7 +7123,7 @@
     "bathrooms": 2,
     "area_m2": 195,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_038",
@@ -7145,7 +7145,7 @@
     "bathrooms": 1,
     "area_m2": 44,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_039",
@@ -7167,7 +7167,7 @@
     "bathrooms": 3,
     "area_m2": 170,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_040",
@@ -7189,7 +7189,7 @@
     "bathrooms": 1,
     "area_m2": 70,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_041",
@@ -7211,7 +7211,7 @@
     "bathrooms": 1,
     "area_m2": 55,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_042",
@@ -7233,7 +7233,7 @@
     "bathrooms": 1,
     "area_m2": 30,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_043",
@@ -7255,7 +7255,7 @@
     "bathrooms": 1,
     "area_m2": 40,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_044",
@@ -7277,7 +7277,7 @@
     "bathrooms": 1,
     "area_m2": 50,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_045",
@@ -7299,7 +7299,7 @@
     "bathrooms": 1,
     "area_m2": 28,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_046",
@@ -7321,7 +7321,7 @@
     "bathrooms": 1,
     "area_m2": 60,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_047",
@@ -7343,7 +7343,7 @@
     "bathrooms": 1,
     "area_m2": 45,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "id": "uy_5_048",
@@ -7365,7 +7365,7 @@
     "bathrooms": 1,
     "area_m2": 35,
     "operation": "Venta",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "MONOAMBIENTE 20 PIES (15M2) STRD",
@@ -7383,7 +7383,7 @@
     "images": [],
     "estado": "activa",
     "platform": "livingcontainers.com.uy",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "40 HC One Trip",
@@ -7401,7 +7401,7 @@
     "images": [],
     "estado": "activa",
     "platform": "livingcontainers.com.uy",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento en venta Pilar",
@@ -7419,9 +7419,9 @@
     "images": [
       "https://imgar.zonapropcdn.com/avisos/1/00/57/64/99/33/360x266/2013495220.jpg"
     ],
-    "estado": "activa",
+    "estado": "vencida",
     "platform": "zonaprop.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento en venta Lafinur y Av Cervino",
@@ -7439,9 +7439,9 @@
     "images": [
       "https://imgar.zonapropcdn.com/avisos/1/00/51/49/15/41/360x266/1862470399.jpg"
     ],
-    "estado": "activa",
+    "estado": "vencida",
     "platform": "zonaprop.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento 2 ambientes Haedo Norte",
@@ -7459,9 +7459,9 @@
     "images": [
       "https://imgar.zonapropcdn.com/avisos/1/00/58/49/04/55/360x266/2039466100.jpg"
     ],
-    "estado": "activa",
+    "estado": "vencida",
     "platform": "zonaprop.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Monroe 2671 Piso 2 Departamento B",
@@ -7481,7 +7481,7 @@
     ],
     "estado": "activa",
     "platform": "zonaprop.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento Exclusivo Figueroa Alcorta",
@@ -7499,9 +7499,9 @@
     "images": [
       "https://imgar.zonapropcdn.com/avisos/1/00/59/05/16/39/360x266/2051218936.jpg"
     ],
-    "estado": "activa",
+    "estado": "vencida",
     "platform": "zonaprop.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento 2 ambientes Flores/Caballito",
@@ -7521,7 +7521,7 @@
     ],
     "estado": "vencida",
     "platform": "zonaprop.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento 3 ambientes en venta",
@@ -7541,7 +7541,7 @@
     ],
     "estado": "vencida",
     "platform": "zonaprop.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento en venta Colegiales",
@@ -7561,7 +7561,7 @@
     ],
     "estado": "vencida",
     "platform": "zonaprop.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento 3 ambientes Costavia",
@@ -7581,7 +7581,7 @@
     ],
     "estado": "vencida",
     "platform": "zonaprop.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en venta Nordelta Golf",
@@ -7599,9 +7599,9 @@
     "images": [
       "https://imgar.zonapropcdn.com/avisos/1/00/56/89/85/91/360x266/1993505906.jpg"
     ],
-    "estado": "activa",
+    "estado": "vencida",
     "platform": "zonaprop.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa 3 dormitorios a estrenar Villa Catalina",
@@ -7619,9 +7619,9 @@
     "images": [
       "https://imgar.zonapropcdn.com/avisos/1/00/58/79/81/19/360x266/2044700564.jpg"
     ],
-    "estado": "activa",
+    "estado": "vencida",
     "platform": "zonaprop.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Edificio Belgrano",
@@ -7641,7 +7641,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamentos En Venta En Palomar",
@@ -7661,7 +7661,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Venta Departamentos En Belgrano Caseros",
@@ -7681,7 +7681,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Greenville Spring",
@@ -7701,7 +7701,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Condominio Ayres Lofts",
@@ -7721,7 +7721,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Los Pozos 150 Ituzaingo",
@@ -7741,7 +7741,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Edificio Nunez",
@@ -7761,7 +7761,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Edificio En Ramos Mejia Sur",
@@ -7781,7 +7781,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Edificio Chacabuco Haedo Sur 2 y 3 amb",
@@ -7801,7 +7801,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Edificio En Palermo Soho",
@@ -7821,7 +7821,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Edificio Villa Crespo 1-4 ambientes",
@@ -7841,7 +7841,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Edificio En Barrio Marina La Matanza",
@@ -7861,7 +7861,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Edificio Notre Vicente Lopez",
@@ -7881,7 +7881,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Condominio Agora 1 - 46 Plaza Pilar",
@@ -7901,7 +7901,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Edificio Nunez Premium",
@@ -7921,7 +7921,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Edificio En Nunez 1-3 ambientes",
@@ -7941,7 +7941,7 @@
     ],
     "estado": "activa",
     "platform": "departamento.mercadolibre.com.ar",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en Herrera, Asunción",
@@ -7961,7 +7961,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en Villa Morra, Asunción",
@@ -7981,7 +7981,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartaestudio en Lambaré, Central",
@@ -8001,7 +8001,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en Recoleta, Asunción",
@@ -8021,7 +8021,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Propiedad ideal para oficina - Manorá, Asunción",
@@ -8041,7 +8041,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento amoblado Barrio Jara",
@@ -8061,7 +8061,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento 2 dormitorios Barrio Jara",
@@ -8081,7 +8081,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Pasos del Shopping La Galería 2 dormitorios",
@@ -8101,7 +8101,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa amoblada 4 dorm zona Trinidad",
@@ -8121,7 +8121,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento Edif. 1311 Las Lomas",
@@ -8141,7 +8141,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa 5 dorm en Loma Merlo Luque",
@@ -8161,7 +8161,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento con cochera Las Carmelitas",
@@ -8181,7 +8181,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Monoambiente terminado 2025 Mcal. Estigarribia",
@@ -8201,7 +8201,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento 1 dormitorio Aether Las Lomas",
@@ -8221,7 +8221,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento 2 habitaciones Civis X Las Lomas",
@@ -8241,7 +8241,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento 2 dormitorios Las Lomas",
@@ -8261,7 +8261,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa 2 dormitorios Limpio, Nueva Asunción",
@@ -8281,7 +8281,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Dúplex con patio y balcón Altavida Luque",
@@ -8301,7 +8301,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Dúplex a estrenar 3 dorm. Villa Adela Luque",
@@ -8321,7 +8321,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Fabulosa residencia en pozo Mbocayayty",
@@ -8341,7 +8341,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento en complejo Quartier Las Marias",
@@ -8361,7 +8361,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento renta activa 1 dormitorio con cochera",
@@ -8381,7 +8381,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Residencia de lujo vistas al lago Ypacaraí",
@@ -8401,7 +8401,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa Asunción Bº Pettirossi",
@@ -8421,7 +8421,7 @@
     ],
     "estado": "activa",
     "platform": "infocasas.com.py",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento 1 dormitorio Shopping Del Sol Z/2",
@@ -8441,7 +8441,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Terreno 1212m2 Urbanización Santa Elena Hernandarias",
@@ -8461,7 +8461,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Terreno 1000m2 en esquina Asunción",
@@ -8481,7 +8481,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "3 dormitorios Zona Molas Lopez Asunción",
@@ -8501,7 +8501,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Terreno 1000m2 San Bernardino Av. Naumann",
@@ -8521,7 +8521,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa 2 plantas patio y jardín Ñemby",
@@ -8541,7 +8541,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa a estrenar Luque",
@@ -8561,7 +8561,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento 1 dormitorio Balcones Seminario",
@@ -8581,7 +8581,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Duplex alquiler Fernando de la Mora Zona Norte",
@@ -8601,7 +8601,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en el Centro de San Lorenzo",
@@ -8621,7 +8621,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa Barrio Nazareth Asunción",
@@ -8641,7 +8641,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Dúplex 3 dormitorios Loma Merlo Luque",
@@ -8661,7 +8661,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento 1 hab amplia vista Asunción",
@@ -8681,7 +8681,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Residencia 5 dormitorios Z/Universidad Católica Lambaré",
@@ -8701,7 +8701,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa 3 dorm Sajonia Asunción",
@@ -8721,7 +8721,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento alquiler Barrio Mburucuya",
@@ -8741,7 +8741,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Departamento 3 dormitorios Barrio Manora",
@@ -8761,7 +8761,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa con patio y piscina Fernando de la Mora",
@@ -8781,7 +8781,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Monoambiente en pozo V Tower Recoleta",
@@ -8801,7 +8801,7 @@
     ],
     "estado": "activa",
     "platform": "clasipar.paraguay.com",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Nuvó club residencial, apartamento en venta en prados de la sabana, bogotá",
@@ -8819,7 +8819,7 @@
     "images": [],
     "estado": "activa",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Element 142, apartamento en venta en cedritos, bogotá",
@@ -8837,7 +8837,7 @@
     "images": [],
     "estado": "activa",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Viena, apartamentos en venta en marsella, bogotá",
@@ -8855,7 +8855,7 @@
     "images": [],
     "estado": "activa",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Samper 24, apartamento en venta en samper mendoza, bogotá",
@@ -8873,7 +8873,7 @@
     "images": [],
     "estado": "activa",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Ventto central, apartamento en venta en san miguel, bogotá",
@@ -8891,7 +8891,7 @@
     "images": [],
     "estado": "activa",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Nuva park, apartamento en venta en nueva colina, bogotá",
@@ -8909,7 +8909,7 @@
     "images": [],
     "estado": "activa",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Nativa, apartamento en venta en la florida occidental, bogotá",
@@ -8927,7 +8927,7 @@
     "images": [],
     "estado": "activa",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Colina living, apartamento en venta en colina campestre, bogotá",
@@ -8945,7 +8945,7 @@
     "images": [],
     "estado": "activa",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Vilanova, apartamento en venta en villemar, bogotá",
@@ -8963,7 +8963,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Castilla imperial, apartamento en venta en el tintal, bogotá",
@@ -8981,7 +8981,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Entreverde club, apartamento en venta en nueva zelandia, bogotá",
@@ -8999,7 +8999,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Tekka, apartamento en venta en bella suiza, bogotá",
@@ -9017,7 +9017,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Serendipia deluxe, apartamento en venta en chapinero alto, bogotá",
@@ -9035,7 +9035,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Metro 73, apartamento en venta en chapinero, bogotá",
@@ -9053,7 +9053,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en venta en cedritos, bogotá",
@@ -9071,7 +9071,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en venta en mirandela, bogotá",
@@ -9089,7 +9089,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "La peña, apartamentos en venta en bogotá",
@@ -9107,7 +9107,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en venta en bogotá",
@@ -9125,7 +9125,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en venta en tibabita, bogotá",
@@ -9143,7 +9143,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Open C60, apartamento en venta en chapinero, bogotá",
@@ -9161,7 +9161,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en venta en puente largo, bogotá",
@@ -9179,7 +9179,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Reserva de granada 6, apartamento en venta en engativá",
@@ -9197,7 +9197,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Torre de los andes, apartamento en venta en andes",
@@ -9215,7 +9215,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "La bahia, apartamento en venta en la felicidad, bogotá",
@@ -9233,7 +9233,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Nogal, apartamento en venta en Lagos de Torca, Bogotá",
@@ -9251,7 +9251,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Pimiento, apartamento en venta en Casa Blanca, Bogotá",
@@ -9269,7 +9269,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Apartamento en venta en Pasadena, Bogotá",
@@ -9287,7 +9287,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Verona, apartamento en venta en La Floresta, Bogotá",
@@ -9305,7 +9305,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Andalucia, apartamento en venta en Lagos de Torca, Bogotá",
@@ -9323,7 +9323,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Miralta, apartamento en venta en Lagos de Torca, Bogotá",
@@ -9341,7 +9341,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Reserva de la 26, apartamento en venta en Zona Centro, Bogotá",
@@ -9359,7 +9359,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en venta en Las Villas, Bogotá",
@@ -9377,7 +9377,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en venta en Bosa, Bogotá",
@@ -9395,7 +9395,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en venta en Cedritos, Bogotá",
@@ -9413,7 +9413,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en venta en Colina Campestre, Bogotá",
@@ -9431,7 +9431,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en venta en Villa del Prado, Bogotá",
@@ -9449,7 +9449,7 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   },
   {
     "title": "Casa en venta en Las Guacamayas, Bogotá",
@@ -9467,6 +9467,6 @@
     "images": [],
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
-    "last_checked": "2026-05-08T18:15:27-0300"
+    "last_checked": "2026-05-08T20:11:57-0300"
   }
 ]
