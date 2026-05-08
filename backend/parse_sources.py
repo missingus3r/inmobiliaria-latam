@@ -22,6 +22,36 @@ from urllib.parse import urlparse
 TXT_DEFAULT = "/home/br1/.claude/channels/telegram/inbox/1778264716138-AgAD4gkAAryy8Ec.txt"
 
 # AR/PY/CL/MX/CO — top portales (no están en el txt; van hardcoded)
+# Pagination templates conocidos (extraídos del .txt original).
+# Cada template tiene {N} que se reemplaza por el número de página (2, 3, 4...).
+# Si el dominio no tiene template aquí, el agente del cron 24 tantea variantes comunes.
+PAGINATION_TEMPLATES = {
+    "infocasas.com.uy": {
+        "/alquiler": "/alquiler/inmuebles/pagina{N}",
+        "/venta": "/venta/inmuebles/pagina{N}",
+    },
+    "gallito.com.uy": {
+        "default": "?pag={N}",  # se appendea al final del path
+    },
+    "braglia.com.uy": {
+        "default": "/pagina-{N}",  # se appendea al path antes del query
+    },
+    "inmobiliariabelvedere.com.uy": {
+        "default": "page/{N}/",  # appendea al path
+    },
+    "listado.mercadolibre.com.uy": {
+        # MercadoLibre usa offset, no page-number. step típico = 48.
+        # Página N → _Desde_{(N-1)*48 + 1}_NoIndex_True
+        "default": "_Desde_{OFFSET}_NoIndex_True",
+        "step": 48,
+    },
+    "sigaloavarela.com": {
+        # txt dice "PAGINA 1-3"; intentar sufijo común
+        "default": "page/{N}/",
+    },
+}
+
+
 KNOWN_PORTALES = {
     "AR": [
         {"name": "Zonaprop",     "url": "https://www.zonaprop.com.ar/",          "type": "Portal"},
@@ -102,11 +132,15 @@ def parse_uy_portales(txt: str) -> list[dict]:
         seen.add(d)
         # nombre legible: "infocasas.com.uy" → "Infocasas"
         slug = d.removeprefix("www.").split(".")[0]
-        portales.append({
+        entry = {
             "name": slug.capitalize(),
             "url": f"https://{d}/",
             "type": "Portal",
-        })
+        }
+        # attach pagination hints if known
+        if d in PAGINATION_TEMPLATES:
+            entry["pagination"] = PAGINATION_TEMPLATES[d]
+        portales.append(entry)
     return portales
 
 

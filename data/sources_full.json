@@ -40,7 +40,11 @@
         {
           "name": "Listado",
           "url": "https://listado.mercadolibre.com.uy/",
-          "type": "Portal"
+          "type": "Portal",
+          "pagination": {
+            "default": "_Desde_{OFFSET}_NoIndex_True",
+            "step": 48
+          }
         },
         {
           "name": "Infocasas",
@@ -60,7 +64,10 @@
         {
           "name": "Braglia",
           "url": "https://braglia.com.uy/",
-          "type": "Portal"
+          "type": "Portal",
+          "pagination": {
+            "default": "/pagina-{N}"
+          }
         },
         {
           "name": "Campiglia",
@@ -70,7 +77,10 @@
         {
           "name": "Inmobiliariabelvedere",
           "url": "https://inmobiliariabelvedere.com.uy/",
-          "type": "Portal"
+          "type": "Portal",
+          "pagination": {
+            "default": "page/{N}/"
+          }
         },
         {
           "name": "Inmobiliariaroig",
