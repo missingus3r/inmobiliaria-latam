@@ -2020,10 +2020,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWFlN2E1LTY3MDYtNzkzMy04MzAxLTYxMzliNzU2OGRiNC8wMTlhZTdhYy0yM2U5LTczZDQtYjczNi1lY2VkNmFiZjVlYTMuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "081a5f3acccb",
@@ -2245,9 +2244,8 @@
       "https://cdn2.infocasas.com.uy/gen-ai/enhanced_image_20251109203320.png"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:41:55.450Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "0920633e6a19",
@@ -2851,9 +2849,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/ef454262d462ba5374111eddcb6436a53c612bc5.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:14.282Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.682Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "0bfb47dcdc86",
@@ -2893,10 +2890,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY0N2VlLThiODItNzM1OC05MTQwLTdhZDllYWUzOGY0OS8wMTlmNDdmMC1mNzZiLTczYzAtYWRhNi0zZGYxMTJiMDYyY2EuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "0c2505e86b4b",
@@ -3023,6 +3019,27 @@
     "estado": "activa"
   },
   {
+    "id": "0c7db571e0c3",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Exclusivo Chalet a Estrenar en Marín Ka’aguy, Luque: Lujo y Confort en un Entorno Privilegiado",
+    "price": 320000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/exclusivo-chalet-a-estrenar-en-marin-ka’aguy-luque-lujo-y-confort-en-un-entorno-privilegiado/194026659",
+    "platform": "infocasas.com.py",
+    "location": "Marin Ka'Aguy, Luque, Paraguay",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_m2": 65,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a6294b6a50df_infocdn__eufkchoddbetqwvo70z04ocmrncmqnil0hijgivgjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "0c85292c24b0",
     "country": "UY",
     "source": "Lovendimos",
@@ -3102,6 +3119,27 @@
     "fetched_at": "2026-07-19T07:43:25.822Z",
     "source": "scrape:infocasas-next",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "0cf9f6813272",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Casa en Venta en Chía",
+    "price": 410000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/casa-en-venta-en-chia/193914219",
+    "platform": "fincaraiz.com.co",
+    "location": "calle 35 # 1b-0",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 74,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a3d7737da8c6_infocdn__gr192116720260624073156png.png"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "0cfce1adce2c",
@@ -3249,6 +3287,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "0d5752275815",
+    "country": "MX",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Departamento en Venta en Ignacio Allende",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-8bde7c5694be-cd5f-1983e42-82f1-716f",
+    "platform": "lamudi.com.mx",
+    "location": "Av. Pablo Livas 2901, Quince de Mayo, 67170 Guadalupe, N.L., México",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 112,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTgzZGY5LWNkMTYtNzEyNi04MmE4LThiZGU3YzU2OTQ3NS8wMTlhNWY5Ni1hOWYxLTcxY2MtOGZkNi1kYjcyODMwNDhjZmYuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.262Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
     "id": "0d5cff3d826e",
     "country": "MX",
     "operation": "Alquiler",
@@ -3286,10 +3345,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTlkN2MyZC1mOGNkLTc3Y2YtYTEwYS0yZDA1NDY4YmZjMWQvNGVhNjBmZGU1MGIzM2ZlYmY4NWExY2IwYTc0ZGVjYTQ2MzA4MjkzZmE2YTQwNDU2OTdhNDEyNGI5YzVmNTllNC5qcGVnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "title": "40 HC One Trip",
@@ -3821,9 +3879,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/f137d38446342c33bf69e29a4eee5abe41d784a2.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:08.575Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.025Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "0f6917a20997",
@@ -4133,10 +4190,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU5OGU3LTQ2ZDctNzkzMi1iZTI0LWY2MzhhY2E3ZWQ3Zi8wMTllOTkyOC1lNjI1LTczOGYtYTk5ZS1mNWQ5ZWZjOTYzYzQuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "10ad4e896500",
@@ -5106,10 +5162,30 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTM2NWM5LTlkOWUtNzExZC04NjYxLWM3MTZhYjI4Mzc4Yi8wMTllOWQ4ZS05ZWQxLTcxMTgtOTIzYy04NWQwNjZkOTUzYzAuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
+    "id": "140e0785a5e1",
+    "country": "MX",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Casa en Renta en Cumbres Elite Sector Villas",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-2be0024df20d-940f-19f91a7-b587-7535",
+    "platform": "lamudi.com.mx",
+    "location": "Cumbres Elite, Sector Villas, Monterrey, Nuevo León, México",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 244,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY5MTVlLTkzYzYtNzRlYy1iNTNlLTJiZTAwMjRkZjFjNC8wMTlmOTE2MC1hMjBiLTczNTUtODFlYS0zNTA3MmFkMzcyOTEuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "141839caa4b8",
@@ -5638,7 +5714,7 @@
     "operation": "Arriendo",
     "class": "Apartamento",
     "title": "Apartamento en Arriendo en Fontibon, Bogotá",
-    "price": 1800000,
+    "price": 1700000,
     "currency": "COP",
     "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-fontibon-bogota/193899371",
     "platform": "fincaraiz.com.co",
@@ -5647,12 +5723,11 @@
     "bathrooms": 2,
     "area_m2": 38,
     "images": [
-      "https://cdn2.infocasas.com.uy/repo/img/6a56a80d04a47_infocdn__ea30eb89-8862-470d-89c4-d6a0688245cfpropertyea30eb898862470d89c4d6a0688245cf560vsb2b844jpg.jpg"
+      "https://cdn2.infocasas.com.uy/repo/img/6a6279e2d2f66_infocdn__ea30eb89-8862-470d-89c4-d6a0688245cfpropertyea30eb898862470d89c4d6a0688245cf560vsb2b844jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:17.184Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:50.377Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "15bbc04a7f6b",
@@ -6579,6 +6654,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "184cc1d35cbb",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Pradera del Hato, Casa en Venta en La españolita, Piedecuesta",
+    "price": 1083423000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/pradera-del-hato-casa-en-venta-en-la-españolita-piedecuesta/191967406",
+    "platform": "fincaraiz.com.co",
+    "location": "Carrera 2, Piedecuesta, Santander, Colombia",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 140.09,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/67a289c73375d_infocdn__o3amlojq7a9ay7zbrtbm0chwscjmzuzqqzoofvxqjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "1857ccee1eb7",
     "country": "CO",
     "operation": "Arriendo",
@@ -6760,9 +6856,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/1b311c7741d198f4570832e8d75b050da4273194.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:14.282Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.683Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "194c66a4289d",
@@ -7424,6 +7519,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "1b78de7f474d",
+    "country": "MX",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Casa en Fraccionamiento en Renta en Ánimas Marqueza",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-17733d6f54a3-632-19e4b57-834a-7496",
+    "platform": "lamudi.com.mx",
+    "location": "Calle Granizo 31-31, Residencial Marquésa Ánimas, Xalapa-Enríquez, Xalapa, Veracruz de Ignacio de la Llave, 91193, MEX",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 385,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU0YjBlLTA1ZTktNzQ0ZC04MzAxLTE3NzMzZDZmNTQ1YS8wMTllNGIxNC03MzliLTcwM2EtOTNhNS1jYzRjODdmMjk3NTguanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
     "id": "1b8fa4f7119a",
     "country": "UY",
     "operation": "Venta",
@@ -7502,6 +7618,27 @@
     "estado": "vencida"
   },
   {
+    "id": "1bf5b16387a2",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Apartamento en  Venta en El ingenio, Cali",
+    "price": 325000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-venta-en-el-ingenio-cali/191981660",
+    "platform": "fincaraiz.com.co",
+    "location": "CL 13 A # 85 A - 81",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 75,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/67a58767e936e_infocdn__cyrdtp6rzltcdj5ybjgo03wye4mkfzhh58nxbnzojpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "1bfc8bf9ee8e",
     "country": "UY",
     "operation": "alquiler",
@@ -7558,10 +7695,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWUzYzZiLTNiM2MtNzUxOS04YjFhLTQ0ZjAyNzI2ZTJlMC8wMTllM2M4MS0yODZlLTcyZTQtYmUwMS1hYmY5ZmQwOGM1YzMuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "1c28bc4a4585",
@@ -8506,9 +8642,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/faec827b56031a3eebe8c6c59ea725bb54446cf7.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.683Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "1e9617ea02b6",
@@ -8932,10 +9067,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTk4NjgzYS00MWEzLTc3OTYtODFiMi1mNzZkODU4N2VjZGMvYmRmMTZlZjlmMzYzM2RjMWQ4MDc3MTMxMzAyN2ZiZWUzOTliNjVkNGVjZGQyZDBhNjFhMmY2ODMyNGZiODAzMi5wbmciLCJicmFuZCI6ImxhbXVkaSIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MjQwLCJmaXQiOiJjb3ZlciJ9fX0="
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "20428a261cab",
@@ -9081,10 +9215,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTllOGUxMy0yNmJiLTdhNzctOGFlYS0zODQ1MGI2ZmI4M2MvNjliNTQxNWY0MDgxM2VkYTFhMjI0ZmVjNjE0MjQ2MDc2ZTBlYjY2NzFjN2U0MDlhNTIwNmU4M2NkMmE3NjBkMS5qcGVnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "21011e38f2b9",
@@ -9105,6 +9238,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa"
+  },
+  {
+    "id": "21378ffa2418",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Coqueta Casa en Venta en Asunción - Barrio San Pablo: ¡Tu Oasis de Confort y Estilo!",
+    "price": 900000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/coqueta-casa-en-venta-en-asuncion-barrio-san-pablo-¡tu-oasis-de-confort-y-estilo/193963851",
+    "platform": "infocasas.com.py",
+    "location": "Tte. Jose Felix Lopez 332",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "area_m2": 125,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a4d371c6e401_infocdn__5m5vg1dapkuqjk9qwwejovncqli2cgvi6rxd6xenjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "2143c195a3b5",
@@ -10254,9 +10408,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a1f7b02407d9_infocdn__wpj3kaubzgodjngdyzllrig57p1mcygdkcbc4mivjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:41:50.318Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.025Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "24ea555d1888",
@@ -11243,6 +11396,48 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "2790029a75b6",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "LUCIÉRNAGAS, Apartamentos en Venta en El carmelo, Candelaria",
+    "price": 306000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/proyectos-vivienda/luciernagas-apartamentos-en-venta-en-el-carmelo-candelaria/10521031",
+    "platform": "fincaraiz.com.co",
+    "location": "Ciudad Del Valle, Candelaria, Valle del Cauca, Colombia",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 45.58,
+    "images": [
+      "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/4858ed85-4cf3-4f77-81d7-8498c793eeaa/photos/4858ed85-4cf3-4f77-81d7-8498c793eeaa_1_True_98191628-8417-4f07-902c-a018b8caeda1.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
+    "id": "27a256252490",
+    "country": "MX",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Casa en Renta en Kanasin",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-13d5848a22d7-6e72-19f8142-8cda-7223",
+    "platform": "lamudi.com.mx",
+    "location": "Kanasín, Yucatán, 97387, México",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_m2": 70,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY4MGY5LTZlMjktNzFkYS04YzkxLTEzZDU4NDhhMjI4ZS8wMTlmODBmZi1jNjBkLTczYTEtODI4NC02MTBmY2YyY2I4MzAuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
     "id": "27a45672fdce",
     "country": "MX",
     "operation": "Alquiler",
@@ -11401,6 +11596,27 @@
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa",
     "country": "UY"
+  },
+  {
+    "id": "2814a31704df",
+    "country": "MX",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Departamento en Venta en Centro",
+    "price": 39000,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-4a360bcc68cf-95f5-199cf0b-9c9a-7567",
+    "platform": "lamudi.com.mx",
+    "location": "Nick Price Residences, Playa del Carmen, Quintana Roo, México",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "area_m2": 120,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTljZWMyLTk1YWMtNzUxZS05YzUxLTRhMzYwYmNjNjg4Ni8wMTk5Y2VjNS0zN2IxLTcyODEtODFiMi0zMTM2YjU5MDE5NDUuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "28172eb009c6",
@@ -12090,6 +12306,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "2a7ac1b15140",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "PRIMERA ESTE, Apartamento en Venta en Chapinero Alto, Bogotá",
+    "price": 412000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/primera-este-apartamento-en-venta-en-chapinero-alto-bogota/10119741",
+    "platform": "fincaraiz.com.co",
+    "location": "[PLACEHOLDER]",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 34.28,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69a8a7df24bda_infocdn__yhx1kikevngooix33z9pnk5wfpmbuaftfwasukjkjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "2a7ecdb31e11",
     "country": "MX",
     "source": "Pincali (EasyBroker)",
@@ -12642,10 +12879,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWM3Y2M4LTI4YzEtNzNjZC04NjE4LTA0MjBjZmI1M2UwZC8wMTljN2NjYS00Y2MyLTczNGUtODg3NS1mYTA0NjE4YTg0MmQuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "2c3f21872775",
@@ -12916,8 +13152,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69c13a8a4c656_infocdn__wbutpzyh4nspussiqzwv3n8wus5egliztlae9d4yjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-16T19:47:26.960Z",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.024Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "2cff3d6836da",
@@ -13342,6 +13578,48 @@
     "estado": "activa",
     "platform": "infocasas.com.py",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "2e74b3dd1599",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "VENDO Casa Quinta en la ciudad de San Bernardino",
+    "price": 2200000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/vendo-casa-quinta-en-la-ciudad-de-san-bernardino/193012820",
+    "platform": "infocasas.com.py",
+    "location": "Domingo Guerrero, San Bernardino, Paraguay",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area_m2": 450,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/0050368ad2a319ced441950f8937f594664ffbe3.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
+    "id": "2e82a9b5f311",
+    "country": "MX",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Casa en Renta en Lomas de Chapultepec",
+    "price": 170000,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-1447763285e9-cc48-19f934c-85ac-7b67",
+    "platform": "lamudi.com.mx",
+    "location": "Avenida Explanada, Lomas de Chapultepec 5ª Sección, Lomas de Chapultepec, Ciudad de México, Miguel Hidalgo, Ciudad de México, 11000, México",
+    "bedrooms": 3,
+    "bathrooms": null,
+    "area_m2": 600,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTlmOTMwMy1jYmZmLTdiMWUtODU2My0xNDQ3NzYzMjg1YTAvNTNhMDQ4YzQ5MjZjNjFiZTVkNmVlYzg5MTA3MWZmODYwYTMwNmMyZGFiMmEwMTQ5ODgyYzRjOWQwMGRhMWZhOC5qcGVnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "2e977c1a4af3",
@@ -13894,10 +14172,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU4YjY0LWU4ODItNzJlOS1hZTYwLTI4MzRmNTRlMmE4Mi8wMTllOGI3MC01NTE1LTczMzMtYmQyNy1iODE5MmYxYzQyZTQuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.414Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "30ea61d82db1",
@@ -14213,6 +14490,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "324f15e40901",
+    "country": "MX",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Casa en Venta en El Calvario",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-2976fdfd8a70-3381-40437569-8b56-1f7f",
+    "platform": "lamudi.com.mx",
+    "location": "Calle del Depósito 18-18, El Calvario, Emiliano Zapata, Morelos, 62764, MEX",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": null,
+    "images": [
+      "https://images.proppit.com/properties/40437520-3338-1f36-8b0d-2976fdfd8a27/4e2d71a3-d918-4bce-88f8-0f21399ee5c7.bin"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
     "id": "324f475597cd",
     "country": "PY",
     "operation": "Venta",
@@ -14350,8 +14648,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/68ee51c3017bf_infocdn__m30na2nym0yizsdvjnignkvmr0umfcrs5mgubpwrpng.png"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-16T19:47:33.458Z",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.026Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "328d48e1e2d9",
@@ -14673,6 +14971,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "3358b00a89bc",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Apartamento en Venta en Niza, Manizales",
+    "price": 430000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-venta-en-niza-manizales/193805733",
+    "platform": "fincaraiz.com.co",
+    "location": "Conjunto Icaru Apartamento 1204 Torre 2",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 64,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a16fc78615e3_infocdn__gr-copia-de-arrienda-apartamento-1775073665-1689-2349jpeg.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "335ec00c4e51",
     "country": "CO",
     "operation": "Venta",
@@ -14709,9 +15028,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/68782143294d6_infocdn__po2bcsrvdxxzwlgosjgsjdggi4amebjhkj1bvky5jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:31.481Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:50.376Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "33683b6d76a4",
@@ -14753,9 +15071,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69d7a7c32e2f1_infocdn__ghkjthfy2lpx7shdna66y5ixkbeirfngbjajmhkejpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:19.935Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.682Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "339031bdfe3c",
@@ -15417,10 +15734,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTllNDIwZi00NWJjLTcwNDctOGM2Zi1iMTg4M2VlMjhmNDkvNjdjNGNlYTAzZmRkYTllNWYzMjk0MTQ2NTI2ZDY3Mjc1ZTE5ZDU4ZjUwYjVhMjNlYmFhZjgxOTRmMzJlMTAxMy5qcGVnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "3658b63d73d3",
@@ -15440,9 +15756,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/194767b6306390d7012aabae6d5c694beeedd034.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.683Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "3658e0351945",
@@ -15505,9 +15820,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/83f3213b71a5926a2773d8afa616dc6e5a13e7e8.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:02.961Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.025Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "3690723aea57",
@@ -15526,10 +15840,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWRiMWQyLTg3ODgtNzQyNS1iZWVhLTE4OGE2YTc0MTU1NS8wMTlkYjFkNi1hZGZlLTczY2QtYjY2MS00ODQ1Y2Y3Njg4YTIuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "3697018131ac",
@@ -15650,10 +15963,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2RmZjYxZDkyLTVkYWUtNDJmNS1hNGZiLWUyMWRjYWE3NzZmOC9iOGIzNWMzZS1mYzU0LTQxMWUtYTY1Yi1iNWM0OTQ4ZjU3YWEuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "3750e126f48d",
@@ -15822,6 +16134,48 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "37d40d279eb0",
+    "country": "MX",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Casa en Renta en Cumbres del Sol",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-2fdb8d009b6f-4e47-19f9169-8b1d-72b9",
+    "platform": "lamudi.com.mx",
+    "location": "Cumbres Elite, 3er Sector, Monterrey, Nuevo León, México",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area_m2": 220,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY5MTIwLTRkZmUtNzI3MC04YWQ0LTJmZGI4ZDAwOWIyNi8wMTlmOTEyNi0xM2NhLTczYjYtYWNhOC1kMjI5ODExZjk4NGEuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
+    "id": "37e6e380ab52",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Casa",
+    "title": "Casa en Arriendo en San francisco, Bucaramanga",
+    "price": 2600000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/casa-en-arriendo-en-san-francisco-bucaramanga/193426353",
+    "platform": "fincaraiz.com.co",
+    "location": "Calle 18 # 23-25, Bucaramanga, Santander, Colombia",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 150,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/699c7cd868533_infocdn__r5v6ffvijmihtv6otre4fhoeulwdwavo7yvhqzpvjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.377Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "3805c0cff4bd",
     "title": "Terreno Limpio Central",
     "price": 300000000.0,
@@ -15920,8 +16274,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a456797ec8eb_infocdn__hqgmoh3ilylqst2htu7ygb0cw5kzgvhgt915rpvjjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-16T19:47:26.959Z",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "384e95ffdade",
@@ -16046,6 +16400,27 @@
     "estado": "vencida",
     "platform": "zonaprop.com.ar",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "38cf56f276ee",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Exclusiva residencia de 4 habitaciones en Barrio Carmelitas ",
+    "price": 1800000000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/exclusiva-residencia-de-4-habitaciones-en-barrio-carmelitas-/193983664",
+    "platform": "infocasas.com.py",
+    "location": "Carmelitas, Asunción, Paraguay",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "area_m2": 1090,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/4ecf0f11a76f275ef096b4c1cc130b97177b6c6e.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "38d8021fafc6",
@@ -16187,10 +16562,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU0MjczLWJjNzQtNzY5YS05Yjc2LTM4NGM5YjIzN2FiMC8wMTllNDI3OC0yZjFlLTcyYTYtYTNiNS0yZTY2NDgyN2Q2N2MucG5nIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "title": "Casa 3 dorm Sajonia Asunción",
@@ -16312,6 +16686,27 @@
     "estado": "activa",
     "fetched_at": "2026-05-27T07:46:32.944178+00:00",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "39c30526bff6",
+    "country": "MX",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Departamento en Venta en Mezcales",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-385a2904c85f-1c99-19f633b-b07c-7482",
+    "platform": "lamudi.com.mx",
+    "location": "Araquuna | Departamentos en venta, Benito Juárez, Lomas de Mezcales, Mezcales, Nayarit, México",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 66,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY2MmYyLTFjNTAtNzQzOS1iMDMzLTM4NWEyOTA0YzgxNi8wMTlmNjgyYS01YTIwLTcxNTYtYmNhYS05OWQzZmVkYWNkMTUuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.262Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "39c4b77cd273",
@@ -16656,10 +17051,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTc0NzJjLTE0NWItNzMzYi04MzNkLTBmNGEyYWNhZDZhOC8wMTk3NDc4My1lZTI4LTczMDgtYmExYy03OTBjZmFlZWVkMmMuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.414Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "3b580c3a06ed",
@@ -16917,9 +17311,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/c176f75ef08112cbdc5875b71e7dbff191634de3.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:41:50.318Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.025Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "3c7bb71ff26f",
@@ -16959,10 +17352,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWRiNWZkLTE3OTEtNzFhOS05ZDdkLTM1MmNkZjNlY2MxNi8wMTlkYjYwMS02MGY5LTcwNjYtYTU5Zi1kMGNlMTE1YmViNTcuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.728Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.262Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "3c94349e1b44",
@@ -17402,9 +17794,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/12a7491db62b028439c0058a427dfc80627dda3a.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:41:55.450Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "3f06b6ad19e3",
@@ -18138,6 +18529,27 @@
     "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.69e6569e5654a_infocdn__8jugkfmwwjfwdfrptxhx3o4ix3ae5xrktb74nmnbjpg.jpg"
   },
   {
+    "id": "412557b571a1",
+    "country": "MX",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Departamento en Venta en Del Valle",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-962d01307a44-b959-19ac099-9a01-721e",
+    "platform": "lamudi.com.mx",
+    "location": "Calle Patricio Sanz 627, Del Valle Norte, Benito Juárez, Ciudad De México, 03103, MEX",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 250,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTlhYzA1MC1iOTEwLTcxZDUtOTliOC05NjJkMDEzMDc5ZmIvNzRlMWJjYWI3OGYxNzlhMTEwOGNiNDYxZTE2YzFhYzc1ZDk0OGEyNjQyNzlhZTZmMzkxNTMzNzJlZGE0YzBiNi5qcGVnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.262Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
     "id": "4129a1ed84aa",
     "country": "UY",
     "operation": "Venta",
@@ -18326,6 +18738,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "vencida"
+  },
+  {
+    "id": "41800520637b",
+    "country": "PY",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Alquilo Residencia en Carmelitas",
+    "price": 24000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/alquilo-residencia-en-carmelitas/193954138",
+    "platform": "infocasas.com.py",
+    "location": "",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area_m2": 320,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/6a496797ed4d9_9b0bf499-e404-49b1-9430-73e57a38b71e.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:33.683Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "4194a6531940",
@@ -18570,9 +19003,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69fc83ff9e3cc_infocdn__wulm9ryurnexhxqckkf0t7buavopbykzzmwg0drvjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:14.283Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.682Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "425863cf2d85",
@@ -18921,10 +19353,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU4M2MwLWMyZjQtN2IxOC1hYTUyLWI5YTc3NTRjNTU4Ni8wMTllODNjNi1mNjI5LTcyY2QtOGE0OC00NTdhYjk4YmYyNjEuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "4381dfce31fb",
@@ -19179,6 +19610,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "444cb55da65f",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "PLAYA ESCONDIDA, Apartamento en Venta en 2. localidad de la virgen y turistica, Cartagena",
+    "price": 1573000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/playa-escondida-apartamento-en-venta-en-2-localidad-de-la-virgen-y-turistica-cartagena/10966861",
+    "platform": "fincaraiz.com.co",
+    "location": "[PLACEHOLDER]",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "area_m2": 117.5,
+    "images": [
+      "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/5b7910fb-90f3-4775-8515-cf7a37039654/photos/5b7910fb-90f3-4775-8515-cf7a37039654_1_True_fc877e05-d067-4a76-b828-4dd59bec55b1.jpg#HASTH"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "445234b88574",
     "country": "UY",
     "source": "Echeverria y Olivera Inmobiliaria.",
@@ -19239,6 +19691,27 @@
     "estado": "activa",
     "fetched_at": "2026-05-27T07:46:32.944178+00:00",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "44984e97f356",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Lalinde, Medellín",
+    "price": 5500000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-lalinde-medellin/193811264",
+    "platform": "fincaraiz.com.co",
+    "location": "Carrera 38 # 11-48, El Poblado, Medellín, Antioquia, Colombia",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 122,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a18748052192_infocdn__sssonb35vraa1wufrahhzbwbw5yr1qqkrebjxwbljpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.376Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "44c6563187c0",
@@ -19664,9 +20137,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69168aa33597f_infocdn__8kw8ea9eq2csnbojom3llvpczcanvxv64kzdc9w6jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-05-31T07:58:27.707Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:50.376Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "474738a4fab1",
@@ -19930,10 +20402,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTM2NTc4LWY3ZTktNzExZC04NjYxLTk4MGQ1YjI0MzE4OC8wMTllOTNlMy0wMTNkLTcyMjEtYjk2Yy03NWE5OTM1ZDYwODcuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "48575f907d55",
@@ -20040,10 +20511,30 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTlkMzUwOS00ZTU2LTdmM2YtOWZmNC1hMWRkODVmNDY0ODEvYTZlYzI1MjBiMmFlOTBjNmI1NGJkZmI2NzgwZDlmZDEwMDczNTc0NDI0N2Q3NTcxZTg3N2EwMWM0NjY5ZmYyMi5qcGVnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
+    "id": "48ac70f1380d",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Casa",
+    "title": "Casa en Arriendo en Alhambra, Manizales",
+    "price": 15000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/casa-en-arriendo-en-alhambra-manizales/193098177",
+    "platform": "fincaraiz.com.co",
+    "location": "Cerros de la Alhambra",
+    "bedrooms": 3,
+    "bathrooms": 5,
+    "area_m2": 380,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a3190da00717_infocdn__gr56286420251201101426png.png"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.376Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "48b063924c3c",
@@ -20166,10 +20657,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY0ZDY3LTZhZGItNzNkYS1hNWIzLTg1ODIzZWNiZjk4YS8wMTlmNGQ2Yy02ZjgzLTcwY2YtYjQxYi05YWIxMDUxMzAyNmMuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.559Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "49284a1d397e",
@@ -20356,6 +20846,27 @@
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa",
     "country": "UY"
+  },
+  {
+    "id": "4a161d953fd2",
+    "country": "MX",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Departamento en Venta en Zona Hotelera",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-cf8d872a4ce4-c631-19f5e0e-9365-7834",
+    "platform": "lamudi.com.mx",
+    "location": "Puerto Cancun, Boulevard Kukulcan, Puerto Juarez, Zona Hotelera, Cancún, Quintana Roo, México",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "area_m2": 310,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY1ZGM1LWM1ZTgtNzdlYi05MzFjLWNmOGQ4NzJhNGM5Yi8wMTlmNWRjOS1hZTQxLTcwZmItOTVhNC0yZjA1YzM5NDc0YjAuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.262Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "4a1e141c31e8",
@@ -20912,10 +21423,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY0ZDUwLTExOWYtNzQ1Mi1hMmI1LTIxMjYxMjc2ODM2ZC8wMTlmNGQ1MS1jMjQ1LTcyMTctODNkZS05MzU1OTI2M2IyMTkuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "4bf6939feb11",
@@ -21170,10 +21680,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWE3NjYwLTU1NjEtNzY0OS05NDQwLTY0ZDQ5ZGI2YmIyNS8wMTlhNzY2ZC1iZTIxLTcwM2MtYTEyMS02MzNhMjNkNjljODQuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.728Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.262Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "4ca809331d8e",
@@ -21676,9 +22185,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/7c61ff546efeb9eb56d437219f511aa47c3af2fd.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:41:55.450Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "4e3e0beaa7f5",
@@ -21881,6 +22389,27 @@
     "estado": "vencida",
     "fetched_at": "2026-05-29T07:53:27.514Z",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "4eadd071415b",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "¡Oportunidad única! Hermosa casa quinta en Aregua, ruta asfaltada. Terreno de 408 m² ideal para tu escape soñado.",
+    "price": 68000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/¡oportunidad-unica-hermosa-casa-quinta-en-aregua-ruta-asfaltada-terreno-de-408-m²-ideal-para-tu-escape-soñado/193992036",
+    "platform": "infocasas.com.py",
+    "location": "Emilio Gabriaguéz",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_m2": 96,
+    "images": [
+      "https://cdn2.infocasas.com.uy/gen-ai/enhanced_image_20260715134430.png"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:22.024Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "title": "Edificio En Palermo Soho",
@@ -22330,9 +22859,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/682bac970149b_infocdn__sqwsazoxhalm2hqsvwpi5ynheiq42jn6ljcw3rtvjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:19.981Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "510b8263e5a8",
@@ -22372,9 +22900,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a1a026f6a153_infocdn__rsky5otga5gsptcg4ioserlf2747drpqzvgp0h0hjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:41:55.450Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "511df8120a61",
@@ -22498,10 +23025,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTYzNjk3LTg0MTEtNzAwMy1iMGIzLTNiZDdlZWRlOWQ5Zi8wMTliZDk3Yi1iODY5LTczYTctYmFjYi1lNTQ5MzQ1ZDYzNGMuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "518215845f87",
@@ -22868,10 +23394,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWUzZTA0LTRmYzYtNzQwNi1hOWUwLWI0MmYzMWQ4NGE1Yy8wMTllNzY5YS1hNmU3LTcxMGYtOWJkMC1iYzA0ZDBmMmI3ZDQuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-19T07:43:37.306Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "536da649b761",
@@ -22955,9 +23480,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a54db7181130_infocdn__ms9kmqklm9bwkltyuj2czbljwfxll7mpvfigjwuhjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:14.761Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.024Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "53a80218046f",
@@ -23140,10 +23664,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY2M2RlLTZjZGEtNzQ5Yi05ZWEwLTkxZTZlODVlOTZmZS8wMTlmNjNlMS0wOTcyLTcwNzAtOWYxZC02NzQ0OTE1NGRmYWMuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.728Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "54426cde9f5b",
@@ -23954,10 +24477,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWE1ZjJkLWU5NWQtNzA2OS05MzhkLTJmYjBmODY2YTY1Mi8wMTlhNWY4Yi02N2UxLTcwZmItODc4MC1lMTJhZTVjMDZjYjUuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.728Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "56b56c08e791",
@@ -23976,10 +24498,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWVhYWQ0LTYxMDctNzVlYy1hMDY1LThmNjQzMDBkZTMzYi8wMTllYjA2OS01ZWIxLTcwZmUtOGUxMC0yNTM0ZGJlNGZlNGIuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "56c1baf4e0b3",
@@ -24603,6 +25124,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "594eb21aadc9",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Amaretto, Apartamento en Venta en Miramar, Barranquilla",
+    "price": 298268000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/amaretto-apartamento-en-venta-en-miramar-barranquilla/191965250",
+    "platform": "fincaraiz.com.co",
+    "location": "Cl. 100 #44-80, Norte Centro Historico, Barranquilla, Atlántico, Colombia",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_m2": 45.95,
+    "images": [
+      "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/b00021eb-4ef5-482c-b3c6-faa384844b42/photos/b00021eb-4ef5-482c-b3c6-faa384844b42_1_True_5b9b645b-c372-45aa-b688-67022fe1d1b0.jpg#HASTH"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "59501668627b",
     "country": "UY",
     "operation": "Venta",
@@ -24827,9 +25369,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a0c640ddde27_infocdn__lsmxknzmfubq7vxml7ktgncuigdyz24xgyxvrfo5jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:19.936Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.683Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "5a8f5d9f6512",
@@ -24913,9 +25454,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/bf1aa1e77ee4e7c3f5c6912a6d4f91ae33390831.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:02.963Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.025Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "5adc73341763",
@@ -24976,8 +25516,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/698fbe4a9bac0_infocdn__utkbgorltkr4uzm9l9js1bp0exjwgjqzmjfofreijpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-16T19:47:44.268Z",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "title": "Casa amoblada 4 dorm zona Trinidad",
@@ -25230,6 +25770,27 @@
     "estado": "activa"
   },
   {
+    "id": "5c070fbab5ea",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Casa",
+    "title": "Casa en Arriendo en Provenza, Bucaramanga",
+    "price": 3300000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/casa-en-arriendo-en-provenza-bucaramanga/193973184",
+    "platform": "fincaraiz.com.co",
+    "location": "Calle 106 # 24-108, Bucaramanga, Santander, Colombia",
+    "bedrooms": 6,
+    "bathrooms": 4,
+    "area_m2": 250,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a4fe94200a44_infocdn__7eusdw767lyqvb8wuemydezzicdfbsigskxdoso9jpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.377Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "5c35360e9441",
     "country": "MX",
     "operation": "Venta",
@@ -25246,10 +25807,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTM2NTY0LWM3YzUtNzExZC04NjYxLTk0ZmY3MmQxOWU3NC8wMTkzNjU2NC1kODM4LTcyMmMtYTVhMy01ODAzNGM0ZGQ5MzMuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "5c433470b654",
@@ -25903,9 +26463,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/563566f3aba46ee9997e5aa15dad487a44e4297c.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:41:50.317Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.025Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "5effb3e23441",
@@ -26401,10 +26960,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWUzZDFiLWU4MDYtNzM1OC1hYjc0LTlkYTk2OGI0YmQzNC8wMTllNzY5ZC0xOTZhLTcwNzItYjIwNy1hY2IxZjg3YzAzNGQuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "605fc21d53aa",
@@ -26945,9 +27503,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/a42843a6cffcd9c5e03ec309a850df5f8ea4f634.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:41:55.450Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "6215e914316a",
@@ -27645,9 +28202,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/0102e676f5d3e199ff2388d124a44d24e768a014.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:14.761Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "64faac97975f",
@@ -28022,6 +28578,27 @@
     "last_seen": "2026-05-22T07:50:59.532430+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa"
+  },
+  {
+    "id": "66109b7357d6",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "PORTO SABBIA SUITES Y RESIDENCES, Apartamento en Venta en Gaira, Santa marta",
+    "price": 646795000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/porto-sabbia-suites-y-residences-apartamento-en-venta-en-gaira-santa-marta/193599748",
+    "platform": "fincaraiz.com.co",
+    "location": "Porto Sabbia Residences, Puerto, Santa Marta, Magdalena, Colombia",
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "area_m2": 51.7,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/68b76ae7671a1_infocdn__dytis8ytumomwbi8rkfhjpixndk4xnv8bbthitnvjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "661dae0db36b",
@@ -28535,10 +29112,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU1Y2E0LTZlNTYtNzFiYy1hZjU3LWIyZTc4ZDhiOTYyNS8wMTllNWNhYS0zOWJmLTcxMjMtOTU2My01NjcwZDgyMTkyYTkuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.559Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "67de8e020ecc",
@@ -28565,22 +29141,21 @@
     "country": "PY",
     "operation": "Venta",
     "class": "Casa",
-    "title": "Casa - venta - san lorenzo, central, paraguay",
+    "title": "Casa - Venta - San Lorenzo, Central, Paraguay",
     "price": 850000000,
     "currency": "PYG",
     "link": "https://www.infocasas.com.py/casa-venta-san-lorenzo-central-paraguay/193477760",
-    "platform": "InfoCasas PY",
-    "location": "San Lorenzo, Central",
+    "platform": "infocasas.com.py",
+    "location": "Dante Alighieri & Andrés Barbero, San Lorenzo, Paraguay",
     "bedrooms": 5,
     "bathrooms": 3,
     "area_m2": 283,
     "images": [
-      "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.6102004493d7b4d23125d020f338206d1f79c66e.jpeg"
+      "https://cdn1.infocasas.com.uy/repo/img/6102004493d7b4d23125d020f338206d1f79c66e.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-05-08T19:39:33Z",
-    "last_checked": "2026-07-24T04:45:02-0300",
-    "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.6102004493d7b4d23125d020f338206d1f79c66e.jpeg"
+    "fetched_at": "2026-07-24T07:47:22.023Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "67ea1bc78751",
@@ -28769,10 +29344,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTM2NWIwLTA2YjYtNzExZC04NjYxLWI3ZGU0NTRhM2I1ZC8wMTkzNjViMC0xODI5LTcyY2UtOGZjNy0wN2VjYjkyYjRlMDMuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "68a76107ad88",
@@ -29315,10 +29889,9 @@
     "images": [
       "https://images.proppit.com/properties/01924085-5202-7f74-9c72-eeb6e56b009e/01924085-6020-71b2-9784-b9408cc8517a.bin"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "6abb2bdd81fd",
@@ -29571,6 +30144,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "6b54e535db49",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Rivera Del Hato, Apartamentos en Venta en La mata, Piedecuesta",
+    "price": 418532000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/proyectos-vivienda/rivera-del-hato-apartamentos-en-venta-en-la-mata-piedecuesta/15017667",
+    "platform": "fincaraiz.com.co",
+    "location": "La Mata, Piedecuesta, Santander, Colombia",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 60.72,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/68910f72849f9_infocdn__5xvbs5ggsx70w1mut3wshaj3n92s28xd0rhv5gbvjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "6b63729a8801",
     "country": "PY",
     "source": "InfoCasas PY",
@@ -29676,6 +30270,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "6bb16e1ea85f",
+    "country": "PY",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "EN ALQUILER - HERMOSA CASA SEMI AMOBLADA EN CONDOMINIO",
+    "price": 2200,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/en-alquiler-hermosa-casa-semi-amoblada-en-condominio/193918651",
+    "platform": "infocasas.com.py",
+    "location": "Luque, Paraguay",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "area_m2": 200,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a3da2f5eaba5_infocdn__pwdwpxpjppd6kkzxazivjkhnk6wcyt5eou2eq5u1jpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:33.682Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "6bdbfa3c3e81",
     "country": "PY",
     "operation": "Venta",
@@ -29754,6 +30369,27 @@
     "estado": "vencida",
     "fetched_at": "2026-05-10T08:00:46.000Z",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "6beb5a1dc4a0",
+    "country": "MX",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Casa en Renta en Ventanas del Cortés",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-47f84e007b72-afa9-19f932f-b1e7-7e39",
+    "platform": "lamudi.com.mx",
+    "location": "Ventanas del Mar Residencial Fase 2, El Tezal, Cabo San Lucas, Baja California Sur, México",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": null,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY5MmU2LWFmNjAtN2RmMC1iMTllLTQ3Zjg0ZTAwN2IyOS8wMTlmOTJmOC00OWNkLTcyNzEtYjdlNi04YjNlM2RmZjg1NTUuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "6c02fb40807d",
@@ -30267,9 +30903,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a3c46d860ea3_infocdn__bxth5vqn7uz8qmk9haml85wzlisv4ef7h3ru2l1ijpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:14.761Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.024Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "6d80ffb8bc31",
@@ -30857,21 +31492,23 @@
   {
     "id": "6f589464b43d",
     "country": "CO",
-    "operation": "Alquiler",
+    "operation": "Arriendo",
     "class": "Casa",
-    "title": "Casa en Ciudad jardin, Cali, Valle del cauca",
+    "title": "Casa en Arriendo en Ciudad jardin, Cali",
     "price": 9500000,
     "currency": "COP",
     "link": "https://www.fincaraiz.com.co/casa-en-arriendo-en-ciudad-jardin-cali/193596273",
     "platform": "fincaraiz.com.co",
-    "location": "Ciudad jardin, Cali, Valle del cauca",
+    "location": "CALLE. 22 # 110 - 120, Cañasgorda",
     "bedrooms": 5,
     "bathrooms": 5,
     "area_m2": 140,
-    "images": [],
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69d4e4e16316a_infocdn__125371-1-1775495986jpg.jpg"
+    ],
     "estado": "activa",
-    "fetched_at": "2026-05-28T07:46:39.340134+00:00",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:50.377Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "6f7fe277d6db",
@@ -31599,9 +32236,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69ac34fa81ccf_infocdn__pmogsxpa0jkmqcqubftpgb8r1zddnb65ixxeisvsjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:34.582Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:50.377Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "71c5e536dbf6",
@@ -31700,10 +32336,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTYzNmE5LWJkZTgtNzAwMy1iMGIzLTQ0MjE4NTA3NzAzNi8wMTk2OTc2OS1mY2MyLTcwZDItYjQ1Yi1mY2Q4YjM1ZmE0NWEuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "7229648c502b",
@@ -32110,6 +32745,27 @@
     "country": "UY"
   },
   {
+    "id": "73a5f37b7d59",
+    "country": "PY",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Hermosa Casa Minimalista Zona Royal Plaza",
+    "price": 8000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/hermosa-casa-minimalista-zona-royal-plaza/189222558",
+    "platform": "infocasas.com.py",
+    "location": "Cañada Carmen",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 250,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/fd4cf946531f2514779c91c31e8480dbb418eb25.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:33.683Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "73ab4faca588",
     "country": "CO",
     "operation": "Venta",
@@ -32460,6 +33116,27 @@
     "country": "UY"
   },
   {
+    "id": "752173d09deb",
+    "country": "MX",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Casa en Renta en Cumbres Provenza Privada Terra",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-e5ea1fd141aa-fad0-19f91f8-a352-77c8",
+    "platform": "lamudi.com.mx",
+    "location": "Cumbres Provenza Sector Terra 2, Dominio Cumbres, Mitras Poniente, Nuevo León, México",
+    "bedrooms": 31,
+    "bathrooms": 1,
+    "area_m2": 100,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY5MWFmLWZhODctNzc3Zi1hMzA5LWU1ZWExZmQxNDE2MS8wMTlmOTFiZC04NmM2LTcyMTEtYTBlNi05YjFlNTUxOGZjYTAuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
     "id": "7546d86aaca0",
     "country": "PY",
     "operation": "Alquiler",
@@ -32544,6 +33221,27 @@
     "estado": "activa"
   },
   {
+    "id": "7586583d2e9a",
+    "country": "MX",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Casa en Renta en Monterrey",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-5eb11f2451c2-ae5e-19f9136-9074-7464",
+    "platform": "lamudi.com.mx",
+    "location": "Cima del Bosque, Monterrey, Nuevo León, México",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 200,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY5MGVkLWFlMTUtNzQxYi05MDJiLTVlYjExZjI0NTE3OS8wMTlmOTBmMS1hMGI1LTcwZTItYWRiYy1mM2I3OWE0Nzk4MjEuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
     "id": "758936b972db",
     "country": "MX",
     "operation": "Alquiler",
@@ -32560,10 +33258,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWVhNDA3LTZkMjItNzRhOC1iYmMwLWIzOTQ2MTI3ZjQyNC8wMTllYTQwZC01ODIwLTczOTMtYjlhMi03MmQyMTlmMTczYTcuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "75c372657da1",
@@ -32812,9 +33509,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a21bf78b52c6_infocdn__o1dtu2qsrnquvbqjehir1axwmp2rpdhs1b2gnqvpjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.683Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "76c887759a6a",
@@ -33299,6 +33995,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "785f90eb444f",
+    "country": "MX",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Casa en Venta en San Crisanto",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-4d4f24e7c7be-6bb2-19f5dbe-9a60-768d",
+    "platform": "lamudi.com.mx",
+    "location": "Calle 44, San Crisanto, Sinanché, Yucatán, México",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 75,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY1ZDc1LTZiNjktNzY0NC05YTE3LTRkNGYyNGU3Yzc3NS8wMTlmNWQ3Yi0xYWI2LTczNjItYWM4ZC0yNmNmZDY3MzE1ZDAuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.881Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
     "id": "788a4090d32f",
     "country": "UY",
     "operation": "venta",
@@ -33385,6 +34102,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "78bee13960c7",
+    "country": "MX",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Casa en Venta en Bosque Real",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-d8e9249e79bc-c07c-19c481b-922a-718a",
+    "platform": "lamudi.com.mx",
+    "location": "Bosque Real Country Club, Naucalpan De Juárez, Huixquilucan, México, MEX",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "area_m2": 525,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWM0N2QyLWMwMzMtNzE0MS05MWUxLWQ4ZTkyNDllNzk3My8wMTllY2NiNC00NDQxLTcxZjAtOWY3NS05MmJkMGVmZDI5MjYuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.881Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
     "id": "78cb3056af36",
     "country": "UY",
     "source": "Propiedadesensoriano",
@@ -33464,9 +34202,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/699387f663b6c_infocdn__48422966-6549-467d-8cc7-335add602f86.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:31.481Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:50.376Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "78ee400683c9",
@@ -33593,6 +34330,27 @@
     "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.306468_55269_816.jpg"
   },
   {
+    "id": "79c0b42411ef",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Apartamento en Venta en Rafael uribe, Bogotá",
+    "price": 234000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-venta-en-rafael-uribe-bogota/194009126",
+    "platform": "fincaraiz.com.co",
+    "location": "Cl 36B Sur #10b-21, Bogotá, Colombia",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 45,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a5d7bfa7b052_infocdn__bnnjd3er5qxrfa1f3pbfxshms6a2pxycqsmhmjuwjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "title": "Apartaestudio en Lambaré, Central",
     "price": 750000000,
     "currency": "PYG",
@@ -33611,6 +34369,27 @@
     "estado": "activa",
     "platform": "infocasas.com.py",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "79ddb44121c5",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "TERRABONGA ETAPA 2  Apartamentos en venta con licencia turística - Ubicado en Bello Sol, Apartamento en Venta en Bello Sol, Santa marta",
+    "price": 525998000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/terrabonga-etapa-2-apartamentos-en-venta-con-licencia-turistica-ubicado-en-bello-sol-apartamento-en-venta-en-bello-sol-santa-marta/10331723",
+    "platform": "fincaraiz.com.co",
+    "location": "[PLACEHOLDER]",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 73.38,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69dece15b8d58_infocdn__hjbqjbetqmvb4i8qwtfnmi5frylw0fdedl1wisccjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "title": "Monroe 2671 Piso 2 Departamento B",
@@ -33794,6 +34573,27 @@
     "estado": "vencida",
     "fetched_at": "2026-07-16T19:48:06.024Z",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "7a3b51f5986e",
+    "country": "MX",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Departamento en Venta en Bosque Real",
+    "price": 21841667,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-ae84999d5719-68af-19e4368-9ba6-74f9",
+    "platform": "lamudi.com.mx",
+    "location": "Boulevard Bosque Real, Bosque Real Country Club, Huixquilucan, México, 52774, MEX",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 243,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTllNDMxZi02ODY2LTc0YjAtOWI1ZC1hZTg0OTk5ZDU2ZDAvMGQ3YjkwNTQ0MmZlNDQ1YjI5YjdmMDRhOWY2MjZkOTllZTI0ZWUyMDc2OGQ1NjAwNDcyMjg0NzBiOGU0ODllZi5qcGVnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.262Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "7a637e295b43",
@@ -34349,9 +35149,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/510549fd43052edb4c23f21a97687b068ac7ad23.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:08.575Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.025Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "7c5a32ed3611",
@@ -34776,6 +35575,27 @@
     "fetched_at": "2026-07-18T07:44:08.576Z",
     "source": "scrape:infocasas-next",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "7e1aa410f153",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "CIUDADELA EL DORADO, Apartamento en Venta en El rocio, Cajicá",
+    "price": 519910000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/ciudadela-el-dorado-apartamento-en-venta-en-el-rocio-cajica/193479986",
+    "platform": "fincaraiz.com.co",
+    "location": "Carrera 8 #9-70, Cajicá, Cundinamarca, Colombia",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 75,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69a7a8006fbb2_infocdn__dtvofwzt6icuknrnhtgk1uqom4fdauveowexgpbhjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "7e2397716c82",
@@ -35493,9 +36313,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a50edf2c9b91_infocdn__mlmcgllo9qbwscqpcztlnwctwmd5my1ea5a7rarijpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:14.283Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.682Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "81541cf940ef",
@@ -36198,10 +37017,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU3MjM1LTlkOWItN2JmZi1hYTk5LWI4ZDE5MDc3MzgwNi8wMTllNzIzOS1jZjY0LTcxMjgtOGVlMS02ZGUyNzVlMmZiZTAuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "841f4af33dfe",
@@ -36616,6 +37434,48 @@
     "image_url": "https://www.ri.com.uy/f/619/0/800/1/0/0/dc8d7eec59bbcd06d9b497c8b655043d.jpg"
   },
   {
+    "id": "8552e592c28d",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en El Poblado, Medellín",
+    "price": 4400000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-poblado-medellin/194021444",
+    "platform": "fincaraiz.com.co",
+    "location": "Cra 44 #18-56, El Poblado, Medellín, Antioquia, Colombia",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "area_m2": 78,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a61394013767_infocdn__acbvx60wl5gaewuigiytfatrucwgkpzoq0jjxzlmjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.377Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
+    "id": "855473eaa6cc",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Casa",
+    "title": "Casa en Arriendo en San marcel, Manizales",
+    "price": 7000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/casa-en-arriendo-en-san-marcel-manizales/193909651",
+    "platform": "fincaraiz.com.co",
+    "location": "Conjunto paseo del bosque",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "area_m2": 157,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a3dcf17dc386_infocdn__gr-casa-en-conjunto-en-arriendo-s-1782264293-0402-7717jpeg.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.377Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "title": "Edificio Nunez Premium",
     "price": 340000,
     "currency": "USD",
@@ -36939,6 +37799,27 @@
     "estado": "vencida"
   },
   {
+    "id": "8632c4d7ac4a",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Casa",
+    "title": "Casa en Arriendo en Cabeceras de llanogrande, Medellín",
+    "price": 7500000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/casa-en-arriendo-en-cabeceras-de-llanogrande-medellin/193688324",
+    "platform": "fincaraiz.com.co",
+    "location": "LLANOGRANDE",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area_m2": 350,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a4bbc26854eb_infocdn__gr702733320260429075301jpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.376Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "title": "Metro 73, apartamento en venta en chapinero, bogotá",
     "price": 327500000,
     "currency": "COP",
@@ -37182,6 +38063,27 @@
     "fetched_at": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "image_url": "https://ri.com.uy/f/291/5/4/1/0/0/fd35468683abeb1258facc4dfb6b454a.jpg"
+  },
+  {
+    "id": "874274172222",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "VENDO RESIDENCIA EN ESQUINA EN BARRIO KENNEDY LAMBARÉ",
+    "price": 360000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/vendo-residencia-en-esquina-en-barrio-kennedy-lambare/193999637",
+    "platform": "infocasas.com.py",
+    "location": "Silvio Pettirossi, Lambaré, Paraguay",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 450,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/273248120d9a6812c37046877ff8630c3a3b44f5.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:22.024Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "877f6e3ae823",
@@ -37525,9 +38427,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a20a6a6782b0_infocdn__dkpgq1sdog5g5bmdyxul5vbrx7hznd6gsm6jlnlxjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:19.981Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "88c5ad515b10",
@@ -37549,6 +38450,27 @@
     "estado": "activa",
     "fetched_at": "2026-05-08T19:38:40Z",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "88e1eae4b534",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "URBANA 30, Apartamento en Venta en Paloquemao, Bogotá",
+    "price": 231182000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/urbana-30-apartamento-en-venta-en-paloquemao-bogota/6926071",
+    "platform": "fincaraiz.com.co",
+    "location": "[PLACEHOLDER]",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 22,
+    "images": [
+      "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2022/6/24/2848121_591_29.jpg#HASTH"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "88f48d192a57",
@@ -37875,10 +38797,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU2NzE3LWNhYmUtNzVmMy1hZmNhLTJkZjI3NDZkMDMyZi8wMTllNjcyZS0xM2EyLTcwM2MtODNmMy1kMjNlOGZkZjczYWYuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.414Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.879Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "8a1a50a2527c",
@@ -37898,9 +38819,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/c386d713208efd33af7b40a02b24b6e25f3d0dfb.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:14.761Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.024Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "8a25c7252a40",
@@ -39094,10 +40014,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU4M2Q0LTM1MzgtNzg2MS04Y2I2LTYzZWE1MjMxMWUxMy8wMTllODNkYy0yZmJmLTcwZDAtYTRhMS1lM2VkYTlmMjdhMGMuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "8e2916386f91",
@@ -39287,9 +40206,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/68ee8b3483136_infocdn__rfriizhgvtfekxt8japyl58fasblf20kyqgf4krmjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.682Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "8ed24ba58d7c",
@@ -39749,6 +40667,27 @@
     "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.279_BPV-BPV-10972_463.jpg"
   },
   {
+    "id": "901de1d0a1f1",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Parque Oriente Montevista, Apartamentos en Venta en Floridablanca",
+    "price": 297007000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/proyectos-vivienda/parque-oriente-montevista-apartamentos-en-venta-en-floridablanca/15017196",
+    "platform": "fincaraiz.com.co",
+    "location": "Parque Oriente - Montevista, Floridablanca, Santander, Colombia",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 63.03,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/67a3a343979b9_infocdn__h8ryutdgup9eszpxr2bz5asddvnjkltvk0mukznpjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "90333994cba3",
     "country": "MX",
     "operation": "Alquiler",
@@ -39790,6 +40729,27 @@
     "fetched_at": "2026-05-13T07:49:22.802982+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.595297_ven_nai_337_1452_492.jpg"
+  },
+  {
+    "id": "90489e1ceb1d",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Cable, Manizales",
+    "price": 2800000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-cable-manizales/193942286",
+    "platform": "fincaraiz.com.co",
+    "location": "Altos de Palogrande, Carrera 23c, Manizales, Caldas, Colombia",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 64,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a458ac458872_infocdn__du9qirfbahabwb20zkiewggtvmz3dmvvplpc6vq4png.png"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.376Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "9054a0352cbd",
@@ -39889,6 +40849,27 @@
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa",
     "country": "UY"
+  },
+  {
+    "id": "908f4b865384",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Vendo Casa en San Bernardino – Puerta del Lago",
+    "price": 250000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/vendo-casa-en-san-bernardino-–-puerta-del-lago/193894381",
+    "platform": "infocasas.com.py",
+    "location": "San Bernardino, Paraguay",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "area_m2": 340,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a35a1da0eccc_infocdn__r6yb7wcirxclbkbbrrokdyr02ws6sw3xcsszcj5xjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "90add213393e",
@@ -39993,6 +40974,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "90e3329e6c70",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Faenza 5.22, Apartamento en Venta en Las nieves, Bogotá",
+    "price": 347902800,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/faenza-522-apartamento-en-venta-en-las-nieves-bogota/10895215",
+    "platform": "fincaraiz.com.co",
+    "location": "[PLACEHOLDER]",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 36.98,
+    "images": [
+      "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/94f1cdcb-89c4-443b-9da4-3ac5bb5ea334/photos/94f1cdcb-89c4-443b-9da4-3ac5bb5ea334_1_True_d6e8dda4-a393-4d53-9f6a-73d30e84dc52.jpg#HASTH"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "title": "Propiedad ideal para oficina - Manorá, Asunción",
     "price": 14000000,
     "currency": "PYG",
@@ -40029,6 +41031,27 @@
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa",
     "country": "UY"
+  },
+  {
+    "id": "911cbe045b4d",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Holanda, Sabaneta",
+    "price": 2300000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-holanda-sabaneta/193870908",
+    "platform": "fincaraiz.com.co",
+    "location": "CR 45 73 sur 33 AP edificio 202",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 100,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a5eb445328ce_infocdn__gurjrhz9fjuo0x7x5oivwvo0uktupeky88wrrgwtuv-icjhasby93asgofhlxmpjspgbmkfa6uvh3molkhggu5jrzmcotr4xbvjh-4xw4vnkkw.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.376Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "9120897e1325",
@@ -41512,10 +42535,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWFjMzQyLTMwNDAtNzBkYy05ZWZkLTkzYjliZDZhYjk4OS8wMTlhYzM0Ny0xMTg3LTcyNDMtOTMwMi0xZTA3OTcwYzYyODcuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "95db4c7704b3",
@@ -42418,6 +43440,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "98feb37b2c65",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "POP UP LIVING: Invierte en Apartamentos para Rentas Cortas en Barranquilla, Apartamento en Venta en Barranquilla",
+    "price": 517304002,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/pop-up-living-invierte-en-apartamentos-para-rentas-cortas-en-barranquilla-apartamento-en-venta-en-barranquilla/193602752",
+    "platform": "fincaraiz.com.co",
+    "location": "Carrera 53 # 80-148, Norte Centro Historico, Barranquilla, Atlántico, Colombia",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 27,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69d594f703d3d_infocdn__5hcfn465oifk6odgxazjxwbli8oe2q7kff6cix9ojpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "9900bf222139",
     "country": "CO",
     "operation": "Arriendo",
@@ -42601,6 +43644,27 @@
     "estado": "activa"
   },
   {
+    "id": "99edc356db33",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Loma de las brujas, Envigado",
+    "price": 4600000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-loma-de-las-brujas-envigado/194013485",
+    "platform": "fincaraiz.com.co",
+    "location": "CL 37 B SUR 27 D 84 TORRE 2 AP 301",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 82,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a5f98ebaec4d_infocdn__foto-104553-135-9143474658-ssjpeg.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.376Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "9a10774442b9",
     "country": "MX",
     "source": "Pincali (EasyBroker)",
@@ -42743,10 +43807,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTliNjNiLWFlNjgtNzI4My05NjRiLTZhZDgwMGM4ZWYxYS8wMTllNzBhYi03NjllLTcxMTMtODg1Ni05MjE3NjFjZDRmNDEuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.414Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "9a7f5762dbb4",
@@ -43681,10 +44744,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWRjZmY5LTFkMzUtNzczZi04NzExLTliMzAwYmE1MjQ3Yy8wMTlkZDAxMi1iZDAyLTcxN2MtYTFhYS1jNjE2NDBkMDVkZWUuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.728Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.262Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "9dd1990e5be3",
@@ -44019,10 +45081,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY2YmY0LTlhNTktNzExZC1hNmMzLTgxMmYxM2E5YzllNS8wMTlmNmJmNy03NDU4LTcwODQtODYxNi1mYTg1M2Y0OGQwYzIuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.559Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "9f66b95fe49b",
@@ -44270,6 +45331,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "vencida"
+  },
+  {
+    "id": "a0b6e008b77d",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Chía",
+    "price": 1500000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-chia/193857912",
+    "platform": "fincaraiz.com.co",
+    "location": "Calle 19 10 - 27,",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 50,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a2b1c15dc49e_infocdn__6a2846cf04b0cjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.377Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "a0f290d0975a",
@@ -44627,8 +45709,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69fa0d385064d_infocdn__gr-apartamento-en-arriendo-enviga-1774646723-5644-2257jpeg.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-16T19:47:54.718Z",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:50.376Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "a1e84ebc23a1",
@@ -44916,10 +45998,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTIzZmQ0LTdlMGYtNzk5ZS05MzRkLTE3YjMxODM0NzRiMC8wMTkyM2ZkNC1lZjBjLTcyOTAtOWMzMC1kNzFiNjkxZWJmZTEuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "a2edaccf6384",
@@ -44981,10 +46062,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY1ZDQ0LTU2ZTYtNzJiZi1iN2U2LTc5OTkwNzM0MDI0My8wMTlmNWQ0OC1mZTNlLTcyZGUtYjUxNC1hMjYyN2Y2NTA2OTQuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.559Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "title": "Local comercial en Brazo Oriental",
@@ -45091,6 +46171,27 @@
     "last_checked": "2026-07-24T04:45:02-0300",
     "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.682e3c457d425_infocdn__fc9r1erhtyler41etzffootbk28xnioduf3vhubejpg.jpg",
     "last_seen": "2026-05-22T07:50:59.532430+00:00"
+  },
+  {
+    "id": "a388dee3e415",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Apartamento en Venta en Valle del Lili, Cali",
+    "price": 455000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-venta-en-valle-del-lili-cali/193641355",
+    "platform": "fincaraiz.com.co",
+    "location": "Cra 92 40 42",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area_m2": 110,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a4e6aee3fc7c_infocdn__gr1541893020260416062815jpeg.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "a3bd01133607",
@@ -46072,6 +47173,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "a79467919558",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Santa Clara, Apartamentos en Venta en Valle del Lili, Cali",
+    "price": 453121000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/proyectos-vivienda/santa-clara-apartamentos-en-venta-en-valle-del-lili-cali/10856493",
+    "platform": "fincaraiz.com.co",
+    "location": "Calle 50 & Cra. 98, Cali, Valle del Cauca, Colombia",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 66.27,
+    "images": [
+      "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/40a8e22f-bc26-4645-9730-8053ed8b68f2/photos/40a8e22f-bc26-4645-9730-8053ed8b68f2_1_True_1285c9d9-f812-4426-9d0e-96cfb0e7228d.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "a7a668404798",
     "country": "CO",
     "operation": "Venta",
@@ -46136,6 +47258,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa"
+  },
+  {
+    "id": "a7cb0e00d575",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Amplia casa a la venta en Lambare, en barrio cerrado",
+    "price": 430000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/amplia-casa-a-la-venta-en-lambare-en-barrio-cerrado/193605992",
+    "platform": "infocasas.com.py",
+    "location": "Condominio Plaza de los mangos, Lambaré, Paraguay",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area_m2": 494,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/ede025722bb420bbd8fd0c2d020aee6f3d803cb5.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "a7cc38825e46",
@@ -46323,10 +47466,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU3YzU2LTY0NGMtN2U0MC1hODQ3LWQ0NWM5M2MxNTU4ZC8wMTllN2M1OS1iNjhhLTcxYTktYTgxOS00NWQwNmUwNTNlMmIuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "a8317c565e94",
@@ -46368,6 +47510,27 @@
     "last_checked": "2026-07-24T04:45:02-0300",
     "image_url": "https://static.tokkobroker.com/pictures/7848935_1901416103120677062835793905893501992275547536224031853300071019676016910877.jpg",
     "last_seen": "2026-05-09T07:52:24.523232+00:00"
+  },
+  {
+    "id": "a839c1e620f0",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "CASA TOTALMENTE AMUEBLADA EN MBURUCUYÁ",
+    "price": 250000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/casa-totalmente-amueblada-en-mburucuya/193558152",
+    "platform": "infocasas.com.py",
+    "location": "Doctor Gerónimo Zubizarreta 230, Asunción, Paraguay",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area_m2": 168,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/e394c0fb63bdf7859d89ff855b306a690de8722e.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "a84d27f0e2a1",
@@ -46884,10 +48047,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTlkNjg4OC1hMDY5LTc5ZDQtYjhlOC0wMjU2NTE0ZTc2NjIvY2Y5ZWEwMzlmZDYyNjQzYzkwOTE1ZWJlN2U5MTk4Y2U5NzExNjU4ZWQzZDJhYTk1ODRmNGVkODQzMmI0YjgzYy5qcGVnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "a9ca782bb6d5",
@@ -47375,9 +48537,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/73002bc4a20fdf0b46697ff4c172ea841c5ec874.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:09.110Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "ab46423ed722",
@@ -47501,6 +48662,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "abcfa0638dc1",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Metrópoli 30, Apartamento en Venta en Ricaurte, Bogotá",
+    "price": 258033000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/metropoli-30-apartamento-en-venta-en-ricaurte-bogota/10389241",
+    "platform": "fincaraiz.com.co",
+    "location": "[PLACEHOLDER]",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 26.25,
+    "images": [
+      "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/a81d28c2-a82a-4bad-90d9-0575467704c6/photos/a81d28c2-a82a-4bad-90d9-0575467704c6_1_True_40746f9e-eebe-4aaa-9f7a-4e7e9f65afd6.jpg#HASTH"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "abd6a9ec4f02",
     "country": "CO",
     "operation": "Venta",
@@ -47518,9 +48700,8 @@
       "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2022/5/31/2327114_491_23.jpg#HASTH"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:19.981Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "abfae564ec85",
@@ -47584,6 +48765,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "vencida"
+  },
+  {
+    "id": "ac2912283d07",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Citycenter, Apartamentos en Venta en La victoria, Bucaramanga",
+    "price": 501746000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/proyectos-vivienda/citycenter-apartamentos-en-venta-en-la-victoria-bucaramanga/2395253",
+    "platform": "fincaraiz.com.co",
+    "location": "Carrera 27 con Calle 67, Bucaramanga",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_m2": 55.35,
+    "images": [
+      "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/6c337e0b-6755-43ff-a905-dbc7e5fc0dbf/photos/6c337e0b-6755-43ff-a905-dbc7e5fc0dbf_1_True_d7388326-e821-43d7-b9d9-94fbac924154.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "ac36aae5e118",
@@ -47732,6 +48934,27 @@
     "last_seen": "2026-05-22T07:50:59.532430+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa"
+  },
+  {
+    "id": "acd227d100c2",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Casa en Venta en Cota",
+    "price": 1420000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/casa-en-venta-en-cota/193964034",
+    "platform": "fincaraiz.com.co",
+    "location": "Cota, Cundinamarca",
+    "bedrooms": 3,
+    "bathrooms": 5,
+    "area_m2": 254,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a591404684b2_infocdn__gr331572920260626013218png.png"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "acd32bf81bd7",
@@ -48064,10 +49287,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU3NjgyLWQ5NDgtN2NiNy05OGZhLTM0MDZlZDQyMDU0OS8wMTllNzY4Ny0xYjRlLTcyOTktYTQwYi03YWRiZTIwMGJlYTQuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "adc07c36676d",
@@ -48437,10 +49659,9 @@
     "images": [
       "https://images.proppit.com/properties/1c3cf020-69ad-1020-9a42-017ff2fffc33/c9b1e194-f6b5-4248-98d6-35ea0b87adf4.bin"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "aeae0b01d346",
@@ -48503,10 +49724,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU2MWJiLTJmNjEtNzc5OS1iMzEyLWUwMmIwOTJlNjk5Yi8wMTllNjFjOC1hNjNjLTcwOWItYTYyNi1jOThkZWE5YzJlOGIuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "aed0e15c5544",
@@ -48546,10 +49766,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWRiNjI1LTA0ZGEtNzc0OC05MmRiLTQ3MzY5NTJhMWQxMS8wMTlkYjYyZC1kOTJlLTczZmUtYWUxZS1hMDdiNjI1MDViYjMuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "aedb375be7d5",
@@ -48591,9 +49810,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/681cafa8525ba_infocdn__lmujbxnp3g5ollpeywowx9yfewyr5n6m1nyqexgdjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:05.581Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "af0c87c6f840",
@@ -48695,10 +49913,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWE2YmE0LWYzZGItNzA4Zi04YjAyLTcwOGRkMDkzMjAwMy8wMTlhNmJkOS1kMjQyLTcxYzktODM5ZS1mZjczYmVjZGFhYjIuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.728Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.262Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "af85e18b5694",
@@ -48968,9 +50185,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69efb22a9728a_infocdn__424o5pffvbksursguvwpzbgmzpy98amc0e9ebwusjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:19.981Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "b09fcfc1e057",
@@ -49079,6 +50295,27 @@
     "fetched_at": "2026-05-10T08:00:46.000Z",
     "last_checked": "2026-07-24T04:45:02-0300",
     "image_url": "https://prop.com.uy/images/P002708/73606/w=400,format=webp"
+  },
+  {
+    "id": "b10f2839a8c0",
+    "country": "MX",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Casa en Renta en Cumbres Elite",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-997e306fbb35-106-19f9181-84c2-71f5",
+    "platform": "lamudi.com.mx",
+    "location": "Cumbres Elite, Sector Haciendas, Monterrey, Nuevo León, México",
+    "bedrooms": 3,
+    "bathrooms": 5,
+    "area_m2": 342,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY5MTM4LTAwYmQtNzFhYy04NDc5LTk5N2UzMDZmYmFlYy8wMTlmOTEzYy1hM2Q0LTcxNjgtOWZlMi04YmY0YTJlOGUwODAuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "b112c1623010",
@@ -49219,6 +50456,27 @@
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa",
     "country": "UY"
+  },
+  {
+    "id": "b190b67282ca",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "ATENCIÓN INVERSIONISTAS, TERRENO A METROS DE ARTIGAS!",
+    "price": 950000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/atencion-inversionistas-terreno-a-metros-de-artigas/193527521",
+    "platform": "infocasas.com.py",
+    "location": "Sargento Esteban Martínez, Asunción, Paraguay",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 110,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/26a7beadd106a86c90208537ead852380dc8157f.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "title": "Nuva park, apartamento en venta en nueva colina, bogotá",
@@ -50314,19 +51572,21 @@
     "country": "PY",
     "operation": "Venta",
     "class": "Casa",
-    "title": "PROPIEDAD EN ESQUINA CON 3 VIVIENDAS INDEPENDIENTE",
-    "price": 1850000000.0,
+    "title": "Propiedad En Esquina Con 3 Viviendas Independiente",
+    "price": 1850000000,
     "currency": "PYG",
     "link": "https://www.infocasas.com.py/propiedad-en-esquina-con-3-viviendas-independiente/193621610",
     "platform": "infocasas.com.py",
-    "location": "Mburucuyá, Asunción",
+    "location": "Arquitecto Miguel Angel Alfaro & Teniente Rivas, Asunción, Paraguay",
     "bedrooms": 5,
     "bathrooms": 3,
     "area_m2": 400,
-    "images": [],
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/3800b223b0fc7c45965511a5a588b831dd3da925.jpg"
+    ],
     "estado": "activa",
-    "fetched_at": "2026-05-29T07:53:27.514Z",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.025Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "b5989c9680c4",
@@ -50607,8 +51867,8 @@
       "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/6450ff88-c963-4452-b420-4341b81a973d/photos/6450ff88-c963-4452-b420-4341b81a973d_1_True_6ef2e056-311a-41cf-b806-398f7bff9e11.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-16T19:47:44.268Z",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "b69305401af1",
@@ -51174,10 +52434,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWRiNjA5LTRkOGItNzNlOS05N2YyLWUzNDNhZmY1ZGZlNi8wMTlkYjYwZS1iZjc1LTczYzgtYjEyOC1hNWQ2ZDU5ZDEwMjkuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "b92870d9f343",
@@ -51257,6 +52516,27 @@
     "fetched_at": "2026-07-20T07:41:50.317Z",
     "source": "scrape:infocasas-next",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "b95de9752a09",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Expoferias, Manizales",
+    "price": 4000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-expoferias-manizales/193926684",
+    "platform": "fincaraiz.com.co",
+    "location": "Expoferias, Apartamento 706, Madero 83",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 89,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a5177408bf8a_infocdn__gr-apartamento-en-arriendo-para-e-1753370795-8477-2708jpeg.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.377Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "b96f8b3c61a3",
@@ -51938,6 +53218,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa"
+  },
+  {
+    "id": "bbc7a1abaa7a",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Senderos de Cerritos, Apartamento en Venta en Galicia, Pereira",
+    "price": 475387644,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/senderos-de-cerritos-apartamento-en-venta-en-galicia-pereira/193208840",
+    "platform": "fincaraiz.com.co",
+    "location": "Cerritos Campestre, Calle 141, Pereira, Risaralda, Colombia",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 66,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69400b1ab9930_infocdn__mvmckzegjrzfta3lpq7wwxxxtujrg8wrokzifqmxjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "bbe3177a65f8",
@@ -52810,10 +54111,30 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTY0YjVjLWQzZmUtNzc3MC05YWFmLWQ2OTQxNWI4OTgxOC8wMTk2NGYxYy0yYTMxLTcwOTEtOTgyMy0wZTE2ZWYyYWQ0Y2UucG5nIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.728Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.262Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
+    "id": "be7d5fdbd564",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "BOTANIKO, Apartamentos en Venta en Pereira",
+    "price": 209100000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/proyectos-vivienda/botaniko-apartamentos-en-venta-en-pereira/15018509",
+    "platform": "fincaraiz.com.co",
+    "location": "Botániko Apartamentos, sector Jardín, Avenida de las Américas, Pereira, Risaralda, Colombia",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 52,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a4c0e8db9fdf_infocdn__mghhffo0dtnus2iahbcnxxaf2d9mndoapuy2f6gxjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.600Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "be87ab5da047",
@@ -53250,10 +54571,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWUzZDA3LWRhZGItNzQ1MS04MTU0LTBkNzFhYzZkNDVlNy8wMTllNzY5ZS0yNGIwLTcxM2UtOGVhYy1iZjJhMDQ2NWY2MzMuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "c0872b6b5453",
@@ -53378,6 +54698,27 @@
     "estado": "activa",
     "fetched_at": "2026-05-10T08:00:46.000Z",
     "last_checked": "2026-07-24T04:45:02-0300"
+  },
+  {
+    "id": "c0ce5448e2e0",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Casa",
+    "title": "Casa en Arriendo en El Arenillo, Manizales",
+    "price": 5900000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/casa-en-arriendo-en-el-arenillo-manizales/192788402",
+    "platform": "fincaraiz.com.co",
+    "location": "Altamira",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area_m2": 242,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69eb91a6516d7_infocdn__gr-casa-en-conjunto-en-venta-el-a-1751032532-4963-4536jpeg.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:50.377Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "c0de060faa5a",
@@ -53872,6 +55213,27 @@
     "estado": "vencida"
   },
   {
+    "id": "c24863517472",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Inversión Estratégica: Propiedad Comercial sobre Avda. Sacramento",
+    "price": 2300000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/inversion-estrategica-propiedad-comercial-sobre-avda-sacramento/193948899",
+    "platform": "infocasas.com.py",
+    "location": "Iglesia de la Santísima Trinidad, &, Asunción, Paraguay",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 300,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a47b9811616f_infocdn__3scqaver7wctprxvksos4yfribmxyglf9ekbfgzxjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "c24a80563cca",
     "country": "MX",
     "operation": "Venta",
@@ -54054,9 +55416,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/68858e2a62473_rn_image_picker_lib_temp_cb9842eb-4c8f-4a67-b7e8-e1b7c9ff3549.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:08.574Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.025Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "c303d31ecd3b",
@@ -54098,9 +55459,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/8ba8e07ab7196fe91917c3e57a43cea735ebaace.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.682Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "c3469b8719e2",
@@ -54686,6 +56046,27 @@
     "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.6997318a2146c_infocdn__radko6w2enkbgqkv4wysix3r89p5grlx2xtnizz9jpg.jpg"
   },
   {
+    "id": "c57384dac198",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "ALMA 72, Apartamentos en Venta en San felipe, Bogotá",
+    "price": 311000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/proyectos-vivienda/alma-72-apartamentos-en-venta-en-san-felipe-bogota/7984025",
+    "platform": "fincaraiz.com.co",
+    "location": "AK 24 # 71A - 8",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 26,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6929b24c29416_infocdn__zwnjva3je7r0kh8v8ve8nyoo2r8hkt3ljviquoopjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "c58236b602b4",
     "country": "CO",
     "operation": "Venta",
@@ -55001,10 +56382,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU2YTk2LTNjMjItNzU5OC1iNjliLTEyMTk3NTc3YTI3Zi8wMTllNmE5Ny1mOTVmLTcwODAtOTAzNC0yMjU2ODg2ZjQyOGYucG5nIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.728Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "c674a2aae9d0",
@@ -55452,6 +56832,27 @@
     "image_url": "https://ri.com.uy/f/291/5/4/1/0/0/48cb4156b6184d7356f889c913ebb5f0.jpg"
   },
   {
+    "id": "c7fdd56c305a",
+    "country": "MX",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Casa en Venta en Las Palmas Sur",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-7df1fc5d9fe-4ebd-f07bc4c9-b5bd-1237",
+    "platform": "lamudi.com.mx",
+    "location": "Las Palmas, Cuernavaca, Morelos, México",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 215,
+    "images": [
+      "https://images.proppit.com/properties/f07bc480-4e74-11ee-b574-07df1fc5d9b5/ee134e84-15c6-4267-963f-ac532d3689e2.bin"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
     "id": "c81357ca21df",
     "country": "MX",
     "operation": "Alquiler",
@@ -55549,9 +56950,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/8d4ac3bc43335628c2a824ef4909476dd1b5ae3e.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.682Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "c89893d793a9",
@@ -55886,9 +57286,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/a4c84a76ab133ab26267c3121cb228fd069ca3ec.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:41:50.317Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.024Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "ca423b08bf9d",
@@ -56758,8 +58157,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a47e148102ff_infocdn__lreb66rbzjhrawwxswpurbl6iu2g2i7ruehmhj6cjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-16T19:47:54.718Z",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:50.376Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "cd26b447a7c0",
@@ -56963,10 +58362,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTM2NTk5LWQ4ODgtNzExZC04NjYxLWE0OTM1YmFjMjI0MC8wMTkzOWRjZC04ZDY3LTcxMDAtOWFlZC1hMTM2ZDBiMDU1YjAuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "ce076b9479f0",
@@ -57798,45 +59196,44 @@
   {
     "id": "d13d1e449b63",
     "country": "CO",
-    "source": "Fincaraiz",
-    "platform": "fincaraiz.com.co",
-    "title": "Tierralinda de las Flores, Apartamentos en Venta en TierraLinda, Cali",
-    "price": 348461252,
-    "currency": "COP",
     "operation": "Venta",
     "class": "Apartamento",
-    "location": "TierraLinda, Cali, Valle del Cauca",
+    "title": "TIERRALINDA DE LAS FLORES, Apartamentos en Venta en TierraLinda, Cali",
+    "price": 351562558,
+    "currency": "COP",
     "link": "https://www.fincaraiz.com.co/proyectos-vivienda/tierralinda-de-las-flores-apartamentos-en-venta-en-tierralinda-cali/10089763",
+    "platform": "fincaraiz.com.co",
+    "location": "Tierralinda de las Flores, Villa Fatima, Cali, Valle del Cauca, Colombia",
     "bedrooms": 3,
     "bathrooms": 2,
     "area_m2": 61.67,
-    "images": [],
-    "fetched_at": "2026-05-21T04:43:02-0300",
-    "last_seen": "2026-05-21T04:43:02-0300",
-    "last_checked": "2026-07-24T04:45:02-0300",
-    "estado": "activa"
+    "images": [
+      "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/cff4a999-108e-47d4-9f6d-1983015eef05/photos/cff4a999-108e-47d4-9f6d-1983015eef05_1_True_9b29879b-838c-48e9-bfae-9352fb4661b8.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "d13f373ce1a4",
     "country": "CO",
-    "operation": "venta",
-    "class": "casa",
-    "title": "Cisnes B",
-    "price": 938200000,
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "CISNES B, Casas en Venta en El Castillo, Cali",
+    "price": 947500000,
     "currency": "COP",
     "link": "https://www.fincaraiz.com.co/proyectos-vivienda/cisnes-b-casas-en-venta-en-el-castillo-cali/10703643",
     "platform": "fincaraiz.com.co",
-    "location": "El Castillo, Cali",
+    "location": "Via Acceso Ciudad Campestre el Castillo, Jamundí, Valle del Cauca, Colombia",
     "bedrooms": 3,
     "bathrooms": 3,
-    "area_m2": 173,
+    "area_m2": 173.55,
     "images": [
-      "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.687a504e22de2_infocdn__4ty2gtpj0jbmjqdpcfraobsznqx2slc2qkchyhwkjpg.jpg"
+      "https://cdn2.infocasas.com.uy/repo/img/687a504e22de2_infocdn__4ty2gtpj0jbmjqdpcfraobsznqx2slc2qkchyhwkjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-05-19T20:30:00+00:00",
-    "last_checked": "2026-07-24T04:45:02-0300",
-    "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.687a504e22de2_infocdn__4ty2gtpj0jbmjqdpcfraobsznqx2slc2qkchyhwkjpg.jpg"
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "d1446d9546b3",
@@ -58296,6 +59693,27 @@
     "country": "UY"
   },
   {
+    "id": "d2cf1feb4cd9",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Apartamento en Venta en Avenida Alberto Mendoza, Manizales",
+    "price": 1650000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-venta-en-avenida-alberto-mendoza-manizales/193990776",
+    "platform": "fincaraiz.com.co",
+    "location": "Madero 83, Calle 83, Manizales, Caldas, Colombia",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area_m2": 172,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a56f28584cec_infocdn__k78a2nphbpqcbhzzxp4axq9dms3gs0pnxjwwf4kyjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "d2e406d88d99",
     "country": "CO",
     "operation": "Venta",
@@ -58454,6 +59872,27 @@
     "estado": "activa"
   },
   {
+    "id": "d37e3b2c51b1",
+    "country": "MX",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Casa en Renta en Cumbres Elite",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-d39afdbc2dda-a2be-19f915f-836a-70b0",
+    "platform": "lamudi.com.mx",
+    "location": "Cumbres Elite 7o. Sector, Monterrey, Nuevo León, México",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 281,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY5MTE2LWEyNzUtNzA2Ny04MzIxLWQzOWFmZGJjMmQ5MS8wMTlmOTExOS0zOWE3LTcyYzItYWY2OC0yMWMzMGM0YWIzMDkuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
     "id": "d392a794caa6",
     "country": "UY",
     "source": "Sendeza Inmobiliaria",
@@ -58490,10 +59929,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU3MTI0LWFkYzEtNzViMy05MzI3LTNmYTJiNzkzZTdkNS8wMTllNzEyZC02MzFlLTczMzAtODQ1Yi01ODBkNmNiYzgyZjEuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "d3b11490c9c1",
@@ -58534,9 +59972,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/682ba6b0b6da1_infocdn__ryyrntsxhpgm96vaxukcseb5xcp7w0wm71pw4o2mjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:11.425Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "d418b064bb1f",
@@ -58958,6 +60395,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa"
+  },
+  {
+    "id": "d5a3de02c3fc",
+    "country": "MX",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Casa en Renta en Campestre Churubusco",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-43e80f90190a-e4f1-19ecf4a-990d-79eb",
+    "platform": "lamudi.com.mx",
+    "location": "Cerro del Cubilete, Campestre Churubusco, Ciudad de México, CDMX, México",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "area_m2": 533,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWVjZjAxLWU0YTgtNzlhMi05OGM0LTQzZTgwZjkwMThjMS8wMTllY2YxMy0yN2I0LTcxYTktYjhiMS1lZDM1MjJjZWZiYWYuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "d5a6daa76a1e",
@@ -59995,10 +61453,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWE2YmFkLTU3MzAtNzU0Mi1hNmVmLWZmNWJhMmMwNGZkNC8wMTlhNmJiOC1mYzYxLTcwZWYtYmNjNi1iYjZjZGU4YzY4Y2UuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.728Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.262Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "d8bb3f58867f",
@@ -60639,9 +62096,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a0f0c94ee19c_infocdn__hmas9i2fk48ytxmb3ym1qvc9uoqzmkfkcrfvjponjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-05-31T07:58:02.015Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:22.025Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "dabbff3e62ae",
@@ -61190,6 +62646,27 @@
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa",
     "country": "UY"
+  },
+  {
+    "id": "dc5ef365a63c",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Bosques del Hato, Apartamentos en Venta en Guatiguara, Piedecuesta",
+    "price": 402844000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/proyectos-vivienda/bosques-del-hato-apartamentos-en-venta-en-guatiguara-piedecuesta/1486413",
+    "platform": "fincaraiz.com.co",
+    "location": "Circunvalar Guatiguara con Carrera 4 Rio del hato Piedecuesta",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 75.4,
+    "images": [
+      "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2021/5/25/445312_302_20.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "dc6948170c94",
@@ -62782,6 +64259,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "e2b7ede65fa8",
+    "country": "PY",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Casa a estrenar en alquiler en Luque – Barrio Primavera",
+    "price": 4000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/casa-a-estrenar-en-alquiler-en-luque-–-barrio-primavera/193912385",
+    "platform": "infocasas.com.py",
+    "location": "Luque, Paraguay",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_m2": 200,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a3c0e0105aef_infocdn__98rbeigife64lozx1lfngnx0grersnqbjb8cokvojpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:33.682Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "e2bd1330c656",
     "country": "PY",
     "operation": "venta",
@@ -62884,10 +64382,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWRhMjI2LTNhZmEtNzIzOC1hMTQ2LTZjN2M2ZjYwMzJjOC8wMTlkYTIyOS03NjVkLTcwMmMtYTQ4OS1lMjk3ZGE1OTJiMGYuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "e32233fa4218",
@@ -62908,6 +64405,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "vencida"
+  },
+  {
+    "id": "e3332805e0ec",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "PRAIA, Apartamento en Venta en Pozos Colorados, Santa marta",
+    "price": 730000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/praia-apartamento-en-venta-en-pozos-colorados-santa-marta/193585190",
+    "platform": "fincaraiz.com.co",
+    "location": "PRAIA, Pozos Colorados, Santa Marta, Magdalena, Colombia",
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "area_m2": 73,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69cc3f7eb0950_infocdn__0mzgul0wzzh76m350metfns7jkqohixjrfnocrvdpng.png"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "e34f05df5ef2",
@@ -62948,8 +64466,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/68910c4c6c0d0_infocdn__a20efpztqjuivw2ma6s8hyfs9cdxure9mt9luu0vjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-16T19:47:44.269Z",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "e36bb650b01d",
@@ -62990,9 +64508,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a4c0e9f3ba2a_infocdn__rsx1jvh2wdszrcds6alfn7vkciylcsugocrmi9pejpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.683Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "e37ec43e1713",
@@ -63202,6 +64719,27 @@
     "images": [
       "https://publico.nai.com.uy/234/pth/1512_29570.jpg"
     ]
+  },
+  {
+    "id": "e483a7a09153",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Apartamento en Venta en Gran granada, Bogotá",
+    "price": 435000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-venta-en-gran-granada-bogota/194011244",
+    "platform": "fincaraiz.com.co",
+    "location": "Carrera 116b #78b-62",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 83,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a601ea497dbc_infocdn__gr-se-vende-apartamento-primer-pi-1784592390-5457-3789jpeg.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "e4841c073743",
@@ -64190,9 +65728,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/7fa8515ca89d925f5f8f7bf6b55dd42d00e3d65b.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.682Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "e7d29d1fb818",
@@ -64272,10 +65809,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY0ZGE5LWE1NTQtNzU1ZC1iOWYzLTFkNjdjMzMxNjkxNy8wMTlmNGRhZi0xNDFkLTcyNGEtOTVmOS1hODU3OWI0ZDcwNGMuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "e82957d10666",
@@ -64572,10 +66108,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU2NzNmLTE1OGMtNzEyZS04YWNmLWQwYTVlMjc0MjgwMC8wMTllNjc0My0yNzE5LTczMjMtYWNlYS01ZjA5NzE5M2QyOWYuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.414Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.879Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "e956c048db5c",
@@ -65033,6 +66568,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "eb55f8aba9b3",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "HERMOSA CASA BARRIO RECOLETA",
+    "price": 370000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/hermosa-casa-barrio-recoleta/190521995",
+    "platform": "infocasas.com.py",
+    "location": "Roque Gonzalez casi Alfredo Seiferheld",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "area_m2": 350,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/57ef36b815cf9555c41ca26345a99c47ea81913b.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "eb5e6726c97a",
     "country": "CO",
     "operation": "alquiler",
@@ -65240,10 +66796,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU2MWI0LWJiNTQtNzIzZi1hMmM4LTg1ZmEyNWI0NTBjMi8wMTllNjFiYS02NTIxLTcwYzYtOTE1MS1hYWYyMTg5OTdhMWEuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.881Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.560Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "ec67f27fe6a4",
@@ -65580,10 +67135,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMTlkNTM4Mi03MTU5LTcwZTAtYWQ4NS1iOWM3NDQ4MzQ2MjEvNjcwMWM0YjQ3MTBlNDFhZDlkMWUxODBiZDUxYmY3NGRhZDMwMzY4MTE3YWMyYzlhNGJlNTE4Yzk5NGQzNzA0Yi5qcGVnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "edc7bd99fe9e",
@@ -66175,6 +67729,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "ef573a8ebed2",
+    "country": "PY",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Exclusiva Residencia en Condominio: Lujo y Confort en Alquiler",
+    "price": 17000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/exclusiva-residencia-en-condominio-lujo-y-confort-en-alquiler/194012902",
+    "platform": "infocasas.com.py",
+    "location": "Condominio Montecillo, Waldino Ramón Lovera, Asunción, Paraguay",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "area_m2": 320,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a5f7999d4f5e_infocdn__huye9glkscv0idkxh39snfr2p6mpec7suijxxnfqjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:33.683Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "ef5afca4d343",
     "country": "UY",
     "operation": "Venta",
@@ -66320,10 +67895,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU3MTU2LWUwMmQtNzIzZi05NTBlLTMwYzhlMDU2YzBjZi8wMTllNzE2NS02Zjk3LTczNzgtYmU1NC02MTk3YTJlNjRjZWIuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.414Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "efdeb1a824b7",
@@ -66745,10 +68319,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWU3MDg5LTI2OWYtNzYxMS04ZDllLWVlYjdhNTk5ODlkMS8wMTllNzEwNS0wMzcwLTcwODItOGExZi1hMDMxNWQ5OTA4NmYuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "f18ccb305f6a",
@@ -67472,9 +69045,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/76a7ba864400925bffe145fcaff1f3dc14d4415a.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:09.110Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "f44b3cad7fdd",
@@ -67701,6 +69273,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "f508d86fbdc4",
+    "country": "MX",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Casa en Venta en Bosque Real",
+    "price": null,
+    "currency": "MXN",
+    "link": "https://www.lamudi.com.mx/detalle/41032-73-7bc49ec5d03d-a8a2-19c4828-838a-7615",
+    "platform": "lamudi.com.mx",
+    "location": "Boulevard Bosque Real, Bosque Real Country Club, Miguel Hidalgo, Huixquilucan, México, 52774, MEX",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "area_m2": 525,
+    "images": [
+      "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWM0N2RmLWE4NTktNzVjYy04MzQxLTdiYzQ5ZWM1Y2ZmNC8wMTljNTI0YS0wNzMwLTcyYWUtOGYwMi1jMGU2YmVmZTIzZjkuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.881Z",
+    "source": "scrape:lamudi-jsonld"
+  },
+  {
     "id": "f5285a14fd0f",
     "country": "PY",
     "source": "InfoCasas PY",
@@ -67758,10 +69351,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWUzMTc3LWI0NzAtNzk5YS05N2RhLTI2ZWQ5MGMwY2MzMi8wMTllMzE3Yi1jYTgwLTcwMGUtYmRhOC1jYmE5MTEyMWRjNDIuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:33.880Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:07.559Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "f5548be54c0f",
@@ -67885,6 +69477,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa"
+  },
+  {
+    "id": "f5c748d30710",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "VENDO !!  HARBOR CASAS DEL YACHT",
+    "price": 147000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/vendo-harbor-casas-del-yacht/194014856",
+    "platform": "infocasas.com.py",
+    "location": "Fortín Yrendagüé",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "area_m2": 127,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a5fc1d947ccf_infocdn__gckzpzb8zblff19eqma8otyhp4o7sabpm9gfjuv8jpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:22.026Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "f5ca99bb92e9",
@@ -68296,9 +69909,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/acd906fa795ea36991cc0294cbab68e365305d14.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:19.936Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.682Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "f72816d5ae46",
@@ -68317,10 +69929,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWY1ZDgyLTkzYWUtNzUwOC1iNzViLTU4ZmE2ODU2MDM0Ny8wMTlmNWQ4OS0wNGUyLTczODAtOTIxMi02NzExNGYyMmNmMjguanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.728Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "f7308321ce05",
@@ -68379,6 +69990,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-24T04:45:02-0300",
     "estado": "activa"
+  },
+  {
+    "id": "f783754c6171",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "CASA EN VILLA OFELIA, FERANDO DE LA MORA‼️",
+    "price": 275000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/casa-en-villa-ofelia-ferando-de-la-mora‼️/193828884",
+    "platform": "infocasas.com.py",
+    "location": "Lapacho 2222, Fernando de la Mora, Central, Paraguay",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area_m2": 500,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/3a60ddc615f042da56fbb41c7a5bd99154d50114.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:22.025Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "f783c213331d",
@@ -69299,10 +70931,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWRiNWU1LTNiYTEtNzMxMy1iNDE2LTY0YTA0YzhlNTZlZi8wMTlkYjVlOS1mOWRkLTcyYjItOWNlOS04ZGZlYTg3NDMyNjAuanBnIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:23.415Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:56.880Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "fa8894d55c20",
@@ -69639,6 +71270,27 @@
     "last_checked": "2026-07-24T04:45:02-0300"
   },
   {
+    "id": "fc1e416bba1b",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Apartamento en Venta en Santa barbara central, Bogotá",
+    "price": 1200000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-venta-en-santa-barbara-central-bogota/193994629",
+    "platform": "fincaraiz.com.co",
+    "location": "Cra. 9a # 119-10, Usaquén, Bogotá, D.C., Colombia",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 144,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a57e6940fc7f_infocdn__z9ac3labotdfkabt9x8xrtabamy648xme1vvelhtjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:47:38.599Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "fc318c175aba",
     "country": "MX",
     "operation": "venta",
@@ -69741,9 +71393,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a0f0715908df_infocdn__60sblcwjl38sakr7ep8zup1mbtd2gtrwgfmj2ejfjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:41:55.450Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:28.192Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "fcc666c1b022",
@@ -69853,9 +71504,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/be3d050ea46d3c195281bd2bb2e1c88d935a018b.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:33.682Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "fd2af0c546de",
@@ -69896,10 +71546,9 @@
     "images": [
       "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOWNiZjI4LTdlM2ItNzc5Zi04MzMxLTY5NDA2MGVkYjU3Ni8wMTllNmIyYS0wZmE3LTcxNjQtYTZlMi01Nzc1YmRiMzY2YTUucG5nIiwiYnJhbmQiOiJsYW11ZGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-20T07:42:28.727Z",
-    "source": "scrape:lamudi-jsonld",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-24T07:48:02.261Z",
+    "source": "scrape:lamudi-jsonld"
   },
   {
     "id": "fd42e833da27",
@@ -70425,9 +72074,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6949c67e46ccd_infocdn__jcxvkdnppdwa0gpkxkiwbq9bpcbolqry4abugjowjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:25.822Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-24T04:45:02-0300"
+    "fetched_at": "2026-07-24T07:47:44.609Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "ff37d6f190af",
