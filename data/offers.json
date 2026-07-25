@@ -462,6 +462,27 @@
     "last_checked": "2026-07-25T04:45:17-0300"
   },
   {
+    "id": "01d01cd5b21f",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "PLAYA SANTUA SIERRA, Apartamento en Venta en Pozos Colorados, Santa marta",
+    "price": 715000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/playa-santua-sierra-apartamento-en-venta-en-pozos-colorados-santa-marta/191789106",
+    "platform": "fincaraiz.com.co",
+    "location": "CL 74 # 2 - 178",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 39.5,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6834dc475ac48_infocdn__d2f28jl5otvbqtw6lnuoqmtl72eaxtyj07axmkxfjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "01d5c353618f",
     "country": "MX",
     "operation": "Venta",
@@ -646,6 +667,27 @@
     "fetched_at": "2026-05-24T23:39:27.954Z",
     "source": "headless:jsonld",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "02efd805eb7c",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Fique Condominio  Residencial, Casa en Venta en Bojaca, Chía",
+    "price": 820000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/fique-condominio-residencial-casa-en-venta-en-bojaca-chia/193462340",
+    "platform": "fincaraiz.com.co",
+    "location": "Fique Condominio Residencial, Carrera 9, Chía, Cundinamarca, Colombia",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "area_m2": 114.65,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69a84d85e5b13_infocdn__4togbiupketp32pmg5sgklplubj3rjxowpkf07gbjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "02f921313b47",
@@ -1274,6 +1316,27 @@
     "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.6972429e42824_infocdn__d5uyg1ha6ymwhpqxwytdqnesojsfzxcj14uknmtwjpg.jpg"
   },
   {
+    "id": "0589f1313ff3",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "CLARO VERDE, Casas en Venta en Jamundí",
+    "price": 210624627,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/proyectos-vivienda/claro-verde-casas-en-venta-en-jamundi/15017326",
+    "platform": "fincaraiz.com.co",
+    "location": "Jamundí, Valle del Cauca, Colombia",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_m2": 41.03,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/688bd20367c65_infocdn__flf3taprbuuuglwhmcvxx8w3lkeg4ejvwtc7sf6njpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "05a5ad5249be",
     "country": "UY",
     "operation": "Venta",
@@ -1814,6 +1877,27 @@
     "last_checked": "2026-07-25T04:45:17-0300"
   },
   {
+    "id": "0756cd4b86c3",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Hermosa casa en Villa Elisa, barrio centro.",
+    "price": 660000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/hermosa-casa-en-villa-elisa-barrio-centro/193974605",
+    "platform": "infocasas.com.py",
+    "location": "Centro, Villa Elisa, Paraguay",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "area_m2": 155,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a502e572e367_infocdn__4ujvc1ocjcizd4reuomiyba1mojqxqueminouvuvjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:45:48.711Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "0758d78ff1e8",
     "country": "CO",
     "source": "Metrocuadrado",
@@ -2347,6 +2431,27 @@
     "estado": "activa",
     "fetched_at": "2026-05-27T07:46:32.944178+00:00",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "09c92e0d9ffe",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "EN VENTA DUPLEX EN LUQUE - JARDIN DE ORO, CERCA DE PLAZA MADERO",
+    "price": 1000000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/en-venta-duplex-en-luque-jardin-de-oro-cerca-de-plaza-madero/193945333",
+    "platform": "infocasas.com.py",
+    "location": "Loma Merlo, Luque, Paraguay",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 159,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/7096bbc1a38406548b407853d4db7e9f51a30ff9.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "09dff6cca2f2",
@@ -2959,9 +3064,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69b9d915b7830_infocdn__ionys3kpunsrdj8vhlmtpsrxwexunqw4tm59pidajpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:05.580Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "0c4b02ba4c1c",
@@ -3063,6 +3167,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-25T04:45:17-0300",
     "estado": "vencida"
+  },
+  {
+    "id": "0c871ae555fe",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "PRAIA, Apartamento en Venta en Pozos Colorados, Santa marta",
+    "price": 645100000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/praia-apartamento-en-venta-en-pozos-colorados-santa-marta/193585187",
+    "platform": "fincaraiz.com.co",
+    "location": "PRAIA, Pozos Colorados, Santa Marta, Magdalena, Colombia",
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "area_m2": 74,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69cc3f7eb0950_infocdn__0mzgul0wzzh76m350metfns7jkqohixjrfnocrvdpng.png"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "0c99f80d6826",
@@ -3887,9 +4012,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/f137d38446342c33bf69e29a4eee5abe41d784a2.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.025Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.713Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "0f6917a20997",
@@ -4913,6 +5037,27 @@
     "last_checked": "2026-07-25T04:45:17-0300"
   },
   {
+    "id": "1372a671f550",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Ciudad Salitre Oriental, Bogotá",
+    "price": 4100000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-ciudad-salitre-oriental-bogota/193899698",
+    "platform": "fincaraiz.com.co",
+    "location": "AK 68 # 22 - 64",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 60,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a3762a069423_infocdn__chzypoprhpvcnnjfrupluaos8xdzvi6k0toea3t4jpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "137c0a66b131",
     "country": "UY",
     "source": "Fachola Propiedades",
@@ -5470,6 +5615,27 @@
     "estado": "activa"
   },
   {
+    "id": "14d20ea7551a",
+    "country": "PY",
+    "operation": "Alquiler",
+    "class": "Casa",
+    "title": "Alquilo Casa en Barrio Las Lomas",
+    "price": 6500000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/alquilo-casa-en-barrio-las-lomas/194009750",
+    "platform": "infocasas.com.py",
+    "location": "Las Lomas, Asunción, Paraguay",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 100,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a5e1f0c8f824_infocdn__ffls8z2mslgxb6cfrdfkmsj5dj1dchjdolfb8litjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:01.148Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "14d46aa31abc",
     "country": "MX",
     "operation": "Venta",
@@ -5716,9 +5882,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/3a3f509509f9e335f69c76d1a6cbb99636c38a65.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:41:50.317Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "15b47d51cf8a",
@@ -5738,9 +5903,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a6279e2d2f66_infocdn__ea30eb89-8862-470d-89c4-d6a0688245cfpropertyea30eb898862470d89c4d6a0688245cf560vsb2b844jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:50.377Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "15bbc04a7f6b",
@@ -6870,9 +7034,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/1b311c7741d198f4570832e8d75b050da4273194.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.683Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "194c66a4289d",
@@ -7426,9 +7589,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a088116ede32_infocdn__awdqwuf9rvekw6dn9cdthyk7tmpijhyqvlaks0z9jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:11.425Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "1b412a2ef5be",
@@ -7878,6 +8040,27 @@
     "estado": "vencida",
     "fetched_at": "2026-05-10T08:00:46.000Z",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "1ca22c5b1eb6",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Vendo Casa en Barrio Jara ",
+    "price": 3060000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/vendo-casa-en-barrio-jara-/193997197",
+    "platform": "infocasas.com.py",
+    "location": "Pitiantuta 866, Asunción, Paraguay",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "area_m2": 640,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/793818a908e67e484bf6cb20e10fe47f9f42c763.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "title": "Pimiento, apartamento en venta en Casa Blanca, Bogotá",
@@ -8543,6 +8726,27 @@
     "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.52_6311_377.jpg"
   },
   {
+    "id": "1e3d6def3966",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Apartamento en Venta en Avenida Santander, Manizales",
+    "price": 615000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-venta-en-avenida-santander-manizales/193781572",
+    "platform": "fincaraiz.com.co",
+    "location": "Torre 40 Apartamentos, Avenida Santander, Manizales, Caldas, Colombia",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 83,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a10665f38de1_infocdn__1v95btdtsttikpdytjp1ovvijehs9opyxcejbottjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:06.833Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "1e5b4cf9b987",
     "title": "Propiedad barrio Herrera Asunción exclusivo",
     "price": 1600000000.0,
@@ -8815,6 +9019,27 @@
     "fetched_at": "2026-07-18T07:44:51.649Z",
     "source": "scrape:lamudi-jsonld",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "1f301683a47f",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "POP UP LIVING: Invierte en Apartamentos para Rentas Cortas en Barranquilla, Apartamento en Venta en Barranquilla",
+    "price": 595384000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/pop-up-living-invierte-en-apartamentos-para-rentas-cortas-en-barranquilla-apartamento-en-venta-en-barranquilla/193602751",
+    "platform": "fincaraiz.com.co",
+    "location": "Carrera 53 # 80-148, Norte Centro Historico, Barranquilla, Atlántico, Colombia",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 32,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69d594f511a17_infocdn__cej2sse4osptey91tma4tokhaxlgmz0aa8cr9drljpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "1f3376cbded4",
@@ -10063,6 +10288,27 @@
     "last_checked": "2026-07-25T04:45:17-0300"
   },
   {
+    "id": "23b0af203951",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Casa",
+    "title": "Casa en Arriendo en Los Balsos, Medellín",
+    "price": 12800000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/casa-en-arriendo-en-los-balsos-medellin/193672704",
+    "platform": "fincaraiz.com.co",
+    "location": "Cl. 8 Sur #32-120, El Poblado, Medellín, Antioquia, Colombia",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "area_m2": 280,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69ebacfbe2a72_infocdn__lw2earwpba6feq7uy7q5pccupb0islvenlx1lvi2jpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "23ec492624e5",
     "country": "UY",
     "source": "Propiedades",
@@ -10430,9 +10676,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a1f7b02407d9_infocdn__wpj3kaubzgodjngdyzllrig57p1mcygdkcbc4mivjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.025Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.714Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "24ea555d1888",
@@ -11896,6 +12141,27 @@
     "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.69dfcb9e08d28_infocdn__orryju2lxfr7bvgbopi0eu8ncmiqojwbqagojqe1jpg.jpg"
   },
   {
+    "id": "28b880943b0d",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Zuri Zentral, Apartamento en Venta en Hayuelos, Bogotá",
+    "price": 302212000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/zuri-zentral-apartamento-en-venta-en-hayuelos-bogota/193298032",
+    "platform": "fincaraiz.com.co",
+    "location": "AC 17 # 72 - 85",
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "area_m2": 38.41,
+    "images": [
+      "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/602e0c9d-3481-487f-8439-3f21bd516fe3/photos/602e0c9d-3481-487f-8439-3f21bd516fe3_1_True_4fa65f28-440a-45be-a7f6-a4aeb55cbe05.jpg#HASTH"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "28ccf0667362",
     "country": "UY",
     "operation": "Alquiler",
@@ -11994,9 +12260,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/663ad5ab22577_rn_image_picker_lib_temp_2d00f7f7-5d89-4951-b313-811fad91884a.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:14.761Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:56.071Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "296508ca741d",
@@ -12264,9 +12529,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/6a0cbd41df41d_rn_image_picker_lib_temp_9b292784-6b4e-49b6-8939-8078e7a7f376.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "2a525f51fc69",
@@ -13180,9 +13444,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69c13a8a4c656_infocdn__wbutpzyh4nspussiqzwv3n8wus5egliztlae9d4yjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.024Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.713Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "2cff3d6836da",
@@ -13674,6 +13937,27 @@
     "last_checked": "2026-07-25T04:45:17-0300"
   },
   {
+    "id": "2eceda9c2143",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Apartamento en  Venta en La calera",
+    "price": 265000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-venta-en-la-calera/192202086",
+    "platform": "fincaraiz.com.co",
+    "location": "Calle 3 #5-16, La Calera, Cundinamarca, Colombia",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 50,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/67e617ff01fb3_infocdn__l8yba1ptbjtmfgmlmcxhmekk5qqr00n6ej9w3doajpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "2f0175f67f06",
     "country": "PY",
     "operation": "Venta",
@@ -13898,6 +14182,27 @@
     "last_checked": "2026-07-25T04:45:17-0300"
   },
   {
+    "id": "2f8c1aed252f",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "LLANO KRISTAL Apartamentos Restrepo, Apartamento en Venta en Restrepo",
+    "price": 714150000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/llano-kristal-apartamentos-restrepo-apartamento-en-venta-en-restrepo/192984197",
+    "platform": "fincaraiz.com.co",
+    "location": "LLano Kristal | Arquitectura Y Concreto, Restrepo, Meta, Colombia",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 91.16,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/68efc1a6c6699_infocdn__nir7dd80klxuesfpuqqev1ju7xhrfgjqh427r2ivjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "2fabe42681a7",
     "country": "PY",
     "source": "InfoCasas PY",
@@ -14022,6 +14327,27 @@
     "estado": "activa",
     "fetched_at": "2026-05-10T08:00:46.000Z",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "3014650b290e",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Loma del Indio, Medellín",
+    "price": 4200000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-loma-del-indio-medellin/193901666",
+    "platform": "fincaraiz.com.co",
+    "location": "CR 33 27 A 91 AP 812",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 68,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a6114a3db010_infocdn__foto-104553-135-7430976301-ssjpeg.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "301ee35d695e",
@@ -14681,9 +15007,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/68ee51c3017bf_infocdn__m30na2nym0yizsdvjnignkvmr0umfcrs5mgubpwrpng.png"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.026Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.713Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "328d48e1e2d9",
@@ -14957,9 +15282,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a55356e01371_infocdn__rjeg06jt8zp9i8xg4hl0m9txhlzxxjgtexrajbrwjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "3350a841d5e7",
@@ -15107,9 +15431,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69d7a7c32e2f1_infocdn__ghkjthfy2lpx7shdna66y5ixkbeirfngbjajmhkejpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.682Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "339031bdfe3c",
@@ -15132,6 +15455,27 @@
     "fetched_at": "2026-05-15T07:58:10.649138+00:00",
     "last_checked": "2026-07-25T04:45:17-0300",
     "image_url": "https://clasicdn.paraguay.com/pictures/2024/10/19/2501376/10507076S.jpg"
+  },
+  {
+    "id": "339bad3ea152",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Izola Zentral, Apartamento en Venta en La felicidad, Bogotá",
+    "price": 775407000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/izola-zentral-apartamento-en-venta-en-la-felicidad-bogota/7192098",
+    "platform": "fincaraiz.com.co",
+    "location": "[PLACEHOLDER]",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 84.94,
+    "images": [
+      "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2021/9/6/2535415_390_14.jpg#HASTH"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "title": "Vilanova, apartamento en venta en villemar, bogotá",
@@ -15420,6 +15764,27 @@
     "estado": "activa",
     "fetched_at": "2026-05-10T08:00:46.000Z",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "34dc3df7c0b2",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Casa En Esquina Zona Shopping Del Sol",
+    "price": 370000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/casa-en-esquina-zona-shopping-del-sol/193502990",
+    "platform": "infocasas.com.py",
+    "location": "Nuestra Señora del Carmen 1251, Asunción, Paraguay",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 230,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/4e1c41fc1e05abd17d57ecb9cadcb89e812b4372.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "351f2c675cc2",
@@ -15794,9 +16159,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/194767b6306390d7012aabae6d5c694beeedd034.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.683Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "3658e0351945",
@@ -15858,10 +16222,9 @@
     "images": [
       "https://cdn1.infocasas.com.uy/repo/img/83f3213b71a5926a2773d8afa616dc6e5a13e7e8.jpeg"
     ],
-    "estado": "vencida",
-    "fetched_at": "2026-07-24T07:47:22.025Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:45:48.712Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "3690723aea57",
@@ -15946,6 +16309,27 @@
     "country": "UY"
   },
   {
+    "id": "36bb848f873c",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Exclusiva Casa en Venta con Terreno de Alto Potencial: ¡Tu Próxima Gran Inversión!",
+    "price": 235000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/exclusiva-casa-en-venta-con-terreno-de-alto-potencial-¡tu-proxima-gran-inversion/194031326",
+    "platform": "infocasas.com.py",
+    "location": "Juan Pablo II, Ñemby, Paraguay",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "area_m2": 200,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a63af99e9417_infocdn__pt2rhkseuw58lkyallmu8tj1s9xkfawvaoaqpvrcjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "36c5407e9e48",
     "country": "UY",
     "source": "Crisci Blanco Propiedades",
@@ -16027,9 +16411,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/699cbdc9dbdcd_infocdn__r1w07odyiebxjgx7zhtrmoyjzu0guqxadatrratojpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:24.858Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "3765de8e9078",
@@ -16236,6 +16619,27 @@
     "last_checked": "2026-07-25T04:45:17-0300",
     "estado": "activa",
     "country": "PY"
+  },
+  {
+    "id": "3806ce420e4e",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "VENDO CASA EN B° NAZARETH",
+    "price": 1100000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/vendo-casa-en-b°-nazareth/192230979",
+    "platform": "infocasas.com.py",
+    "location": "Asunción, Paraguay",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "area_m2": 787,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/e5cceb50cd2ad1131e45f4e7862e6e1b03151504.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "title": "Departamento 1 dormitorio Shopping Del Sol Z/2",
@@ -16858,6 +17262,27 @@
     "fetched_at": "2026-05-24T23:39:27.954Z",
     "source": "headless:jsonld",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "3a29aee6460e",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "JACARANDA PARQUE RESIDENCIAL APARTAMENTOS, Apartamento en Venta en Dosquebradas",
+    "price": 265900000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/jacaranda-parque-residencial-apartamentos-apartamento-en-venta-en-dosquebradas/193546398",
+    "platform": "fincaraiz.com.co",
+    "location": "Parque Residencial Jacarandá, La Pradera-Frayles, Dosquebradas, Risaralda, Colombia",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 64.14,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69bd6bfe41859_infocdn__srutvpjmfbsqciwi24sh8zhbmloo7cuqesj0behkjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "title": "Casa Asunción Bº Pettirossi",
@@ -17748,7 +18173,7 @@
     "operation": "Alquiler",
     "class": "Casa",
     "title": "Se Alquila: Casa Moderna a Estrenar en Laurelty Luque Parrilla, Patio y Patio Trasero",
-    "price": 3900000,
+    "price": 3300000,
     "currency": "PYG",
     "link": "https://www.infocasas.com.py/se-alquila-casa-moderna-a-estrenar-en-laurelty-luque-parrilla-patio-y-patio-trasero/193795878",
     "platform": "infocasas.com.py",
@@ -17760,9 +18185,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a22f44dc6fbc_infocdn__fycctxzluplziqwwwwwxq6psplxrvrrn4uxrnwayjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "title": "Casa Barrio Nazareth Asunción",
@@ -18134,9 +18558,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a1f595d1f895_infocdn__nisvqicnnisupuw7cbthrbfnuxfxrdto9jshcdbejpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:19.981Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "3feb99453c80",
@@ -19057,9 +19480,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69fc83ff9e3cc_infocdn__wulm9ryurnexhxqckkf0t7buavopbykzzmwg0drvjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.682Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "425863cf2d85",
@@ -19767,9 +20189,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a18748052192_infocdn__sssonb35vraa1wufrahhzbwbw5yr1qqkrebjxwbljpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:50.376Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "44c6563187c0",
@@ -22475,9 +22896,8 @@
       "https://cdn2.infocasas.com.uy/gen-ai/enhanced_image_20260715134430.png"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.024Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.712Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "title": "Edificio En Palermo Soho",
@@ -22600,9 +23020,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/68b76ae7671a1_infocdn__dytis8ytumomwbi8rkfhjpixndk4xnv8bbthitnvjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:05.580Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "4f97b409d0f5",
@@ -22625,6 +23044,27 @@
     "fetched_at": "2026-05-19T20:30:00+00:00",
     "last_checked": "2026-07-25T04:45:17-0300",
     "image_url": "https://d3s5pkt10pk3ga.cloudfront.net/resizedImages/384x275/site/fincaraiz_service/media/listing/474ce4db-9b0b-4d57-9c43-389a5a5e52a6/photos/474ce4db-9b0b-4d57-9c43-389a5a5e52a6_3_False_ee757c27-ff37-469c-9f50-50df62826b66.jpg"
+  },
+  {
+    "id": "4fa0d8cb247b",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Industrial centenario, Bogotá",
+    "price": 1350000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-industrial-centenario-bogota/193914141",
+    "platform": "fincaraiz.com.co",
+    "location": "CARRERA 38 15- 19",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 40,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a63b7619fd3a_infocdn__608a0c2b-84f1-4d48-8408-c412eba4baab.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "4fd20f948461",
@@ -23203,6 +23643,27 @@
     "last_checked": "2026-07-25T04:45:17-0300"
   },
   {
+    "id": "521e339bb8a1",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Las vegas, Envigado",
+    "price": 4200000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-las-vegas-envigado/194024979",
+    "platform": "fincaraiz.com.co",
+    "location": "las vegas civita",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 89,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a624febcfb91_infocdn__gr203084120260723115227jpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "52386fb7e54c",
     "country": "UY",
     "source": "Sendeza Inmobiliaria",
@@ -23552,9 +24013,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a54db7181130_infocdn__ms9kmqklm9bwkltyuj2czbljwfxll7mpvfigjwuhjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.024Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.712Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "53a80218046f",
@@ -23986,6 +24446,27 @@
     "estado": "vencida",
     "fetched_at": "2026-05-10T08:00:46.000Z",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "550dc1f66b7e",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Casa",
+    "title": "Casa en Arriendo en Belén San Bernardo, Medellín",
+    "price": 2600000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/casa-en-arriendo-en-belen-san-bernardo-medellin/194026759",
+    "platform": "fincaraiz.com.co",
+    "location": "Calle 20A # 72-21",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 95,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a6435f17a2d4_infocdn__gr36396920260721052856jpeg.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "5513ffc8604e",
@@ -24618,9 +25099,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a1c47750126a_infocdn__3ivsxsdefocpqyw6qe5ymb1viborovy32lfeq7szjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:02.962Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "571b24691465",
@@ -24829,6 +25309,27 @@
     "last_checked": "2026-07-25T04:45:17-0300"
   },
   {
+    "id": "58225c54fa22",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "NIQUEL, Apartamentos en Venta en Valle del Lili, Cali",
+    "price": 631244821,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/proyectos-vivienda/niquel-apartamentos-en-venta-en-valle-del-lili-cali/15017416",
+    "platform": "fincaraiz.com.co",
+    "location": "Niquel conjunto residencial, Calle 25, Comuna 17, Cali, Valle del Cauca, Colombia",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 85,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6814d6ec9ecf1_infocdn__cy12wvgye7fydfua10wkyki1gmdeykkfugsbdcjgpng.png"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "5824e91b6f5f",
     "country": "PY",
     "operation": "Venta",
@@ -24846,9 +25347,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/dfce3a5ef33881f1baf7ce355b6a3c132c7fa952.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:02.961Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "58350631daab",
@@ -25067,9 +25567,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/8bdde4b708a5ccb893420bd468a3edabb4baccce.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:09.110Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "58c92b33262b",
@@ -25217,9 +25716,8 @@
       "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/b00021eb-4ef5-482c-b3c6-faa384844b42/photos/b00021eb-4ef5-482c-b3c6-faa384844b42_1_True_5b9b645b-c372-45aa-b688-67022fe1d1b0.jpg#HASTH"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:38.599Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "59501668627b",
@@ -25446,9 +25944,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a0c640ddde27_infocdn__lsmxknzmfubq7vxml7ktgncuigdyz24xgyxvrfo5jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.683Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "5a8f5d9f6512",
@@ -25532,9 +26029,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/bf1aa1e77ee4e7c3f5c6912a6d4f91ae33390831.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.025Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.713Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "5adc73341763",
@@ -26545,9 +27041,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/563566f3aba46ee9997e5aa15dad487a44e4297c.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.025Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.713Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "5effb3e23441",
@@ -28577,9 +29072,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/698e0509d02b7_infocdn__tvdlwsmd4zv31optrxjjkqno2mcovss0txviuo8ypng.png"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:24.857Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "65bc3fea4b4e",
@@ -28853,9 +29347,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69ecc0ae89e3d_infocdn__zgfsevve8hxna1smza06dhg8odjt1yxlbuwgeqv1jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:09.110Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "66a45d1e0225",
@@ -29242,9 +29735,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/6102004493d7b4d23125d020f338206d1f79c66e.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.023Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.712Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "67ea1bc78751",
@@ -29645,9 +30137,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/699785d477d71_infocdn__2chouwxzyjopyab50q1npzk6vhbciywdoe2azzhipng.png"
     ],
     "estado": "activa",
-    "fetched_at": "2026-06-01T07:45:58.282Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "699ddf33ab47",
@@ -29792,6 +30283,27 @@
     "estado": "activa",
     "fetched_at": "2026-05-29T07:53:27.514Z",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "6a07558b4221",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "MALTA CIUDAD MALLORQUIN, Apartamento en Venta en Conjunto residencial villa campestre, Barranquilla",
+    "price": 207800000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/malta-ciudad-mallorquin-apartamento-en-venta-en-conjunto-residencial-villa-campestre-barranquilla/7969035",
+    "platform": "fincaraiz.com.co",
+    "location": "Cra 53 Plan parcial Ciudad Mallorquín Mzna 10,2",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_m2": 56,
+    "images": [
+      "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/14/4155611_64_5.jpg#HASTH"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "6a0de8a9df3f",
@@ -30252,9 +30764,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/68910f72849f9_infocdn__5xvbs5ggsx70w1mut3wshaj3n92s28xd0rhv5gbvjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:38.599Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "6b63729a8801",
@@ -30997,9 +31508,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a3c46d860ea3_infocdn__bxth5vqn7uz8qmk9haml85wzlisv4ef7h3ru2l1ijpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.024Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.712Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "6d80ffb8bc31",
@@ -31753,9 +32263,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69fe73cc31caf_infocdn__7wadosagxd49kgpavoyafnmsjn5uma5fljueint9jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "6facac46192f",
@@ -32860,9 +33369,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/fd4cf946531f2514779c91c31e8480dbb418eb25.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.683Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.148Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "73ab4faca588",
@@ -33254,9 +33762,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69ea99797f2ef_infocdn__9w2bsa0fvlp8amdagyfwhrkrhkgdxyeelbnfsrvljpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "7553734db614",
@@ -33278,6 +33785,27 @@
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "755b9433e2e0",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Chico norte, Bogotá",
+    "price": 4000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-chico-norte-bogota/194021789",
+    "platform": "fincaraiz.com.co",
+    "location": "Chicó Norte, Bogotá, Colombia",
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "area_m2": 39,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a614870a9334_infocdn__aogxhtozvqn0n3kv01xm4uckz9lcclcvehych9amjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "755da5bfcadd",
@@ -33611,9 +34139,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a21bf78b52c6_infocdn__o1dtu2qsrnquvbqjehir1axwmp2rpdhs1b2gnqvpjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.683Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "76c887759a6a",
@@ -34989,9 +35516,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a28513059196_infocdn__gr287291920260427062848jpeg.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:34.582Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "7b578394d838",
@@ -35258,9 +35784,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/510549fd43052edb4c23f21a97687b068ac7ad23.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.025Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.713Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "7c5a32ed3611",
@@ -35364,6 +35889,27 @@
     "fetched_at": "2026-05-10T08:00:46.000Z",
     "last_checked": "2026-07-25T04:45:17-0300",
     "image_url": "https://prop.com.uy/images/P002636/72149/w=400,format=webp"
+  },
+  {
+    "id": "7ca7e813d9d7",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "TIERRALINDA DEL SAMAN, Casa en Venta en TierraLinda, Cali",
+    "price": 581969161,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/tierralinda-del-saman-casa-en-venta-en-tierralinda-cali/7820030",
+    "platform": "fincaraiz.com.co",
+    "location": "[PLACEHOLDER]",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_m2": 103.42,
+    "images": [
+      "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/9d777b1b-9a6f-446b-9597-8c065d62829d/photos/9d777b1b-9a6f-446b-9597-8c065d62829d_7_False_094343af-ecd7-45ae-b030-f2d497644837.jpg#HASTH"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "title": "Apartamento en venta en mirandela, bogotá",
@@ -36265,22 +36811,22 @@
     "id": "80f2a72657da",
     "country": "CO",
     "operation": "Venta",
-    "class": "Departamento",
-    "title": "Colina living, apartamento en venta en colina campestre, bogotá",
-    "price": 597958977,
+    "class": "Apartamento",
+    "title": "COLINA LIVING, Apartamentos en Venta en Colina Campestre, Bogotá",
+    "price": 614257251,
     "currency": "COP",
     "link": "https://www.fincaraiz.com.co/proyectos-vivienda/colina-living-apartamentos-en-venta-en-colina-campestre-bogota/15017472",
     "platform": "fincaraiz.com.co",
-    "location": "Colina Campestre, Bogotá",
+    "location": "Colina Living Arquitectura y Concreto, Calle 147, Suba, Cundinamarca, Colombia",
     "bedrooms": 1,
     "bathrooms": 2,
-    "area_m2": 46.13,
+    "area_m2": 45.45,
     "images": [
-      "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.682bac970149b_infocdn__sqwsazoxhalm2hqsvwpi5ynheiq42jn6ljcw3rtvjpg.jpg"
+      "https://cdn2.infocasas.com.uy/repo/img/682bac970149b_infocdn__sqwsazoxhalm2hqsvwpi5ynheiq42jn6ljcw3rtvjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-05-09T07:52:24.523232+00:00",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "8106faf97120",
@@ -36424,9 +36970,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a50edf2c9b91_infocdn__mlmcgllo9qbwscqpcztlnwctwmd5my1ea5a7rarijpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.682Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "81541cf940ef",
@@ -38012,9 +38557,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/67a114cb140e1_infocdn__x7oxr0tegjgeesw98fvwbj80ouyxzobqo9fuult0jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:31.481Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "869e18845b63",
@@ -38198,9 +38742,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/273248120d9a6812c37046877ff8630c3a3b44f5.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.024Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.713Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "877f6e3ae823",
@@ -38238,6 +38781,27 @@
     "last_checked": "2026-07-25T04:45:17-0300",
     "estado": "activa",
     "country": "UY"
+  },
+  {
+    "id": "87a731d1606f",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "PLAYA SANTUA MAR, Apartamento en Venta en Pozos Colorados, Santa marta",
+    "price": 2135000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/playa-santua-mar-apartamento-en-venta-en-pozos-colorados-santa-marta/191787563",
+    "platform": "fincaraiz.com.co",
+    "location": "CL 74 # 2 - 167",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "area_m2": 118,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/68ae51c43555d_infocdn__gjn9r4hha10a17sq5capbu5ksvwxbquzzkjlri5fjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "87b4b7d10094",
@@ -38939,9 +39503,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/c386d713208efd33af7b40a02b24b6e25f3d0dfb.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.024Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.712Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "8a25c7252a40",
@@ -40328,9 +40891,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/68ee8b3483136_infocdn__rfriizhgvtfekxt8japyl58fasblf20kyqgf4krmjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.682Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.148Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "8ed24ba58d7c",
@@ -43178,9 +43740,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/66db16263e8b5_infocdn__zxc8vhem8jhxk7iaeyoknhkqei3n8pwshp6ubeuujpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:05.580Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "98095ade10e7",
@@ -43349,19 +43910,21 @@
     "country": "PY",
     "operation": "Venta",
     "class": "Casa",
-    "title": "VENDO HERMOSA CASA EN SAN LORENZO",
-    "price": 605000000.0,
+    "title": "VENDO HERMOSA CASA EN SAN LORENZO !",
+    "price": 605000000,
     "currency": "PYG",
     "link": "https://www.infocasas.com.py/vendo-hermosa-casa-en-san-lorenzo-/193167998",
     "platform": "infocasas.com.py",
-    "location": "San Lorenzo, Central",
+    "location": "Nueva Aurora, San Lorenzo, Paraguay",
     "bedrooms": 3,
     "bathrooms": 2,
     "area_m2": 160,
-    "images": [],
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/0b4fd8b097768274d836a4bc9a1e3ed45d91c75d.jpg"
+    ],
     "estado": "activa",
-    "fetched_at": "2026-05-29T07:53:27.514Z",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "9898491e1327",
@@ -43791,9 +44354,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a5f98ebaec4d_infocdn__foto-104553-135-9143474658-ssjpeg.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:50.376Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "9a10774442b9",
@@ -44537,6 +45099,27 @@
     "fetched_at": "2026-05-19T20:30:00+00:00",
     "last_checked": "2026-07-25T04:45:17-0300",
     "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.6927855090c0e_infocdn__92109a3e-59fe-41d9-91c7-db919aaa37da.jpeg"
+  },
+  {
+    "id": "9c39df2eaa63",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Granada, Cali",
+    "price": 7269891,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-granada-cali/193851812",
+    "platform": "fincaraiz.com.co",
+    "location": "Avenida 9 Norte #29, Barrio Granada, Santa Monica Residential, Cali, Valle del Cauca, 760046, Colombia",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 43,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a26dc2a9de7f_infocdn__wbean8jkxxvz7ddquzomgipe5ywspjt0didlix3bjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "9c4a7f977dd9",
@@ -46620,9 +47203,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/67a3a343979b9_infocdn__h8ryutdgup9eszpxr2bz5asddvnjkltvk0mukznpjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:24.857Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "a4f40f3710ea",
@@ -47329,9 +47911,8 @@
       "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/40a8e22f-bc26-4645-9730-8053ed8b68f2/photos/40a8e22f-bc26-4645-9730-8053ed8b68f2_1_True_1285c9d9-f812-4426-9d0e-96cfb0e7228d.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:38.599Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "a7a668404798",
@@ -47398,6 +47979,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-25T04:45:17-0300",
     "estado": "activa"
+  },
+  {
+    "id": "a7bdc1b75480",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Vendo residencia en el Grupo Habitacional Aeropuerto",
+    "price": 1000000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/vendo-residencia-en-el-grupo-habitacional-aeropuerto/194022133",
+    "platform": "infocasas.com.py",
+    "location": "Natalicio Talavera 176",
+    "bedrooms": 2,
+    "bathrooms": 4,
+    "area_m2": 189,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a615dee13c14_infocdn__gbrjtypaj3opjkvfl5vs69ijgy8zda7ei9dgj3txjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "a7cb0e00d575",
@@ -47523,9 +48125,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69fe458041018_infocdn__qzpk-uynhq3-ggfbfee-mq7l4-ybsgdoc-lzbfd-a84lpa-zsdklufxuoxpa4b86pzkg5ruzqb6cmp1g-lm0mhbjoiqimng2ntmcylepyivi.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:31.481Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "a7f4a6b36ad4",
@@ -48931,9 +49532,8 @@
       "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/6c337e0b-6755-43ff-a905-dbc7e5fc0dbf/photos/6c337e0b-6755-43ff-a905-dbc7e5fc0dbf_1_True_d7388326-e821-43d7-b9d9-94fbac924154.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:38.599Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "ac36aae5e118",
@@ -49016,6 +49616,27 @@
     "fetched_at": "2026-05-31T07:58:22.946Z",
     "source": "scrape:infocasas-next",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "ac8689b1c862",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "OTOBO CLUB RESIDENCIAL, Apartamento en Venta en Palmaseca, Palmira",
+    "price": 543200000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/otobo-club-residencial-apartamento-en-venta-en-palmaseca-palmira/10357345",
+    "platform": "fincaraiz.com.co",
+    "location": "[PLACEHOLDER]",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 74.2,
+    "images": [
+      "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2020/8/18/2714032_172_12.jpg#HASTH"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "ac9b58262b97",
@@ -49226,9 +49847,8 @@
       "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2020/4/15/2051559_177_14.jpg#HASTH"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:25.822Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "ad1f043d3143",
@@ -50677,6 +51297,27 @@
     "last_checked": "2026-07-25T04:45:17-0300"
   },
   {
+    "id": "b1ba203135d2",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "La Floresta Living, Apartamento en Venta en Engativá, Bogotá",
+    "price": 317000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/la-floresta-living-apartamento-en-venta-en-engativa-bogota/10611629",
+    "platform": "fincaraiz.com.co",
+    "location": "[PLACEHOLDER]",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 37,
+    "images": [
+      "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/6450ff88-c963-4452-b420-4341b81a973d/photos/6450ff88-c963-4452-b420-4341b81a973d_1_True_6ef2e056-311a-41cf-b806-398f7bff9e11.jpg#HASTH"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "b1e9d4672118",
     "country": "UY",
     "source": "Gianelli Propiedades",
@@ -50979,6 +51620,27 @@
     "last_checked": "2026-07-25T04:45:17-0300"
   },
   {
+    "id": "b2df8803b29f",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Costa azul, Bogotá",
+    "price": 1600000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-costa-azul-bogota/193995768",
+    "platform": "fincaraiz.com.co",
+    "location": "CALLE 138 # 101 B 09",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 45,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a584a617f465_infocdn__gr28729520260715083109jpeg.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "b311770e1f37",
     "country": "AR",
     "operation": "Alquiler",
@@ -51103,6 +51765,27 @@
     "fetched_at": "2026-05-08T19:38:40Z",
     "last_checked": "2026-07-25T04:45:17-0300",
     "image_url": "https://cdn.casasyterrenos.com/img_casas/e19beefd-3eed-49b7-aad5-914f5f1af04a-Casas-Venta-EL-VIGIA-Zapopan-Jalisco-3822758.jpg"
+  },
+  {
+    "id": "b3af61ae0de3",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Apartamento en Venta en El Virrey, Bogotá",
+    "price": 1180000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-venta-en-el-virrey-bogota/193580951",
+    "platform": "fincaraiz.com.co",
+    "location": "Cra. 19b #85-25, Bogotá, Colombia",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "area_m2": 72.05,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69caef2416fbf_infocdn__xsx9c0azh3drr4ypbki7u9plpfgnukm8zjxlptnzjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:06.833Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "b3becaa5a6eb",
@@ -51743,9 +52426,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/3800b223b0fc7c45965511a5a588b831dd3da925.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.025Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.712Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "b5989c9680c4",
@@ -53256,9 +53938,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a32fe4cba379_infocdn__uug22pyr9sfbdiisxjetdkdc7tei2r29gujvuvvejpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:00.551Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.148Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "bb73eccbafeb",
@@ -53567,9 +54248,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69b2f72978634_infocdn__gr-copia-de-venta-casa-3-alcobas-1770948957-4964-7248jpeg.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:05.580Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "bc5e61031500",
@@ -55487,6 +56167,27 @@
     "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.69de3e7aabdb6_infocdn__qjwqrsrsurnvxtqpg0dp40njqu2jrdq9vfhyjmlhjpg.jpg"
   },
   {
+    "id": "c2ae68494c45",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "Residencia Exclusiva en Venta en Villa Adela, Luque",
+    "price": 375000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/residencia-exclusiva-en-venta-en-villa-adela-luque/193991782",
+    "platform": "infocasas.com.py",
+    "location": "Comandante Benítez 300",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 340,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a578cd425a2b_infocdn__kh6uzvcljntrvdlzkyddpdxmkh09jntezyo2g9i2jpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "c2c6ee6cb4de",
     "country": "UY",
     "source": "Parietti Negocios Inmobiliarios",
@@ -55584,9 +56285,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/68858e2a62473_rn_image_picker_lib_temp_cb9842eb-4c8f-4a67-b7e8-e1b7c9ff3549.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.025Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.713Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "c303d31ecd3b",
@@ -55628,9 +56328,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/8ba8e07ab7196fe91917c3e57a43cea735ebaace.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.682Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "c3469b8719e2",
@@ -56109,6 +56808,27 @@
     "fetched_at": "2026-05-19T20:21:39+00:00",
     "last_checked": "2026-07-25T04:45:17-0300",
     "image_url": "https://cdn.21online.lat/mexico/cache/awsTest1/rc/rMXkC2H9/uploads/201/propiedades/618053/6a08ae0858bda.jpg"
+  },
+  {
+    "id": "c516d48d4c1e",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Ámbar, Apartamentos en Venta en La Morada, Jamundí",
+    "price": 192257000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/proyectos-vivienda/ambar-apartamentos-en-venta-en-la-morada-jamundi/15018438",
+    "platform": "fincaraiz.com.co",
+    "location": "Vía Cali - Jamundí, Km 44 - diagonal al supermercado Caribe",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 48.12,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69ea85b199c78_infocdn__nbxkl6llnm8dkogb8i7ilmw65itjzqt8f7htrmogwebp.webp"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "c53923b130f4",
@@ -57123,9 +57843,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/8d4ac3bc43335628c2a824ef4909476dd1b5ae3e.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.682Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "c89893d793a9",
@@ -57460,9 +58179,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/a4c84a76ab133ab26267c3121cb228fd069ca3ec.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.024Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.712Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "ca423b08bf9d",
@@ -58249,6 +58967,27 @@
     "estado": "activa"
   },
   {
+    "id": "ccdf04f6bcac",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "NATIVA - PARQUE DE LAS AMERICAS, Apartamento en Venta en La florida occidental, Bogotá",
+    "price": 301326480,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/nativa-parque-de-las-americas-apartamento-en-venta-en-la-florida-occidental-bogota/10338813",
+    "platform": "fincaraiz.com.co",
+    "location": "[PLACEHOLDER]",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 38.41,
+    "images": [
+      "https://s3.amazonaws.com/static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/listing/a8e2d6ed-a382-4f13-b8d5-9ec033ea122b/photos/a8e2d6ed-a382-4f13-b8d5-9ec033ea122b_1_True_4222dffb-041d-4fd2-b9eb-f21b36fcd247.jpg#HASTH"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "cceccc226a71",
     "country": "CO",
     "operation": "venta",
@@ -58315,6 +59054,27 @@
     "last_checked": "2026-07-25T04:45:17-0300"
   },
   {
+    "id": "cd0f947bd57e",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en La Aldea, La estrella",
+    "price": 2700000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-aldea-la-estrella/193748198",
+    "platform": "fincaraiz.com.co",
+    "location": "-",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 64,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a053155a1eec_infocdn__8fae24eb-3e22-426b-8c01-4b4f3a28e194.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "cd1ca22cf7e7",
     "country": "CO",
     "operation": "Arriendo",
@@ -58332,9 +59092,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a47e148102ff_infocdn__lreb66rbzjhrawwxswpurbl6iu2g2i7ruehmhj6cjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:50.376Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "cd26b447a7c0",
@@ -58481,6 +59240,27 @@
     "estado": "activa",
     "fetched_at": "2026-05-08T20:02:30.610Z",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "cdabadb8f74e",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Casa",
+    "title": "Casa en Arriendo en La Manuela, Manizales",
+    "price": 5000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/casa-en-arriendo-en-la-manuela-manizales/193552666",
+    "platform": "fincaraiz.com.co",
+    "location": "El agrado manizales",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area_m2": 280,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a315849c4959_infocdn__gr-casa-en-conjunto-en-arriendo-l-1781369531-4246-3872jpeg.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "cde2bdb152d5",
@@ -59473,9 +60253,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a482dceb53bf_infocdn__9t23pgqejtfiafmzsk2i8np6lw1easnjsmwrrgq0jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:24.857Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "d15eab91d05c",
@@ -59552,9 +60331,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/8f94ff0e05c2d94463cc26b2175f84fa367eea5e.jpeg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:14.761Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "d198999f124e",
@@ -59661,6 +60439,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-25T04:45:17-0300",
     "estado": "vencida"
+  },
+  {
+    "id": "d1d77b7a939d",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Teusaquillo, Bogotá",
+    "price": 3000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-teusaquillo-bogota/193862427",
+    "platform": "fincaraiz.com.co",
+    "location": "CARRERA 21 39B- 25",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 104,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a627c4b91f2b_infocdn__599e9c74-c117-4bae-9af8-868bbe2cf11f.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "d1d9beeb9879",
@@ -59831,6 +60630,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-25T04:45:17-0300",
     "estado": "vencida"
+  },
+  {
+    "id": "d2b2baa42d5e",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "VERDANT, Apartamento en Venta en El limonar, Cali",
+    "price": 583833951,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/verdant-apartamento-en-venta-en-el-limonar-cali/191480480",
+    "platform": "fincaraiz.com.co",
+    "location": "CL 13 A 1 # 68 - 138",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_m2": 75.8,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/67a3c7e040562_infocdn__4xptrx9lbquvvxttpvwf96rptbou4ojc8rlzkiyjjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "d2b414eccf7d",
@@ -60262,9 +61082,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a498df415976_infocdn__jlmqp6cojbb67trlfmufpofjbdjsud9nbwbswmgijpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:41:55.450Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "d47a139747b9",
@@ -61062,9 +61881,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/67c9ffd1cfcca_infocdn__arfg5fo57qahf2rayq6jb8qep4k1zsm5aw0hg2kpjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-19T07:43:19.981Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "d6dde1598f29",
@@ -62281,9 +63099,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a0f0c94ee19c_infocdn__hmas9i2fk48ytxmb3ym1qvc9uoqzmkfkcrfvjponjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.025Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.713Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "dabbff3e62ae",
@@ -62303,9 +63120,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/67fb7d3b22295_rn_image_picker_lib_temp_94dc49f9-b53a-4da6-9546-684d60325911.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-18T07:44:14.761Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "dabdc4744079",
@@ -62958,6 +63774,27 @@
     "last_checked": "2026-07-25T04:45:17-0300"
   },
   {
+    "id": "dcd6240c1985",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Paseo San Rafael, Apartamento en Venta en Zipaquirá",
+    "price": 293676000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/paseo-san-rafael-apartamento-en-venta-en-zipaquira/193298019",
+    "platform": "fincaraiz.com.co",
+    "location": "Zipaquira Marval, Calle 8 #18 - 01, Zipaquirá, Cundinamarca, Colombia",
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "area_m2": 43.54,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/67a3711b86de2_infocdn__5c0offmg6qwshcihgaqzx4uzxodpdxbx6eoknchqpng.png"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:06.834Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "dd19b0f5be02",
     "country": "CO",
     "operation": "Venta",
@@ -63169,6 +64006,27 @@
     "fetched_at": "2026-05-15T07:54:25.906757+00:00",
     "last_checked": "2026-07-25T04:45:17-0300",
     "image_url": "https://cdn4.fincaraiz.com.co/web/th.outside384x275.660e996821438_infocdn.jpg"
+  },
+  {
+    "id": "ddb9033e2524",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "RESIDENCIA EN SAN BERNARDINO",
+    "price": 2400000000,
+    "currency": "PYG",
+    "link": "https://www.infocasas.com.py/residencia-en-san-bernardino/193984433",
+    "platform": "infocasas.com.py",
+    "location": "Sebastián El Cano, San Bernardino, Paraguay",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "area_m2": 710,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/3c22a10ce554afbe6d81e5662bc05ec7d158206b.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "ddc7bd8edae0",
@@ -64463,9 +65321,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a3c0e0105aef_infocdn__98rbeigife64lozx1lfngnx0grersnqbjb8cokvojpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.682Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.148Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "e2bd1330c656",
@@ -64552,6 +65409,27 @@
     "fetched_at": "2026-05-19T20:30:00+00:00",
     "last_checked": "2026-07-25T04:45:17-0300",
     "image_url": "https://cdn4.fincaraiz.com.co/repo/img/th.outside384x275.69ea36046e875_infocdn__wb4mbg4wjyyzp8iyk2lu42nduibttgjgfhpa7rnqjpg.jpg"
+  },
+  {
+    "id": "e30a6e2ed7ce",
+    "country": "CO",
+    "operation": "Arriendo",
+    "class": "Apartamento",
+    "title": "Apartamento en Arriendo en Ciudad salitre, Bogotá",
+    "price": 2870000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-ciudad-salitre-bogota/193656170",
+    "platform": "fincaraiz.com.co",
+    "location": "KR 66 # 22A - 75",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_m2": 42,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/69e6da26ab875_infocdn__7rcvlzhu3frongukytjxafth5zellbu185cvvyz2jpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "e30ea0c58390",
@@ -65921,9 +66799,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/7fa8515ca89d925f5f8f7bf6b55dd42d00e3d65b.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.682Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.148Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "e7d29d1fb818",
@@ -66414,6 +67291,27 @@
     "image_url": "https://braglia.com.uy/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN1RsQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8a93340e016842d92bd504f8e6c73a065e3abbcc/temp.jpeg"
   },
   {
+    "id": "e98980de6d0c",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Apartamento en Venta en Colorados, Bucaramanga",
+    "price": 150000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-venta-en-colorados-bucaramanga/192678566",
+    "platform": "fincaraiz.com.co",
+    "location": "Colorados Norte,Caracoli, Cl. 30 Nte., Bucaramanga, Santander, Colombia",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "area_m2": 1,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6882a48bbc761_infocdn__mooutnku84ngbwxhtkjfvlrjxgq12w847mozrj3cjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:11.752Z",
+    "source": "scrape:infocasas-next"
+  },
+  {
     "id": "e99c4a34dc7a",
     "country": "UY",
     "operation": "Venta",
@@ -66717,6 +67615,27 @@
     "estado": "vencida",
     "platform": "fincaraiz.com.co",
     "last_checked": "2026-07-25T04:45:17-0300"
+  },
+  {
+    "id": "eb1e76a65987",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "RESIDENCIA COLLECTION EN LAS COLINA DEL YACHT",
+    "price": 1400000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/residencia-collection-en-las-colina-del-yacht/193149707",
+    "platform": "infocasas.com.py",
+    "location": "Lambaré, Paraguay",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "area_m2": 603,
+    "images": [
+      "https://cdn1.infocasas.com.uy/repo/img/957689bc004449e1a98b86672dbb19254ffaed88.jpeg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "eb40f57f4c68",
@@ -67060,6 +67979,27 @@
     "last_seen": "2026-05-21T07:45:29.832825+00:00",
     "last_checked": "2026-07-25T04:45:17-0300",
     "estado": "activa"
+  },
+  {
+    "id": "ecbe3b5884e3",
+    "country": "PY",
+    "operation": "Venta",
+    "class": "Casa",
+    "title": "HERMOSA CASA DE 4 DORMITORIOS EN BARRIO MBURUCUYA",
+    "price": 790000,
+    "currency": "USD",
+    "link": "https://www.infocasas.com.py/hermosa-casa-de-4-dormitorios-en-barrio-mburucuya/194010612",
+    "platform": "infocasas.com.py",
+    "location": "Tte. 1ro. Olimpo Escobar",
+    "bedrooms": 3,
+    "bathrooms": 5,
+    "area_m2": 535,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/6a5e72efa71d4_infocdn__2ryvbtmvqz5ywun5iq5fqr0imhrv0kdv4rpmmofqjpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:45:56.072Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "ecc2a4e3c8cd",
@@ -67945,9 +68885,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a5f7999d4f5e_infocdn__huye9glkscv0idkxh39snfr2p6mpec7suijxxnfqjpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:33.683Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:01.149Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "ef5afca4d343",
@@ -68157,9 +69096,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/69247477ed928_infocdn__elzoixnmggiyukisbh2qig3usxcfxgfjj9tzw291jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-20T07:42:17.184Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:46:16.550Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "f002de818086",
@@ -68896,6 +69834,27 @@
     "last_seen": "2026-05-09T07:52:24.523232+00:00",
     "last_checked": "2026-07-25T04:45:17-0300",
     "estado": "vencida"
+  },
+  {
+    "id": "f2ac7de3df35",
+    "country": "CO",
+    "operation": "Venta",
+    "class": "Apartamento",
+    "title": "Apartamento en  Venta en San victorino, Bogotá",
+    "price": 465000000,
+    "currency": "COP",
+    "link": "https://www.fincaraiz.com.co/apartamento-en-venta-en-san-victorino-bogota/191699294",
+    "platform": "fincaraiz.com.co",
+    "location": "Carrera 18 #15-56, Bogotá, Colombia",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_m2": 70,
+    "images": [
+      "https://cdn2.infocasas.com.uy/repo/img/673cab56da974_infocdn__tyakovrot97ecxiycaifextc492eetam5s12nfk9jpg.jpg"
+    ],
+    "estado": "activa",
+    "fetched_at": "2026-07-25T07:46:06.833Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "f2ba836ca4c2",
@@ -69701,9 +70660,8 @@
       "https://cdn2.infocasas.com.uy/repo/img/6a5fc1d947ccf_infocdn__gckzpzb8zblff19eqma8otyhp4o7sabpm9gfjuv8jpg.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.026Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.713Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "f5ca99bb92e9",
@@ -70217,9 +71175,8 @@
       "https://cdn1.infocasas.com.uy/repo/img/3a60ddc615f042da56fbb41c7a5bd99154d50114.jpg"
     ],
     "estado": "activa",
-    "fetched_at": "2026-07-24T07:47:22.025Z",
-    "source": "scrape:infocasas-next",
-    "last_checked": "2026-07-25T04:45:17-0300"
+    "fetched_at": "2026-07-25T07:45:48.713Z",
+    "source": "scrape:infocasas-next"
   },
   {
     "id": "f783c213331d",
