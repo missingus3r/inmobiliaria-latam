@@ -11,11 +11,24 @@ const sha1 = s => crypto.createHash("sha1").update(s).digest("hex").slice(0, 12)
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 // InfoCasas-network targets (PY=infocasas.com.py, CO=fincaraiz.com.co) share __NEXT_DATA__ shape.
+//
+// Las rutas son POR TIPO a propósito (proposals #39/#55). Las viejas
+// (/venta/casas-y-apartamentos, /alquiler|/arriendo/casas-y-apartamentos) violan
+// el robots.txt de los dos portales, que trae `Disallow: /venta/*-y-*` y
+// `Disallow: /alquiler|arriendo/*-y-*` bajo User-agent: *. Re-verificado el
+// 2026-08-12 leyendo ambos robots.txt; las rutas de abajo no matchean ningún
+// Disallow y devuelven 200. Ojo con el slug: en PY es "departamentos", en CO
+// "apartamentos" — no son intercambiables.
 const IC_TARGETS = [
-  { country: "PY", base: "https://www.infocasas.com.py", paths: ["/venta/casas-y-apartamentos", "/venta/casas-y-apartamentos/pagina2", "/alquiler/casas-y-apartamentos"] },
-  { country: "CO", base: "https://www.fincaraiz.com.co", paths: ["/venta/casas-y-apartamentos", "/venta/casas-y-apartamentos/pagina2", "/arriendo/casas-y-apartamentos"] },
+  { country: "PY", base: "https://www.infocasas.com.py", paths: ["/venta/casas", "/venta/departamentos", "/venta/terrenos", "/venta/locales-comerciales", "/venta/oficinas", "/alquiler/casas", "/alquiler/departamentos"] },
+  { country: "CO", base: "https://www.fincaraiz.com.co", paths: ["/venta/apartamentos", "/venta/casas", "/venta/lotes", "/venta/locales", "/venta/oficinas", "/arriendo/apartamentos", "/arriendo/casas"] },
 ];
 // Lamudi MX uses JSON-LD ItemList.
+// ⚠️ 2026-08-12: las 3 URLs devuelven 401 Access Denied (no es rate limiting, es
+// un muro de auth). MX viene sin cobertura desde entonces. El reemplazo propuesto
+// (casasyterrenos.com + vivanuncios.com.mx) está pendiente de decisión de Bruno:
+// requiere parsers nuevos. NO usar mercadolibre.com.mx — su robots.txt tiene
+// `Disallow: /` para ClaudeBot y Claude-User.
 const LAMUDI_TARGETS = [
   { country: "MX", urls: ["https://www.lamudi.com.mx/casa/for-sale/", "https://www.lamudi.com.mx/departamento/for-sale/", "https://www.lamudi.com.mx/casa/for-rent/"] },
 ];
