@@ -90,7 +90,19 @@ def main():
     elapsed = time.time() - started
 
     now = time.strftime("%Y-%m-%dT%H:%M:%S%z")
-    for o in offers:
+
+    # proposal #68 (race fix): la validación tarda ~45 min y el scrape-merge puede
+    # agregar filas al archivo en el medio; escribir el snapshot propio las pisaba
+    # (27/08: se perdieron 15 de 26 nuevas). Releemos el archivo ACTUAL y aplicamos
+    # los resultados sobre él — las filas que no vimos quedan intactas sin validar.
+    try:
+        current = json.loads(OFFERS_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        current = offers
+    known = {o["id"] for o in offers}
+    new_during = sum(1 for o in current if o["id"] not in known)
+
+    for o in current:
         if o["id"] in results:
             o["estado"] = results[o["id"]]
             o["last_checked"] = now
@@ -100,11 +112,12 @@ def main():
             o["last_checked"] = now
 
     tmp = OFFERS_PATH.with_suffix(".tmp")
-    tmp.write_text(json.dumps(offers, indent=2, ensure_ascii=False), encoding="utf-8")
+    tmp.write_text(json.dumps(current, indent=2, ensure_ascii=False), encoding="utf-8")
     tmp.replace(OFFERS_PATH)
 
     print(f"done · {activas} activas · {vencidas} vencidas · "
-          f"{len(blocked)} bloqueadas (estado sin tocar) · {elapsed:.1f}s", file=sys.stderr)
+          f"{len(blocked)} bloqueadas (estado sin tocar) · "
+          f"{new_during} agregadas durante la validación (intactas) · {elapsed:.1f}s", file=sys.stderr)
 
 
 if __name__ == "__main__":
