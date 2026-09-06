@@ -26,7 +26,7 @@ const IC_TARGETS = [
 // Lamudi MX uses JSON-LD ItemList.
 // ⚠️ 2026-08-12: las 3 URLs devuelven 401 Access Denied (no es rate limiting, es
 // un muro de auth). MX viene sin cobertura desde entonces. El reemplazo propuesto
-// (casasyterrenos.com + vivanuncios.com.mx) está pendiente de decisión de Bruno:
+// (casasyterrenos.com + vivanuncios.com.mx) está pendiente de decisión de missingus3r:
 // requiere parsers nuevos. NO usar mercadolibre.com.mx — su robots.txt tiene
 // `Disallow: /` para ClaudeBot y Claude-User.
 const LAMUDI_TARGETS = [
