@@ -53,7 +53,9 @@ def check(offer: dict) -> tuple[str, str | None, int | None]:
                 return offer["id"], "activa", None
         if r.status_code in GONE:
             return offer["id"], "vencida", None
-        if r.status_code in BLOCKED:
+        if r.status_code in BLOCKED or r.status_code >= 500:
+            # 5xx = el portal está caído/en mantenimiento (Metrocuadrado 503 el 2026-09-08
+            # marcó 3.984 avisos vivos como vencidos): no sabemos nada del aviso.
             return offer["id"], None, r.status_code
         return offer["id"], "vencida", None
     except Exception:
