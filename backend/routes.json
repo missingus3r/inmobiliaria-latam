@@ -1,0 +1,17 @@
+{
+  "_comment": "Rutas de listado que consumen los scrapers de backend/. Existe porque los 3 scrapers reciben las rutas por sys.argv y la proposal #73 los agrego sin definir donde viven, asi que cada corrida del cron §5 dependia de que Friday las recordara de memoria (insight 336, 2026-09-10). Verificar que cada ruta responda 200 antes de sumarla.",
+  "scrape_clasipar.py": {
+    "base": "https://clasipar.paraguay.com",
+    "paths": ["/inmuebles/casas", "/inmuebles/departamentos", "/inmuebles/terrenos", "/inmuebles/duplex"],
+    "retiradas": {"/inmuebles/locales-comerciales": "devuelve 410 desde el 2026-09-10"}
+  },
+  "scrape_cyt.py": {
+    "base": "https://www.casasyterrenos.com",
+    "paths": ["/jalisco/guadalajara/casas/venta", "/jalisco/zapopan/casas/venta", "/nuevo-leon/monterrey/casas/venta"],
+    "retiradas": {"/estado-de-mexico/casas/venta": "404"}
+  },
+  "scrape_m2.py": {
+    "base": "https://www.metrocuadrado.com",
+    "paths": ["/casa/venta/bogota/", "/apartamento/venta/bogota/", "/casa/venta/medellin/"]
+  }
+}
