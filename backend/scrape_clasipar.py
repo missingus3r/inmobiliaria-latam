@@ -24,7 +24,12 @@ def parse_price(txt):
     m = re.search(r'([\d][\d.,]{2,})', t)
     if not m: return None, cur
     raw = m.group(1)
-    # PY uses '.' as thousands separator
+    # PY usa '.' como separador de miles Y ',' como decimal: clasipar publica los
+    # USD como 'US$. 170.000,00'. Sacar todos los no-digitos concatenaba el ',00'
+    # y multiplicaba el precio por 100 (verificado el 22/09: 1.261 de 1.292 filas
+    # USD del scraper quedaron infladas, con casos de USD 28.000.000.000).
+    # Por eso la parte decimal se descarta ANTES de limpiar separadores.
+    raw = re.sub(r',\d{1,2}$', '', raw)
     digits = re.sub(r'[^\d]', '', raw)
     if not digits: return None, cur
     try: return int(digits), cur
