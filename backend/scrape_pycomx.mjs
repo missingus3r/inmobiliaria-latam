@@ -34,7 +34,13 @@ const LAMUDI_TARGETS = [
 ];
 
 function mapCurrency(name) {
-  if (!name) return "USD";
+  // Una moneda ausente NO es USD: los portales de CO y MX publican en moneda
+  // local con el simbolo pelado, asi que el default mandaba avisos en pesos a
+  // la columna USD. Verificado el 22/09: de 111 filas USD de Colombia, 64
+  // pasaban el millon de dolares y la mediana daba USD 6.000.000, con una casa
+  // en Piedecuesta a USD 5.800.000.000. Se devuelve null y que lo resuelva la
+  // logica por pais, igual que ya se hace dos lineas abajo con el "$" ambiguo.
+  if (!name) return null;
   const n = name.trim();
   if (/U\$S|US\$|USD|u\$d/i.test(n)) return "USD";
   if (n === "$") return null; // ambiguous, resolved per-country
