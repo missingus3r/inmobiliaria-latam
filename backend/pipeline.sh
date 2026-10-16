@@ -15,13 +15,18 @@ cd "$REPO"
 LOG="/tmp/inmobiliaria-pipeline-$(date +%Y%m%d-%H%M).log"
 echo "=== pipeline $(date -Iseconds) ===" | tee "$LOG"
 
-echo "[1/2] validating links…" | tee -a "$LOG"
+echo "[1/3] validating links…" | tee -a "$LOG"
 python3 backend/validator.py 2>&1 | tee -a "$LOG" || {
   echo "validator failed, continuing" | tee -a "$LOG"
 }
 
-echo "[2/2] commit + push…" | tee -a "$LOG"
-if git diff --quiet data/; then
+echo "[2/3] split por país…" | tee -a "$LOG"
+# data/offers.json es la base maestra local y no se commitea desde el 2026-10-16;
+# lo que se publica es data/offers/<CC>.json y <CC>-vencidas.json.
+python3 backend/split_offers.py 2>&1 | tee -a "$LOG"
+
+echo "[3/3] commit + push…" | tee -a "$LOG"
+if git diff --quiet data/ && [ -z "$(git ls-files --others --exclude-standard data/)" ]; then
   echo "no data changes, skipping commit" | tee -a "$LOG"
 else
   git add data/ assets/images/ 2>/dev/null || true

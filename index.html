@@ -746,15 +746,27 @@ async function detectCountryByIP() {
 }
 
 // ---------- DATA ----------
-async function loadOffers() {
+// Desde el 16/10/2026 los avisos se publican partidos por país (data/offers/<CC>.json)
+// y las vencidas van aparte, sin imágenes (data/offers/<CC>-vencidas.json), que se
+// bajan solo si se marca "Mostrar vencidas". Antes era un único offers.json de 50 MB.
+const offersCache = {};
+async function fetchOffersFile(name) {
+  if (offersCache[name]) return offersCache[name];
   try {
-    const r = await fetch(`data/offers.json?t=${Date.now()}`);
-    if (!r.ok) throw new Error("offers.json missing");
-    state.offers = await r.json();
+    const r = await fetch(`data/offers/${name}.json`);
+    if (!r.ok) throw new Error(`${name}.json missing`);
+    offersCache[name] = await r.json();
   } catch (e) {
-    console.warn("offers.json no encontrado, usando placeholder");
-    state.offers = [];
+    console.warn(`data/offers/${name}.json no encontrado`, e);
+    offersCache[name] = [];
   }
+  return offersCache[name];
+}
+async function loadOffers() {
+  const cc = state.country;
+  const activas = await fetchOffersFile(cc);
+  const vencidas = state.filters.showExpired ? await fetchOffersFile(`${cc}-vencidas`) : [];
+  if (cc === state.country) state.offers = activas.concat(vencidas);
 }
 async function loadSources() {
   const r = await fetch("data/sources_full.json");
@@ -1110,8 +1122,10 @@ async function init() {
     localStorage.setItem("country", state.country);
     document.getElementById("countryFlag").textContent = FLAGS[state.country];
     state.filters.location = "";
-    populateLocationSelect();
-    renderGrid();
+    loadOffers().then(() => {
+      populateLocationSelect();
+      renderGrid();
+    });
     renderSources();
   });
 
@@ -1137,7 +1151,7 @@ async function init() {
   document.getElementById("filterShowExpired").addEventListener("change", e => {
     state.filters.showExpired = e.target.checked;
     state.pagination.page = 1;
-    renderGrid();
+    loadOffers().then(renderGrid);
   });
   document.getElementById("resetBtn").addEventListener("click", () => {
     state.filters = { search:"", operation:"", class:"", bedrooms:"", maxPrice:"", favsOnly:false, showExpired:false, sort:"", location:"" };

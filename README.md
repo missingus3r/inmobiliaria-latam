@@ -22,7 +22,7 @@ git commit + push
 front estático (index.html) lee data/offers.json directo
 ```
 
-- **Sin backend en runtime**: el front es 100% estático. Solo lee `data/offers.json`.
+- **Sin backend en runtime**: el front es 100% estático. Lee `data/offers/<país>.json` (activas, 1 imagen) y, solo si se marca "Mostrar vencidas", `data/offers/<país>-vencidas.json` (sin imágenes). `data/offers.json` es la base maestra local y no se commitea; `backend/split_offers.py` la parte en cada corrida del pipeline (desde 2026-10-16).
 - **Sin login, sin tracking**: los favoritos viven en `localStorage` del navegador. Banner avisa al usuario al primer uso.
 - **i18n**: ES y PT (toggle en navbar).
 - **Tema**: claro / oscuro (persistido en localStorage).
